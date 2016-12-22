@@ -1,0 +1,8 @@
+C:\Sistemas\Factory\WebDefault\backend\develop\Domain\factory.webapidefault.domain.repository\bin\Debug\factory.webapidefault.domain.repository.dll
+C:\Sistemas\Factory\WebDefault\backend\develop\Domain\factory.webapidefault.domain.repository\bin\Debug\factory.webapidefault.domain.repository.pdb
+C:\Sistemas\Factory\WebDefault\backend\develop\Domain\factory.webapidefault.domain.repository\bin\Debug\EntityFramework.dll
+C:\Sistemas\Factory\WebDefault\backend\develop\Domain\factory.webapidefault.domain.repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Sistemas\Factory\WebDefault\backend\develop\Domain\factory.webapidefault.domain.repository\bin\Debug\EntityFramework.xml
+C:\Sistemas\Factory\WebDefault\backend\develop\Domain\factory.webapidefault.domain.repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Sistemas\Factory\WebDefault\backend\develop\Domain\factory.webapidefault.domain.repository\obj\Debug\factory.webapidefault.domain.repository.dll
+C:\Sistemas\Factory\WebDefault\backend\develop\Domain\factory.webapidefault.domain.repository\obj\Debug\factory.webapidefault.domain.repository.pdb

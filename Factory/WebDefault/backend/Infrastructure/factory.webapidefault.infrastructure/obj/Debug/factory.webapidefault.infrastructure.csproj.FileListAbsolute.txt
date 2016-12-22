@@ -1,0 +1,4 @@
+C:\Sistemas\Factory\WebDefault\backend\develop\Infrastructure\factory.webapidefault.infrastructure\bin\Debug\factory.webapidefault.infrastructure.dll
+C:\Sistemas\Factory\WebDefault\backend\develop\Infrastructure\factory.webapidefault.infrastructure\bin\Debug\factory.webapidefault.infrastructure.pdb
+C:\Sistemas\Factory\WebDefault\backend\develop\Infrastructure\factory.webapidefault.infrastructure\obj\Debug\factory.webapidefault.infrastructure.dll
+C:\Sistemas\Factory\WebDefault\backend\develop\Infrastructure\factory.webapidefault.infrastructure\obj\Debug\factory.webapidefault.infrastructure.pdb

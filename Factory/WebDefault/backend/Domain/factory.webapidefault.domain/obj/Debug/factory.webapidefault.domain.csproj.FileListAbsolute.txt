@@ -1,0 +1,4 @@
+C:\Sistemas\Factory\WebDefault\backend\develop\Domain\factory.webapidefault.domain\bin\Debug\factory.webapidefault.domain.dll
+C:\Sistemas\Factory\WebDefault\backend\develop\Domain\factory.webapidefault.domain\bin\Debug\factory.webapidefault.domain.pdb
+C:\Sistemas\Factory\WebDefault\backend\develop\Domain\factory.webapidefault.domain\obj\Debug\factory.webapidefault.domain.dll
+C:\Sistemas\Factory\WebDefault\backend\develop\Domain\factory.webapidefault.domain\obj\Debug\factory.webapidefault.domain.pdb

@@ -1,0 +1,5 @@
+C:\Sistemas\Factory\WebDefault\backend\develop\Application\factory.webapidefault.application\bin\Debug\factory.webapidefault.application.dll
+C:\Sistemas\Factory\WebDefault\backend\develop\Application\factory.webapidefault.application\bin\Debug\factory.webapidefault.application.pdb
+C:\Sistemas\Factory\WebDefault\backend\develop\Application\factory.webapidefault.application\obj\Debug\factory.webapidefault.application.dll
+C:\Sistemas\Factory\WebDefault\backend\develop\Application\factory.webapidefault.application\obj\Debug\factory.webapidefault.application.pdb
+C:\Sistemas\Factory\WebDefault\backend\develop\Application\factory.webapidefault.application\obj\Debug\factory.webapidefault.application.csprojResolveAssemblyReference.cache
