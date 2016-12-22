@@ -1,0 +1,1121 @@
+[2016-11-25 10:31:37,878] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 10:31:37,885] INFO - ****************************************
+[2016-11-25 10:31:37,886] INFO - ****************************************
+[2016-11-25 10:31:37,886] INFO - 
+[2016-11-25 10:31:37,887] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 10:31:37,887] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 10:31:37,887] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 10:31:54,844] INFO - 
+[2016-11-25 10:31:54,860] INFO - # FIM - CONSUMINDO MENSAGEM
+[2016-11-25 10:32:12,730] INFO - 
+[2016-11-25 10:32:12,730] INFO - ****************************************
+[2016-11-25 10:32:21,061] INFO - ****************************************
+[2016-11-25 10:32:22,620] INFO - # FIM DO PROCESSAMENTO
+[2016-11-25 10:32:23,179] INFO - 
+[2016-11-25 10:32:23,179] INFO - 
+[2016-11-25 10:33:09,458] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 10:33:09,464] INFO - ****************************************
+[2016-11-25 10:33:09,465] INFO - ****************************************
+[2016-11-25 10:33:09,466] INFO - 
+[2016-11-25 10:33:09,466] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 10:33:09,467] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 10:33:09,467] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 10:46:54,498] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 10:46:54,505] INFO - ****************************************
+[2016-11-25 10:46:54,506] INFO - ****************************************
+[2016-11-25 10:46:54,506] INFO - 
+[2016-11-25 10:46:54,507] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 10:46:54,507] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 10:46:54,507] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 10:51:00,015] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 10:51:00,024] INFO - ****************************************
+[2016-11-25 10:51:00,025] INFO - ****************************************
+[2016-11-25 10:51:00,025] INFO - 
+[2016-11-25 10:51:00,025] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 10:51:00,026] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 10:51:00,026] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 10:51:41,131] INFO - 
+[2016-11-25 10:51:41,131] INFO - # FIM - CONSUMINDO MENSAGEM
+[2016-11-25 10:51:41,131] INFO - 
+[2016-11-25 10:51:41,147] INFO - ****************************************
+[2016-11-25 10:51:41,147] INFO - ****************************************
+[2016-11-25 10:51:41,147] INFO - # FIM DO PROCESSAMENTO
+[2016-11-25 10:51:41,147] INFO - 
+[2016-11-25 10:51:41,147] INFO - 
+[2016-11-25 10:53:23,659] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 10:53:23,666] INFO - ****************************************
+[2016-11-25 10:53:23,667] INFO - ****************************************
+[2016-11-25 10:53:23,668] INFO - 
+[2016-11-25 10:53:23,669] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 10:53:23,670] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 10:53:23,670] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 10:54:37,494] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 10:54:37,501] INFO - ****************************************
+[2016-11-25 10:54:37,502] INFO - ****************************************
+[2016-11-25 10:54:37,502] INFO - 
+[2016-11-25 10:54:37,502] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 10:54:37,503] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 10:54:37,503] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 10:54:54,137] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 10:54:54,137] INFO - ****************************************
+[2016-11-25 10:54:54,137] INFO - ****************************************
+[2016-11-25 10:54:54,137] INFO - 
+[2016-11-25 10:54:54,137] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 10:54:54,137] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 10:54:54,137] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 11:02:17,607] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 11:02:17,614] INFO - ****************************************
+[2016-11-25 11:02:17,615] INFO - ****************************************
+[2016-11-25 11:02:17,615] INFO - 
+[2016-11-25 11:02:17,615] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 11:02:17,616] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 11:02:17,616] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 11:03:56,838] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 11:03:56,845] INFO - ****************************************
+[2016-11-25 11:03:56,846] INFO - ****************************************
+[2016-11-25 11:03:56,846] INFO - 
+[2016-11-25 11:03:56,847] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 11:03:56,847] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 11:03:56,847] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 11:08:45,985] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 11:08:45,992] INFO - ****************************************
+[2016-11-25 11:08:45,993] INFO - ****************************************
+[2016-11-25 11:08:45,994] INFO - 
+[2016-11-25 11:08:45,994] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 11:08:45,994] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 11:08:45,995] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 11:10:26,319] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 11:10:26,326] INFO - ****************************************
+[2016-11-25 11:10:26,327] INFO - ****************************************
+[2016-11-25 11:10:26,327] INFO - 
+[2016-11-25 11:10:26,328] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 11:10:26,328] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 11:10:26,328] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 11:12:18,674] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 11:12:18,681] INFO - ****************************************
+[2016-11-25 11:12:18,682] INFO - ****************************************
+[2016-11-25 11:12:18,682] INFO - 
+[2016-11-25 11:12:18,682] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 11:12:18,683] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 11:12:18,683] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 11:15:30,373] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 11:15:30,388] INFO - ****************************************
+[2016-11-25 11:15:30,388] INFO - ****************************************
+[2016-11-25 11:15:30,388] INFO - 
+[2016-11-25 11:15:30,388] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 11:15:30,388] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 11:15:30,388] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 11:15:44,322] INFO - 
+[2016-11-25 11:15:44,322] ERROR - # ERROR: System.Runtime.InteropServices.COMException (0xFFFF3CAD): Erro de estrutura do XML. Não contém CHAMADA!
+   em AxFornecimento._clsFornecimento.strProcessar(String pStrXml)
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.Processar(List`1 lstXml) na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 33
+   em audatex.br.centralconsumer.application.PedidoFacade.ConsumerComponent(List`1 lstPedido) na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Application\audatex.br.centralconsumer.application\PedidoFacade.cs:linha 83
+   em audatex.br.centralconsumer.application.PedidoFacade.ProcessaPedido() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Application\audatex.br.centralconsumer.application\PedidoFacade.cs:linha 39
+[2016-11-25 11:15:44,322] INFO - 
+[2016-11-25 11:15:44,337] INFO - # FIM - CONSUMINDO MENSAGEM
+[2016-11-25 11:15:44,337] INFO - 
+[2016-11-25 11:15:44,337] INFO - ****************************************
+[2016-11-25 11:15:44,337] INFO - ****************************************
+[2016-11-25 11:15:44,337] INFO - # FIM DO PROCESSAMENTO
+[2016-11-25 11:15:44,337] INFO - 
+[2016-11-25 11:15:44,337] INFO - 
+[2016-11-25 11:21:22,502] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 11:21:22,509] INFO - ****************************************
+[2016-11-25 11:21:22,510] INFO - ****************************************
+[2016-11-25 11:21:22,510] INFO - 
+[2016-11-25 11:21:22,511] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 11:21:22,511] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 11:21:22,511] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 11:21:23,829] INFO - 
+[2016-11-25 11:21:23,829] ERROR - # ERROR: System.Runtime.InteropServices.COMException (0xFFFF3CAD): Erro de estrutura do XML. Não contém CHAMADA!
+   em AxFornecimento._clsFornecimento.strProcessar(String pStrXml)
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.Processar(List`1 lstXml) na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 33
+   em audatex.br.centralconsumer.application.PedidoFacade.ConsumerComponent(List`1 lstPedido) na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Application\audatex.br.centralconsumer.application\PedidoFacade.cs:linha 83
+   em audatex.br.centralconsumer.application.PedidoFacade.ProcessaPedido() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Application\audatex.br.centralconsumer.application\PedidoFacade.cs:linha 39
+[2016-11-25 11:21:23,829] INFO - 
+[2016-11-25 11:21:23,829] INFO - # FIM - CONSUMINDO MENSAGEM
+[2016-11-25 11:21:23,829] INFO - 
+[2016-11-25 11:21:23,829] INFO - ****************************************
+[2016-11-25 11:21:23,829] INFO - ****************************************
+[2016-11-25 11:21:23,829] INFO - # FIM DO PROCESSAMENTO
+[2016-11-25 11:21:23,829] INFO - 
+[2016-11-25 11:21:23,829] INFO - 
+[2016-11-25 11:21:58,567] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 11:21:58,567] INFO - ****************************************
+[2016-11-25 11:21:58,567] INFO - ****************************************
+[2016-11-25 11:21:58,567] INFO - 
+[2016-11-25 11:21:58,567] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 11:21:58,567] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 11:21:58,567] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 11:22:21,423] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 11:22:21,430] INFO - ****************************************
+[2016-11-25 11:22:21,431] INFO - ****************************************
+[2016-11-25 11:22:21,431] INFO - 
+[2016-11-25 11:22:21,432] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 11:22:21,432] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 11:22:21,432] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 11:23:46,855] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 11:23:46,862] INFO - ****************************************
+[2016-11-25 11:23:46,863] INFO - ****************************************
+[2016-11-25 11:23:46,863] INFO - 
+[2016-11-25 11:23:46,863] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 11:23:46,864] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 11:23:46,864] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 11:24:07,260] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 11:24:07,267] INFO - ****************************************
+[2016-11-25 11:24:07,268] INFO - ****************************************
+[2016-11-25 11:24:07,268] INFO - 
+[2016-11-25 11:24:07,268] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 11:24:07,269] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 11:24:07,269] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 11:24:33,321] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 11:24:33,328] INFO - ****************************************
+[2016-11-25 11:24:33,329] INFO - ****************************************
+[2016-11-25 11:24:33,329] INFO - 
+[2016-11-25 11:24:33,329] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 11:24:33,330] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 11:24:33,330] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 11:25:41,730] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 11:25:41,736] INFO - ****************************************
+[2016-11-25 11:25:41,737] INFO - ****************************************
+[2016-11-25 11:25:41,737] INFO - 
+[2016-11-25 11:25:41,738] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 11:25:41,738] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 11:25:41,738] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 11:26:09,402] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 11:26:09,409] INFO - ****************************************
+[2016-11-25 11:26:09,410] INFO - ****************************************
+[2016-11-25 11:26:09,410] INFO - 
+[2016-11-25 11:26:09,411] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 11:26:09,411] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 11:26:09,411] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 11:26:46,397] INFO - 
+[2016-11-25 11:26:46,401] ERROR - # ERROR: System.Runtime.InteropServices.COMException (0x800A01B8): Application-defined or object-defined error
+   em AxFornecimento._clsFornecimento.strProcessar(String pStrXml)
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.Processar(List`1 lstXml) na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 33
+   em audatex.br.centralconsumer.application.PedidoFacade.ConsumerComponent(List`1 lstPedido) na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Application\audatex.br.centralconsumer.application\PedidoFacade.cs:linha 85
+   em audatex.br.centralconsumer.application.PedidoFacade.ProcessaPedido() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Application\audatex.br.centralconsumer.application\PedidoFacade.cs:linha 41
+[2016-11-25 11:26:46,402] INFO - 
+[2016-11-25 11:26:46,403] INFO - # FIM - CONSUMINDO MENSAGEM
+[2016-11-25 11:26:46,403] INFO - 
+[2016-11-25 11:26:46,404] INFO - ****************************************
+[2016-11-25 11:26:46,404] INFO - ****************************************
+[2016-11-25 11:26:46,404] INFO - # FIM DO PROCESSAMENTO
+[2016-11-25 11:26:46,405] INFO - 
+[2016-11-25 11:26:46,405] INFO - 
+[2016-11-25 11:26:58,205] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 11:26:58,212] INFO - ****************************************
+[2016-11-25 11:26:58,213] INFO - ****************************************
+[2016-11-25 11:26:58,214] INFO - 
+[2016-11-25 11:26:58,215] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 11:26:58,215] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 11:26:58,215] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 11:28:59,763] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 11:28:59,771] INFO - ****************************************
+[2016-11-25 11:28:59,772] INFO - ****************************************
+[2016-11-25 11:28:59,772] INFO - 
+[2016-11-25 11:28:59,773] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 11:28:59,773] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 11:28:59,773] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 11:29:46,542] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 11:29:46,549] INFO - ****************************************
+[2016-11-25 11:29:46,550] INFO - ****************************************
+[2016-11-25 11:29:46,550] INFO - 
+[2016-11-25 11:29:46,551] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 11:29:46,551] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 11:29:46,551] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 11:31:14,426] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 11:31:14,433] INFO - ****************************************
+[2016-11-25 11:31:14,434] INFO - ****************************************
+[2016-11-25 11:31:14,434] INFO - 
+[2016-11-25 11:31:14,434] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 11:31:14,435] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 11:31:14,435] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 11:31:43,307] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 11:31:43,314] INFO - ****************************************
+[2016-11-25 11:31:43,315] INFO - ****************************************
+[2016-11-25 11:31:43,315] INFO - 
+[2016-11-25 11:31:43,316] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 11:31:43,316] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 11:31:43,316] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 11:32:31,710] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 11:32:31,717] INFO - ****************************************
+[2016-11-25 11:32:31,717] INFO - ****************************************
+[2016-11-25 11:32:31,718] INFO - 
+[2016-11-25 11:32:31,719] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 11:32:31,719] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 11:32:31,720] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 11:34:40,602] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 11:34:40,609] INFO - ****************************************
+[2016-11-25 11:34:40,610] INFO - ****************************************
+[2016-11-25 11:34:40,610] INFO - 
+[2016-11-25 11:34:40,610] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 11:34:40,611] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 11:34:40,611] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 11:37:26,403] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 11:37:26,410] INFO - ****************************************
+[2016-11-25 11:37:26,411] INFO - ****************************************
+[2016-11-25 11:37:26,411] INFO - 
+[2016-11-25 11:37:26,412] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 11:37:26,412] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 11:37:26,412] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 11:38:49,349] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 11:38:49,357] INFO - ****************************************
+[2016-11-25 11:38:49,358] INFO - ****************************************
+[2016-11-25 11:38:49,358] INFO - 
+[2016-11-25 11:38:49,359] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 11:38:49,359] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 11:38:49,359] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 11:42:10,179] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 11:42:10,186] INFO - ****************************************
+[2016-11-25 11:42:10,187] INFO - ****************************************
+[2016-11-25 11:42:10,187] INFO - 
+[2016-11-25 11:42:10,187] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 11:42:10,188] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 11:42:10,188] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 11:42:39,362] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 11:42:39,372] INFO - ****************************************
+[2016-11-25 11:42:39,393] INFO - ****************************************
+[2016-11-25 11:42:39,393] INFO - 
+[2016-11-25 11:42:39,393] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 11:42:39,394] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 11:42:39,394] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 11:44:07,925] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 11:44:07,932] INFO - ****************************************
+[2016-11-25 11:44:07,933] INFO - ****************************************
+[2016-11-25 11:44:07,933] INFO - 
+[2016-11-25 11:44:07,933] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 11:44:07,934] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 11:44:07,934] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 11:46:20,223] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 11:46:20,230] INFO - ****************************************
+[2016-11-25 11:46:20,231] INFO - ****************************************
+[2016-11-25 11:46:20,232] INFO - 
+[2016-11-25 11:46:20,232] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 11:46:20,232] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 11:46:20,233] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 11:47:11,575] INFO - 
+[2016-11-25 11:47:11,575] INFO - # FIM - CONSUMINDO MENSAGEM
+[2016-11-25 11:47:11,575] INFO - 
+[2016-11-25 11:47:11,575] INFO - ****************************************
+[2016-11-25 11:47:11,575] INFO - ****************************************
+[2016-11-25 11:47:11,575] INFO - # FIM DO PROCESSAMENTO
+[2016-11-25 11:47:11,575] INFO - 
+[2016-11-25 11:47:11,575] INFO - 
+[2016-11-25 11:49:53,129] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 11:49:53,135] INFO - ****************************************
+[2016-11-25 11:49:53,136] INFO - ****************************************
+[2016-11-25 11:49:53,137] INFO - 
+[2016-11-25 11:49:53,137] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 11:49:53,138] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 11:49:53,138] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 11:51:28,674] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 11:51:28,682] INFO - ****************************************
+[2016-11-25 11:51:28,683] INFO - ****************************************
+[2016-11-25 11:51:28,683] INFO - 
+[2016-11-25 11:51:28,684] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 11:51:28,684] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 11:51:28,684] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 11:51:47,687] INFO - 
+[2016-11-25 11:51:47,688] INFO - # FIM - CONSUMINDO MENSAGEM
+[2016-11-25 11:51:47,688] INFO - 
+[2016-11-25 11:51:47,689] INFO - ****************************************
+[2016-11-25 11:51:47,690] INFO - ****************************************
+[2016-11-25 11:51:47,690] INFO - # FIM DO PROCESSAMENTO
+[2016-11-25 11:51:47,690] INFO - 
+[2016-11-25 11:51:47,690] INFO - 
+[2016-11-25 13:43:22,336] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 13:43:22,342] INFO - ****************************************
+[2016-11-25 13:43:22,343] INFO - ****************************************
+[2016-11-25 13:43:22,343] INFO - 
+[2016-11-25 13:43:22,344] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 13:43:22,344] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 13:43:22,344] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 13:46:05,594] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 13:46:05,601] INFO - ****************************************
+[2016-11-25 13:46:05,602] INFO - ****************************************
+[2016-11-25 13:46:05,602] INFO - 
+[2016-11-25 13:46:05,602] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 13:46:05,603] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 13:46:05,603] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 13:55:56,633] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 13:55:56,640] INFO - ****************************************
+[2016-11-25 13:55:56,641] INFO - ****************************************
+[2016-11-25 13:55:56,642] INFO - 
+[2016-11-25 13:55:56,642] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 13:55:56,643] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 13:55:56,643] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 13:56:14,009] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 13:56:14,024] INFO - ****************************************
+[2016-11-25 13:56:14,024] INFO - ****************************************
+[2016-11-25 13:56:14,024] INFO - 
+[2016-11-25 13:56:14,024] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 13:56:14,024] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 13:56:14,024] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 13:56:59,755] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 13:56:59,762] INFO - ****************************************
+[2016-11-25 13:56:59,762] INFO - ****************************************
+[2016-11-25 13:56:59,763] INFO - 
+[2016-11-25 13:56:59,763] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 13:56:59,763] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 13:56:59,764] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 13:58:08,789] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 13:58:08,795] INFO - ****************************************
+[2016-11-25 13:58:08,808] INFO - ****************************************
+[2016-11-25 13:58:08,809] INFO - 
+[2016-11-25 13:58:08,809] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 13:58:08,809] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 13:58:08,810] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 13:58:17,802] INFO - 
+[2016-11-25 13:58:17,802] INFO - # FIM - CONSUMINDO MENSAGEM
+[2016-11-25 13:58:17,802] INFO - 
+[2016-11-25 13:58:17,802] INFO - ****************************************
+[2016-11-25 13:58:17,802] INFO - ****************************************
+[2016-11-25 13:58:17,802] INFO - # FIM DO PROCESSAMENTO
+[2016-11-25 13:58:17,818] INFO - 
+[2016-11-25 13:58:17,818] INFO - 
+[2016-11-25 13:58:24,490] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 13:58:24,490] INFO - ****************************************
+[2016-11-25 13:58:24,506] INFO - ****************************************
+[2016-11-25 13:58:24,506] INFO - 
+[2016-11-25 13:58:24,506] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 13:58:24,506] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 13:58:24,506] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 13:59:08,761] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 13:59:08,768] INFO - ****************************************
+[2016-11-25 13:59:08,769] INFO - ****************************************
+[2016-11-25 13:59:08,769] INFO - 
+[2016-11-25 13:59:08,770] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 13:59:08,770] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 13:59:08,770] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 13:59:42,997] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 13:59:43,004] INFO - ****************************************
+[2016-11-25 13:59:43,004] INFO - ****************************************
+[2016-11-25 13:59:43,005] INFO - 
+[2016-11-25 13:59:43,006] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 13:59:43,007] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 13:59:43,007] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 14:00:00,957] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 14:00:00,964] INFO - ****************************************
+[2016-11-25 14:00:00,965] INFO - ****************************************
+[2016-11-25 14:00:00,965] INFO - 
+[2016-11-25 14:00:00,966] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 14:00:00,966] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 14:00:00,966] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 14:00:41,759] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 14:00:41,765] INFO - ****************************************
+[2016-11-25 14:00:41,766] INFO - ****************************************
+[2016-11-25 14:00:41,766] INFO - 
+[2016-11-25 14:00:41,767] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 14:00:41,767] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 14:00:41,767] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 14:01:05,701] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 14:01:05,701] INFO - ****************************************
+[2016-11-25 14:01:05,716] INFO - ****************************************
+[2016-11-25 14:01:05,716] INFO - 
+[2016-11-25 14:01:05,716] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 14:01:05,716] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 14:01:05,716] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 14:01:45,632] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 14:01:45,639] INFO - ****************************************
+[2016-11-25 14:01:45,640] INFO - ****************************************
+[2016-11-25 14:01:45,640] INFO - 
+[2016-11-25 14:01:45,640] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 14:01:45,641] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 14:01:45,641] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 14:01:45,825] INFO - 
+[2016-11-25 14:01:45,829] ERROR - # ERROR: System.Runtime.InteropServices.COMException (0x800A005B): Object variable or With block variable not set
+   em AxFornecimento._clsFornecimento.strProcessar(String pStrXml)
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.Processar(List`1 lstXml) na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 30
+   em audatex.br.centralconsumer.application.PedidoFacade.ConsumerComponent(List`1 lstPedido) na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Application\audatex.br.centralconsumer.application\PedidoFacade.cs:linha 88
+   em audatex.br.centralconsumer.application.PedidoFacade.ProcessaPedido() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Application\audatex.br.centralconsumer.application\PedidoFacade.cs:linha 44
+[2016-11-25 14:01:45,829] INFO - 
+[2016-11-25 14:01:45,829] INFO - # FIM - CONSUMINDO MENSAGEM
+[2016-11-25 14:01:45,830] INFO - 
+[2016-11-25 14:01:45,830] INFO - ****************************************
+[2016-11-25 14:01:45,831] INFO - ****************************************
+[2016-11-25 14:01:45,831] INFO - # FIM DO PROCESSAMENTO
+[2016-11-25 14:01:45,831] INFO - 
+[2016-11-25 14:01:45,832] INFO - 
+[2016-11-25 14:02:00,998] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 14:02:01,005] INFO - ****************************************
+[2016-11-25 14:02:01,021] INFO - ****************************************
+[2016-11-25 14:02:01,022] INFO - 
+[2016-11-25 14:02:01,022] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 14:02:01,022] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 14:02:01,023] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 14:02:07,540] INFO - 
+[2016-11-25 14:02:07,540] ERROR - # ERROR: System.Runtime.InteropServices.COMException (0x800A005B): Object variable or With block variable not set
+   em AxFornecimento._clsFornecimento.strProcessar(String pStrXml)
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.Processar(List`1 lstXml) na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 30
+   em audatex.br.centralconsumer.application.PedidoFacade.ConsumerComponent(List`1 lstPedido) na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Application\audatex.br.centralconsumer.application\PedidoFacade.cs:linha 88
+   em audatex.br.centralconsumer.application.PedidoFacade.ProcessaPedido() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Application\audatex.br.centralconsumer.application\PedidoFacade.cs:linha 44
+[2016-11-25 14:02:07,540] INFO - 
+[2016-11-25 14:02:07,540] INFO - # FIM - CONSUMINDO MENSAGEM
+[2016-11-25 14:02:07,540] INFO - 
+[2016-11-25 14:02:07,540] INFO - ****************************************
+[2016-11-25 14:02:07,540] INFO - ****************************************
+[2016-11-25 14:02:07,540] INFO - # FIM DO PROCESSAMENTO
+[2016-11-25 14:02:07,540] INFO - 
+[2016-11-25 14:02:07,540] INFO - 
+[2016-11-25 14:02:20,638] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 14:02:20,647] INFO - ****************************************
+[2016-11-25 14:02:20,648] INFO - ****************************************
+[2016-11-25 14:02:20,648] INFO - 
+[2016-11-25 14:02:20,649] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 14:02:20,649] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 14:02:20,650] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 14:02:30,669] INFO - 
+[2016-11-25 14:02:30,684] ERROR - # ERROR: System.AggregateException: Um ou mais erros. ---> System.Runtime.InteropServices.COMException: Object variable or With block variable not set
+   em AxFornecimento._clsFornecimento.strProcessar(String pStrXml)
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_0.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 39
+   em System.Threading.Tasks.Task`1.InnerInvoke()
+   em System.Threading.Tasks.Task.Execute()
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   em System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   em System.Threading.Tasks.Task`1.get_Result()
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.Processar(List`1 lstXml) na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 44
+   em audatex.br.centralconsumer.application.PedidoFacade.ConsumerComponent(List`1 lstPedido) na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Application\audatex.br.centralconsumer.application\PedidoFacade.cs:linha 88
+   em audatex.br.centralconsumer.application.PedidoFacade.ProcessaPedido() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Application\audatex.br.centralconsumer.application\PedidoFacade.cs:linha 44
+---> (Exceção Interna N° 0) System.Runtime.InteropServices.COMException (0x800A005B): Object variable or With block variable not set
+   em AxFornecimento._clsFornecimento.strProcessar(String pStrXml)
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_0.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 39
+   em System.Threading.Tasks.Task`1.InnerInvoke()
+   em System.Threading.Tasks.Task.Execute()<---
+
+[2016-11-25 14:02:30,684] INFO - 
+[2016-11-25 14:02:30,684] INFO - # FIM - CONSUMINDO MENSAGEM
+[2016-11-25 14:02:30,684] INFO - 
+[2016-11-25 14:02:30,684] INFO - ****************************************
+[2016-11-25 14:02:30,684] INFO - ****************************************
+[2016-11-25 14:02:30,684] INFO - # FIM DO PROCESSAMENTO
+[2016-11-25 14:02:30,684] INFO - 
+[2016-11-25 14:02:30,684] INFO - 
+[2016-11-25 14:02:54,700] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 14:02:54,707] INFO - ****************************************
+[2016-11-25 14:02:54,708] INFO - ****************************************
+[2016-11-25 14:02:54,722] INFO - 
+[2016-11-25 14:02:54,722] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 14:02:54,722] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 14:02:54,723] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 14:02:57,399] INFO - 
+[2016-11-25 14:02:57,399] ERROR - # ERROR: System.AggregateException: Um ou mais erros. ---> System.Runtime.InteropServices.COMException: Object variable or With block variable not set
+   em AxFornecimento._clsFornecimento.strProcessar(String pStrXml)
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_0.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 39
+   em System.Threading.Tasks.Task`1.InnerInvoke()
+   em System.Threading.Tasks.Task.Execute()
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   em System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   em System.Threading.Tasks.Task`1.get_Result()
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.Processar(List`1 lstXml) na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 44
+   em audatex.br.centralconsumer.application.PedidoFacade.ConsumerComponent(List`1 lstPedido) na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Application\audatex.br.centralconsumer.application\PedidoFacade.cs:linha 88
+   em audatex.br.centralconsumer.application.PedidoFacade.ProcessaPedido() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Application\audatex.br.centralconsumer.application\PedidoFacade.cs:linha 44
+---> (Exceção Interna N° 0) System.Runtime.InteropServices.COMException (0x800A005B): Object variable or With block variable not set
+   em AxFornecimento._clsFornecimento.strProcessar(String pStrXml)
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_0.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 39
+   em System.Threading.Tasks.Task`1.InnerInvoke()
+   em System.Threading.Tasks.Task.Execute()<---
+
+[2016-11-25 14:02:57,399] INFO - 
+[2016-11-25 14:02:57,399] INFO - # FIM - CONSUMINDO MENSAGEM
+[2016-11-25 14:02:57,399] INFO - 
+[2016-11-25 14:02:57,399] INFO - ****************************************
+[2016-11-25 14:02:57,399] INFO - ****************************************
+[2016-11-25 14:02:57,415] INFO - # FIM DO PROCESSAMENTO
+[2016-11-25 14:02:57,415] INFO - 
+[2016-11-25 14:02:57,415] INFO - 
+[2016-11-25 14:04:48,000] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 14:04:48,007] INFO - ****************************************
+[2016-11-25 14:04:48,008] INFO - ****************************************
+[2016-11-25 14:04:48,009] INFO - 
+[2016-11-25 14:04:48,009] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 14:04:48,010] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 14:04:48,010] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 14:05:20,916] INFO - 
+[2016-11-25 14:05:21,538] ERROR - # ERROR: System.Runtime.InteropServices.COMException (0x800A005B): Object variable or With block variable not set
+   em AxFornecimento._clsFornecimento.strProcessar(String pStrXml)
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_0.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 43
+[2016-11-25 14:06:19,720] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 14:06:19,726] INFO - ****************************************
+[2016-11-25 14:06:19,735] INFO - ****************************************
+[2016-11-25 14:06:19,735] INFO - 
+[2016-11-25 14:06:19,735] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 14:06:19,736] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 14:06:19,736] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 14:06:58,082] INFO - 
+[2016-11-25 14:06:58,477] ERROR - # ERROR: System.Runtime.InteropServices.COMException (0x800A005B): Object variable or With block variable not set
+   em AxFornecimento._clsFornecimento.strProcessar(String pStrXml)
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_0.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 43
+[2016-11-25 14:08:33,277] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 14:08:33,284] INFO - ****************************************
+[2016-11-25 14:08:33,285] INFO - ****************************************
+[2016-11-25 14:08:33,285] INFO - 
+[2016-11-25 14:08:33,285] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 14:08:33,286] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 14:08:33,286] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 14:08:33,477] INFO - 
+[2016-11-25 14:08:33,480] ERROR - # ERROR: System.Runtime.InteropServices.COMException (0x800A005B): Object variable or With block variable not set
+   em AxFornecimento._clsFornecimento.strProcessar(String pStrXml)
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_0.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 35
+[2016-11-25 14:09:04,285] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 14:09:04,294] INFO - ****************************************
+[2016-11-25 14:09:04,295] INFO - ****************************************
+[2016-11-25 14:09:04,296] INFO - 
+[2016-11-25 14:09:04,297] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 14:09:04,298] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 14:09:04,298] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 14:09:04,568] INFO - 
+[2016-11-25 14:09:04,571] ERROR - # ERROR: System.Runtime.InteropServices.COMException (0x800A005B): Object variable or With block variable not set
+   em AxFornecimento._clsFornecimento.strProcessar(String pStrXml)
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_0.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 35
+[2016-11-25 14:09:04,573] INFO - 
+[2016-11-25 14:09:04,573] INFO - # FIM - CONSUMINDO MENSAGEM
+[2016-11-25 14:09:04,574] INFO - 
+[2016-11-25 14:09:04,574] INFO - ****************************************
+[2016-11-25 14:09:04,574] INFO - ****************************************
+[2016-11-25 14:09:04,575] INFO - # FIM DO PROCESSAMENTO
+[2016-11-25 14:09:04,575] INFO - 
+[2016-11-25 14:09:04,576] INFO - 
+[2016-11-25 14:14:25,444] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 14:14:25,453] INFO - ****************************************
+[2016-11-25 14:14:25,454] INFO - ****************************************
+[2016-11-25 14:14:25,455] INFO - 
+[2016-11-25 14:14:25,455] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 14:14:25,455] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 14:14:25,456] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 14:14:25,672] INFO - 
+[2016-11-25 14:14:25,675] ERROR - # ERROR: <></>System.Runtime.InteropServices.COMException (0x800A005B): Object variable or With block variable not set
+   em AxFornecimento._clsFornecimento.strProcessar(String pStrXml)
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_0.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 35
+[2016-11-25 14:14:25,677] INFO - 
+[2016-11-25 14:14:25,677] INFO - # FIM - CONSUMINDO MENSAGEM
+[2016-11-25 14:14:25,677] INFO - 
+[2016-11-25 14:14:25,678] INFO - ****************************************
+[2016-11-25 14:14:25,678] INFO - ****************************************
+[2016-11-25 14:14:25,678] INFO - # FIM DO PROCESSAMENTO
+[2016-11-25 14:14:25,679] INFO - 
+[2016-11-25 14:14:25,679] INFO - 
+[2016-11-25 14:16:04,193] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 14:16:04,200] INFO - ****************************************
+[2016-11-25 14:16:04,201] INFO - ****************************************
+[2016-11-25 14:16:04,201] INFO - 
+[2016-11-25 14:16:04,201] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 14:16:04,202] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 14:16:04,202] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 14:16:04,399] INFO - 
+[2016-11-25 14:16:04,402] ERROR - # ERROR:  XML: <></>System.Runtime.InteropServices.COMException (0x800A005B): Object variable or With block variable not set
+   em AxFornecimento._clsFornecimento.strProcessar(String pStrXml)
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_0.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 35
+[2016-11-25 14:16:04,404] INFO - 
+[2016-11-25 14:16:04,404] INFO - # FIM - CONSUMINDO MENSAGEM
+[2016-11-25 14:16:04,405] INFO - 
+[2016-11-25 14:16:04,405] INFO - ****************************************
+[2016-11-25 14:16:04,406] INFO - ****************************************
+[2016-11-25 14:16:04,406] INFO - # FIM DO PROCESSAMENTO
+[2016-11-25 14:16:04,407] INFO - 
+[2016-11-25 14:16:04,407] INFO - 
+[2016-11-25 14:16:45,702] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 14:16:45,712] INFO - ****************************************
+[2016-11-25 14:16:45,712] INFO - ****************************************
+[2016-11-25 14:16:45,713] INFO - 
+[2016-11-25 14:16:45,713] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 14:16:45,713] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 14:16:45,714] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 14:16:45,891] INFO - 
+[2016-11-25 14:16:45,894] ERROR - # ERROR: System.Runtime.InteropServices.COMException (0x800A005B): Object variable or With block variable not set
+   em AxFornecimento._clsFornecimento.strProcessar(String pStrXml)
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_0.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 35 XML: <></>
+[2016-11-25 14:16:45,931] INFO - 
+[2016-11-25 14:16:45,932] INFO - # FIM - CONSUMINDO MENSAGEM
+[2016-11-25 14:16:45,932] INFO - 
+[2016-11-25 14:16:45,932] INFO - ****************************************
+[2016-11-25 14:16:45,933] INFO - ****************************************
+[2016-11-25 14:16:45,933] INFO - # FIM DO PROCESSAMENTO
+[2016-11-25 14:16:45,933] INFO - 
+[2016-11-25 14:16:45,934] INFO - 
+[2016-11-25 14:17:21,992] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 14:17:21,998] INFO - ****************************************
+[2016-11-25 14:17:21,999] INFO - ****************************************
+[2016-11-25 14:17:21,999] INFO - 
+[2016-11-25 14:17:22,000] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 14:17:22,000] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 14:17:22,000] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 14:17:22,185] INFO - 
+[2016-11-25 14:17:22,188] ERROR - # ERROR: System.Runtime.InteropServices.COMException (0x800A005B): Object variable or With block variable not set
+   em AxFornecimento._clsFornecimento.strProcessar(String pStrXml)
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_0.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 35 - XML: <></>
+[2016-11-25 14:17:22,189] INFO - 
+[2016-11-25 14:17:22,190] INFO - # FIM - CONSUMINDO MENSAGEM
+[2016-11-25 14:17:22,190] INFO - 
+[2016-11-25 14:17:22,190] INFO - ****************************************
+[2016-11-25 14:17:22,191] INFO - ****************************************
+[2016-11-25 14:17:22,191] INFO - # FIM DO PROCESSAMENTO
+[2016-11-25 14:17:22,191] INFO - 
+[2016-11-25 14:17:22,192] INFO - 
+[2016-11-25 15:25:06,692] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 15:25:06,698] INFO - ****************************************
+[2016-11-25 15:25:06,699] INFO - ****************************************
+[2016-11-25 15:25:06,700] INFO - 
+[2016-11-25 15:25:06,700] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 15:25:06,701] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 15:25:06,701] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 15:25:06,898] INFO - 
+[2016-11-25 15:25:06,906] INFO - # FIM - CONSUMINDO MENSAGEM
+[2016-11-25 15:25:06,916] INFO - 
+[2016-11-25 15:25:06,916] INFO - ****************************************
+[2016-11-25 15:25:06,917] INFO - ****************************************
+[2016-11-25 15:25:06,917] INFO - # FIM DO PROCESSAMENTO
+[2016-11-25 15:25:06,917] INFO - 
+[2016-11-25 15:25:06,918] INFO - 
+[2016-11-25 15:25:07,740] INFO - 
+[2016-11-25 15:25:07,742] ERROR - # ERROR: System.Runtime.InteropServices.COMException (0x800A005B): Object variable or With block variable not set
+   em AxFornecimento._clsFornecimento.strProcessar(String pStrXml)
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 40 - XML: <></>
+[2016-11-25 15:25:38,680] INFO - 
+[2016-11-25 15:25:38,696] ERROR - # ERROR: System.TimeoutException: O tempo limite da operação acabou.
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 43 - XML: <PPECENVIADO01></PPECENVIADO01>
+[2016-11-25 15:25:38,696] INFO - 
+[2016-11-25 15:25:39,529] ERROR - # ERROR: System.TimeoutException: O tempo limite da operação acabou.
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 43 - XML: <PPECENVIADO01></PPECENVIADO01>
+[2016-11-25 15:25:39,529] INFO - 
+[2016-11-25 15:25:39,529] ERROR - # ERROR: System.TimeoutException: O tempo limite da operação acabou.
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 43 - XML: <PPECENVIADO02></PPECENVIADO02>
+[2016-11-25 15:25:39,529] INFO - 
+[2016-11-25 15:25:39,529] ERROR - # ERROR: System.TimeoutException: O tempo limite da operação acabou.
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 43 - XML: <PPECENVIADO02></PPECENVIADO02>
+[2016-11-25 15:25:42,000] INFO - 
+[2016-11-25 15:25:42,016] ERROR - # ERROR: System.TimeoutException: O tempo limite da operação acabou.
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 43 - XML: <PPECENVIADO01></PPECENVIADO01>
+[2016-11-25 15:29:06,104] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 15:29:06,111] INFO - ****************************************
+[2016-11-25 15:29:06,113] INFO - ****************************************
+[2016-11-25 15:29:06,114] INFO - 
+[2016-11-25 15:29:06,114] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 15:29:06,115] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 15:29:06,115] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 15:29:17,527] INFO - 
+[2016-11-25 15:29:17,528] INFO - # FIM - CONSUMINDO MENSAGEM
+[2016-11-25 15:29:17,528] INFO - 
+[2016-11-25 15:29:17,528] INFO - ****************************************
+[2016-11-25 15:29:17,529] INFO - ****************************************
+[2016-11-25 15:29:24,719] INFO - # FIM DO PROCESSAMENTO
+[2016-11-25 15:29:24,719] INFO - 
+[2016-11-25 15:29:24,720] INFO - 
+[2016-11-25 15:29:40,791] INFO - 
+[2016-11-25 15:29:40,795] ERROR - # ERROR: System.TimeoutException: O tempo limite da operação acabou.
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 43 - XML: <PPECENVIADO01></PPECENVIADO01>
+[2016-11-25 15:30:19,638] INFO - 
+[2016-11-25 15:30:19,639] INFO - 
+[2016-11-25 15:30:19,641] ERROR - # ERROR: System.TimeoutException: O tempo limite da operação acabou.
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 43 - XML: <PPECENVIADO02></PPECENVIADO02>
+[2016-11-25 15:30:19,647] ERROR - # ERROR: System.TimeoutException: O tempo limite da operação acabou.
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 43 - XML: <PPECENVIADO02></PPECENVIADO02>
+[2016-11-25 15:30:27,551] INFO - 
+[2016-11-25 15:30:27,551] INFO - 
+[2016-11-25 15:30:27,553] ERROR - # ERROR: System.TimeoutException: O tempo limite da operação acabou.
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 43 - XML: <PPECENVIADO01></PPECENVIADO01>
+[2016-11-25 15:30:28,475] ERROR - # ERROR: System.TimeoutException: O tempo limite da operação acabou.
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 43 - XML: <PPECENVIADO02></PPECENVIADO02>
+[2016-11-25 15:30:28,475] INFO - 
+[2016-11-25 15:39:10,060] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 15:39:10,067] INFO - ****************************************
+[2016-11-25 15:39:10,068] INFO - ****************************************
+[2016-11-25 15:39:10,068] INFO - 
+[2016-11-25 15:39:10,068] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 15:39:10,069] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 15:39:10,069] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 15:39:10,261] INFO - 
+[2016-11-25 15:39:10,261] INFO - # FIM - CONSUMINDO MENSAGEM
+[2016-11-25 15:39:10,263] INFO - 
+[2016-11-25 15:39:10,269] INFO - ****************************************
+[2016-11-25 15:39:10,269] INFO - ****************************************
+[2016-11-25 15:39:10,271] INFO - # FIM DO PROCESSAMENTO
+[2016-11-25 15:39:10,272] INFO - 
+[2016-11-25 15:39:10,273] INFO - 
+[2016-11-25 15:39:18,243] INFO - 
+[2016-11-25 15:39:18,243] ERROR - # ERROR: System.Runtime.InteropServices.COMException (0x800A005B): Object variable or With block variable not set
+   em AxFornecimento._clsFornecimento.strProcessar(String pStrXml)
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 40 - XML: <></>
+[2016-11-25 15:39:41,092] INFO - 
+[2016-11-25 15:39:41,092] INFO - 
+[2016-11-25 15:39:41,092] INFO - 
+[2016-11-25 15:39:41,092] ERROR - # ERROR: System.TimeoutException: O tempo limite da operação acabou.
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 43 - XML: <PPECENVIADO02></PPECENVIADO02>
+[2016-11-25 15:39:41,092] INFO - 
+[2016-11-25 15:39:41,092] ERROR - # ERROR: System.TimeoutException: O tempo limite da operação acabou.
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 43 - XML: <PPECENVIADO01></PPECENVIADO01>
+[2016-11-25 15:39:41,092] ERROR - # ERROR: System.TimeoutException: O tempo limite da operação acabou.
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 43 - XML: <PPECENVIADO02></PPECENVIADO02>
+[2016-11-25 15:39:41,092] ERROR - # ERROR: System.TimeoutException: O tempo limite da operação acabou.
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 43 - XML: <PPECENVIADO01></PPECENVIADO01>
+[2016-11-25 15:39:42,576] INFO - 
+[2016-11-25 15:39:42,577] ERROR - # ERROR: System.TimeoutException: O tempo limite da operação acabou.
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 43 - XML: <PPECENVIADO02></PPECENVIADO02>
+[2016-11-25 15:40:07,691] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 15:40:07,698] INFO - ****************************************
+[2016-11-25 15:40:07,699] INFO - ****************************************
+[2016-11-25 15:40:07,699] INFO - 
+[2016-11-25 15:40:07,700] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 15:40:07,701] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 15:40:07,702] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 15:40:21,015] INFO - 
+[2016-11-25 15:40:21,015] INFO - 
+[2016-11-25 15:40:21,046] INFO - # FIM - CONSUMINDO MENSAGEM
+[2016-11-25 15:40:21,077] INFO - 
+[2016-11-25 15:40:21,046] INFO - 
+[2016-11-25 15:40:21,077] INFO - ****************************************
+[2016-11-25 15:40:21,077] INFO - ****************************************
+[2016-11-25 15:40:21,077] ERROR - # ERROR: System.Runtime.InteropServices.COMException (0xE0434352): An exception '{0}' occurred
+   em AxFornecimento._clsFornecimento.strProcessar(String pStrXml)
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 40 - XML: <PPECENVIADO02></PPECENVIADO02>
+[2016-11-25 15:40:21,077] INFO - # FIM DO PROCESSAMENTO
+[2016-11-25 15:40:21,077] INFO - 
+[2016-11-25 15:40:21,077] INFO - 
+[2016-11-25 15:40:21,077] INFO - 
+[2016-11-25 15:40:21,077] ERROR - # ERROR: System.Runtime.InteropServices.COMException (0x800A005B): Object variable or With block variable not set
+   em AxFornecimento._clsFornecimento.strProcessar(String pStrXml)
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 40 - XML: <></>
+[2016-11-25 15:40:21,093] ERROR - # ERROR: System.Runtime.InteropServices.COMException (0xE0434352): Exceção de HRESULT: 0xE0434352
+   em AxFornecimento._clsFornecimento.strProcessar(String pStrXml)
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 40 - XML: <PPECENVIADO01></PPECENVIADO01>
+[2016-11-25 15:40:24,935] INFO - 
+[2016-11-25 15:40:24,950] INFO - 
+[2016-11-25 15:40:24,950] ERROR - # ERROR: System.TimeoutException: O tempo limite da operação acabou.
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 43 - XML: <PPECENVIADO01></PPECENVIADO01>
+[2016-11-25 15:40:24,950] INFO - 
+[2016-11-25 15:40:24,950] INFO - 
+[2016-11-25 15:40:24,950] INFO - 
+[2016-11-25 15:40:24,950] ERROR - # ERROR: System.TimeoutException: O tempo limite da operação acabou.
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 43 - XML: <PPECENVIADO02></PPECENVIADO02>
+[2016-11-25 15:40:24,950] ERROR - # ERROR: System.TimeoutException: O tempo limite da operação acabou.
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 43 - XML: <PPECENVIADO01></PPECENVIADO01>
+[2016-11-25 15:40:24,950] ERROR - # ERROR: System.TimeoutException: O tempo limite da operação acabou.
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 43 - XML: <PPECENVIADO02></PPECENVIADO02>
+[2016-11-25 15:40:24,950] INFO - 
+[2016-11-25 15:40:24,950] INFO - 
+[2016-11-25 15:40:24,950] INFO - 
+[2016-11-25 15:40:24,950] ERROR - # ERROR: System.TimeoutException: O tempo limite da operação acabou.
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 43 - XML: <PPECENVIADO01></PPECENVIADO01>
+[2016-11-25 15:40:24,966] INFO - 
+[2016-11-25 15:40:24,966] INFO - 
+[2016-11-25 15:40:24,966] ERROR - # ERROR: System.TimeoutException: O tempo limite da operação acabou.
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 43 - XML: <PPECENVIADO01></PPECENVIADO01>
+[2016-11-25 15:40:24,966] ERROR - # ERROR: System.TimeoutException: O tempo limite da operação acabou.
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 43 - XML: <PPECENVIADO01></PPECENVIADO01>
+[2016-11-25 15:40:24,966] INFO - 
+[2016-11-25 15:40:24,966] ERROR - # ERROR: System.TimeoutException: O tempo limite da operação acabou.
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 43 - XML: <PPECENVIADO02></PPECENVIADO02>
+[2016-11-25 15:40:24,966] ERROR - # ERROR: System.TimeoutException: O tempo limite da operação acabou.
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 43 - XML: <PPECENVIADO02></PPECENVIADO02>
+[2016-11-25 15:40:24,966] ERROR - # ERROR: System.TimeoutException: O tempo limite da operação acabou.
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 43 - XML: <PPECENVIADO02></PPECENVIADO02>
+[2016-11-25 15:40:24,966] ERROR - # ERROR: System.TimeoutException: O tempo limite da operação acabou.
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 43 - XML: <PPECENVIADO02></PPECENVIADO02>
+[2016-11-25 15:40:59,800] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 15:40:59,816] INFO - ****************************************
+[2016-11-25 15:40:59,816] INFO - ****************************************
+[2016-11-25 15:40:59,816] INFO - 
+[2016-11-25 15:40:59,816] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 15:40:59,816] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 15:40:59,816] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 15:41:02,626] INFO - 
+[2016-11-25 15:41:02,626] INFO - # FIM - CONSUMINDO MENSAGEM
+[2016-11-25 15:41:02,626] INFO - 
+[2016-11-25 15:41:02,626] INFO - ****************************************
+[2016-11-25 15:41:02,626] INFO - ****************************************
+[2016-11-25 15:41:02,626] INFO - # FIM DO PROCESSAMENTO
+[2016-11-25 15:41:02,626] INFO - 
+[2016-11-25 15:41:02,626] INFO - 
+[2016-11-25 15:41:26,373] INFO - 
+[2016-11-25 15:41:26,376] ERROR - # ERROR: System.Runtime.InteropServices.COMException (0x800A005B): Object variable or With block variable not set
+   em AxFornecimento._clsFornecimento.strProcessar(String pStrXml)
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 40 - XML: <></>
+[2016-11-25 15:41:33,909] INFO - 
+[2016-11-25 15:41:33,910] INFO - 
+[2016-11-25 15:41:33,911] ERROR - # ERROR: System.TimeoutException: O tempo limite da operação acabou.
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 43 - XML: <PPECENVIADO02></PPECENVIADO02>
+[2016-11-25 15:41:35,283] INFO - 
+[2016-11-25 15:41:35,284] INFO - 
+[2016-11-25 15:41:35,285] ERROR - # ERROR: System.TimeoutException: O tempo limite da operação acabou.
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 43 - XML: <PPECENVIADO02></PPECENVIADO02>
+[2016-11-25 15:41:35,285] ERROR - # ERROR: System.TimeoutException: O tempo limite da operação acabou.
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 43 - XML: <PPECENVIADO02></PPECENVIADO02>
+[2016-11-25 15:41:35,286] ERROR - # ERROR: System.TimeoutException: O tempo limite da operação acabou.
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 43 - XML: <PPECENVIADO02></PPECENVIADO02>
+[2016-11-25 15:41:35,286] INFO - 
+[2016-11-25 15:41:35,286] INFO - 
+[2016-11-25 15:41:35,287] INFO - 
+[2016-11-25 15:41:35,288] ERROR - # ERROR: System.TimeoutException: O tempo limite da operação acabou.
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 43 - XML: <PPECENVIADO01></PPECENVIADO01>
+[2016-11-25 15:41:35,290] ERROR - # ERROR: System.TimeoutException: O tempo limite da operação acabou.
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 43 - XML: <PPECENVIADO01></PPECENVIADO01>
+[2016-11-25 15:41:35,290] INFO - 
+[2016-11-25 15:41:35,290] INFO - 
+[2016-11-25 15:41:35,292] ERROR - # ERROR: System.TimeoutException: O tempo limite da operação acabou.
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 43 - XML: <PPECENVIADO01></PPECENVIADO01>
+[2016-11-25 15:41:35,293] ERROR - # ERROR: System.TimeoutException: O tempo limite da operação acabou.
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 43 - XML: <PPECENVIADO02></PPECENVIADO02>
+[2016-11-25 15:41:35,294] ERROR - # ERROR: System.TimeoutException: O tempo limite da operação acabou.
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 43 - XML: <PPECENVIADO01></PPECENVIADO01>
+[2016-11-25 15:41:35,295] INFO - 
+[2016-11-25 15:41:35,296] INFO - 
+[2016-11-25 15:41:35,297] INFO - 
+[2016-11-25 15:41:35,318] ERROR - # ERROR: System.TimeoutException: O tempo limite da operação acabou.
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 43 - XML: <PPECENVIADO02></PPECENVIADO02>
+[2016-11-25 15:41:35,318] INFO - 
+[2016-11-25 15:41:35,320] ERROR - # ERROR: System.TimeoutException: O tempo limite da operação acabou.
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 43 - XML: <PPECENVIADO02></PPECENVIADO02>
+[2016-11-25 15:41:35,321] ERROR - # ERROR: System.TimeoutException: O tempo limite da operação acabou.
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 43 - XML: <PPECENVIADO01></PPECENVIADO01>
+[2016-11-25 15:41:35,322] ERROR - # ERROR: System.TimeoutException: O tempo limite da operação acabou.
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 43 - XML: <PPECENVIADO01></PPECENVIADO01>
+[2016-11-25 17:32:12,361] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 17:32:12,368] INFO - ****************************************
+[2016-11-25 17:32:12,369] INFO - ****************************************
+[2016-11-25 17:32:12,370] INFO - 
+[2016-11-25 17:32:12,370] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 17:32:12,370] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 17:32:12,371] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 17:32:21,396] INFO - 
+[2016-11-25 17:32:21,913] INFO - 
+[2016-11-25 17:32:23,749] ERROR - # ERROR: System.Runtime.InteropServices.COMException (0xE0434352): Exceção de HRESULT: 0xE0434352
+   em AxFornecimento._clsFornecimento.strProcessar(String pStrXml)
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 40 - XML: <PPECENVIADO01></PPECENVIADO01>
+[2016-11-25 17:32:23,749] ERROR - # ERROR: System.Runtime.InteropServices.COMException (0xE0434352): Exceção de HRESULT: 0xE0434352
+   em AxFornecimento._clsFornecimento.strProcessar(String pStrXml)
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 40 - XML: <PPECENVIADO02></PPECENVIADO02>
+[2016-11-25 17:32:25,529] INFO - 
+[2016-11-25 17:32:25,530] INFO - 
+[2016-11-25 17:32:25,785] INFO - # FIM - CONSUMINDO MENSAGEM
+[2016-11-25 17:32:26,803] ERROR - # ERROR: System.Runtime.InteropServices.COMException (0xE0434352): An exception '{0}' occurred
+   em AxFornecimento._clsFornecimento.strProcessar(String pStrXml)
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 40 - XML: <PPECENVIADO02></PPECENVIADO02>
+[2016-11-25 17:32:26,806] INFO - 
+[2016-11-25 17:32:28,010] INFO - 
+[2016-11-25 17:32:28,012] ERROR - # ERROR: System.Runtime.InteropServices.COMException (0x800A005B): Object variable or With block variable not set
+   em AxFornecimento._clsFornecimento.strProcessar(String pStrXml)
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 40 - XML: <></>
+[2016-11-25 17:32:28,219] INFO - ****************************************
+[2016-11-25 17:32:28,434] INFO - ****************************************
+[2016-11-25 17:32:28,625] INFO - # FIM DO PROCESSAMENTO
+[2016-11-25 17:32:28,789] INFO - 
+[2016-11-25 17:32:29,033] INFO - 
+[2016-11-25 17:33:04,942] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 17:33:04,949] INFO - ****************************************
+[2016-11-25 17:33:04,950] INFO - ****************************************
+[2016-11-25 17:33:04,950] INFO - 
+[2016-11-25 17:33:04,950] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 17:33:04,951] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 17:33:04,951] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 17:34:59,794] INFO - 
+[2016-11-25 17:34:59,799] INFO - # FIM - CONSUMINDO MENSAGEM
+[2016-11-25 17:34:59,799] INFO - 
+[2016-11-25 17:34:59,809] INFO - ****************************************
+[2016-11-25 17:34:59,811] INFO - 
+[2016-11-25 17:34:59,811] INFO - ****************************************
+[2016-11-25 17:34:59,811] INFO - # FIM DO PROCESSAMENTO
+[2016-11-25 17:34:59,814] INFO - 
+[2016-11-25 17:34:59,814] INFO - 
+[2016-11-25 17:34:59,815] INFO - 
+[2016-11-25 17:34:59,815] ERROR - # ERROR: System.TimeoutException: O tempo limite da operação acabou.
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 43 - XML: <PPECENVIADO01></PPECENVIADO01>
+[2016-11-25 17:34:59,815] INFO - 
+[2016-11-25 17:34:59,817] ERROR - # ERROR: System.TimeoutException: O tempo limite da operação acabou.
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 43 - XML: <PPECENVIADO01></PPECENVIADO01>
+[2016-11-25 17:34:59,817] INFO - 
+[2016-11-25 17:34:59,819] ERROR - # ERROR: System.TimeoutException: O tempo limite da operação acabou.
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 43 - XML: <PPECENVIADO02></PPECENVIADO02>
+[2016-11-25 17:34:59,820] ERROR - # ERROR: System.TimeoutException: O tempo limite da operação acabou.
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 43 - XML: <PPECENVIADO02></PPECENVIADO02>
+[2016-11-25 17:34:59,827] INFO - 
+[2016-11-25 17:34:59,829] ERROR - # ERROR: System.Runtime.InteropServices.COMException (0x800A005B): Object variable or With block variable not set
+   em AxFornecimento._clsFornecimento.strProcessar(String pStrXml)
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 40 - XML: <></>
+[2016-11-25 17:35:01,494] INFO - 
+[2016-11-25 17:35:01,496] INFO - 
+[2016-11-25 17:35:01,496] INFO - 
+[2016-11-25 17:35:01,496] INFO - 
+[2016-11-25 17:35:01,497] ERROR - # ERROR: System.TimeoutException: O tempo limite da operação acabou.
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 43 - XML: <PPECENVIADO02></PPECENVIADO02>
+[2016-11-25 17:35:01,499] ERROR - # ERROR: System.TimeoutException: O tempo limite da operação acabou.
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 43 - XML: <PPECENVIADO01></PPECENVIADO01>
+[2016-11-25 17:35:01,499] INFO - 
+[2016-11-25 17:35:01,501] INFO - 
+[2016-11-25 17:35:01,503] INFO - 
+[2016-11-25 17:35:01,504] ERROR - # ERROR: System.TimeoutException: O tempo limite da operação acabou.
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 43 - XML: <PPECENVIADO02></PPECENVIADO02>
+[2016-11-25 17:35:01,505] INFO - 
+[2016-11-25 17:35:01,508] INFO - 
+[2016-11-25 17:35:01,509] ERROR - # ERROR: System.TimeoutException: O tempo limite da operação acabou.
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 43 - XML: <PPECENVIADO02></PPECENVIADO02>
+[2016-11-25 17:35:01,509] ERROR - # ERROR: System.TimeoutException: O tempo limite da operação acabou.
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 43 - XML: <PPECENVIADO01></PPECENVIADO01>
+[2016-11-25 17:35:01,510] ERROR - # ERROR: System.TimeoutException: O tempo limite da operação acabou.
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 43 - XML: <PPECENVIADO01></PPECENVIADO01>
+[2016-11-25 17:35:01,511] ERROR - # ERROR: System.TimeoutException: O tempo limite da operação acabou.
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 43 - XML: <PPECENVIADO01></PPECENVIADO01>
+[2016-11-25 17:35:01,513] ERROR - # ERROR: System.TimeoutException: O tempo limite da operação acabou.
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 43 - XML: <PPECENVIADO02></PPECENVIADO02>
+[2016-11-25 17:35:01,513] ERROR - # ERROR: System.TimeoutException: O tempo limite da operação acabou.
+   em audatex.br.centralconsumer.infrastructure.invoke.ComponentInvoke.<>c__DisplayClass2_1.<Processar>b__0() na C:\WorkspaceBR\CentralConsumer\Branch\Develop_Sprint1_ThreadAsyncComponent\Infrastructure\audatex.br.centralconsumer.infrastructure\Invoke\ComponentInvoke.cs:linha 43 - XML: <PPECENVIADO02></PPECENVIADO02>
+[2016-11-25 17:39:41,479] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 17:39:41,486] INFO - ****************************************
+[2016-11-25 17:39:41,486] INFO - ****************************************
+[2016-11-25 17:39:41,487] INFO - 
+[2016-11-25 17:39:41,487] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 17:39:41,487] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 17:39:41,488] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 17:41:25,758] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 17:41:25,765] INFO - ****************************************
+[2016-11-25 17:41:25,766] INFO - ****************************************
+[2016-11-25 17:41:25,766] INFO - 
+[2016-11-25 17:41:25,767] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 17:41:25,767] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 17:41:25,767] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 17:45:10,099] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 17:45:10,107] INFO - ****************************************
+[2016-11-25 17:45:10,108] INFO - ****************************************
+[2016-11-25 17:45:10,108] INFO - 
+[2016-11-25 17:45:10,109] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 17:45:10,109] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 17:45:10,109] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 17:52:39,175] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 17:52:39,182] INFO - ****************************************
+[2016-11-25 17:52:39,183] INFO - ****************************************
+[2016-11-25 17:52:39,184] INFO - 
+[2016-11-25 17:52:39,184] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 17:52:39,185] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 17:52:39,185] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 17:53:03,777] INFO - 
+[2016-11-25 17:53:03,778] INFO - # FIM - CONSUMINDO MENSAGEM
+[2016-11-25 17:53:03,779] INFO - 
+[2016-11-25 17:53:03,780] INFO - ****************************************
+[2016-11-25 17:53:03,780] INFO - ****************************************
+[2016-11-25 17:53:03,780] INFO - # FIM DO PROCESSAMENTO
+[2016-11-25 17:53:03,781] INFO - 
+[2016-11-25 17:53:03,781] INFO - 
+[2016-11-25 17:58:14,036] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 17:58:14,043] INFO - ****************************************
+[2016-11-25 17:58:14,044] INFO - ****************************************
+[2016-11-25 17:58:14,044] INFO - 
+[2016-11-25 17:58:14,044] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 17:58:14,045] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 17:58:14,045] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 17:59:09,814] INFO - 
+[2016-11-25 17:59:09,815] INFO - # FIM - CONSUMINDO MENSAGEM
+[2016-11-25 17:59:09,816] INFO - 
+[2016-11-25 17:59:09,816] INFO - ****************************************
+[2016-11-25 17:59:09,816] INFO - ****************************************
+[2016-11-25 17:59:09,817] INFO - # FIM DO PROCESSAMENTO
+[2016-11-25 17:59:09,817] INFO - 
+[2016-11-25 17:59:09,817] INFO - 
+[2016-11-25 18:00:18,967] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 18:00:18,974] INFO - ****************************************
+[2016-11-25 18:00:18,996] INFO - ****************************************
+[2016-11-25 18:00:18,996] INFO - 
+[2016-11-25 18:00:18,996] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 18:00:18,997] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 18:00:18,997] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 18:00:37,545] INFO - 
+[2016-11-25 18:00:37,546] INFO - # FIM - CONSUMINDO MENSAGEM
+[2016-11-25 18:00:37,546] INFO - 
+[2016-11-25 18:00:37,546] INFO - ****************************************
+[2016-11-25 18:00:37,547] INFO - ****************************************
+[2016-11-25 18:00:37,547] INFO - # FIM DO PROCESSAMENTO
+[2016-11-25 18:00:37,548] INFO - 
+[2016-11-25 18:00:37,548] INFO - 
+[2016-11-25 18:06:26,937] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 18:06:26,945] INFO - ****************************************
+[2016-11-25 18:06:26,946] INFO - ****************************************
+[2016-11-25 18:06:26,946] INFO - 
+[2016-11-25 18:06:26,947] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 18:06:26,947] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 18:06:26,947] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 18:08:13,745] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 18:08:13,752] INFO - ****************************************
+[2016-11-25 18:08:13,753] INFO - ****************************************
+[2016-11-25 18:08:13,754] INFO - 
+[2016-11-25 18:08:13,754] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 18:08:13,755] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 18:08:13,755] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 18:08:28,891] INFO - 
+[2016-11-25 18:08:28,891] INFO - # FIM - CONSUMINDO MENSAGEM
+[2016-11-25 18:08:28,891] INFO - 
+[2016-11-25 18:08:28,891] INFO - ****************************************
+[2016-11-25 18:08:28,891] INFO - ****************************************
+[2016-11-25 18:08:28,891] INFO - # FIM DO PROCESSAMENTO
+[2016-11-25 18:08:28,891] INFO - 
+[2016-11-25 18:08:28,891] INFO - 
+[2016-11-25 18:10:01,321] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 18:10:01,328] INFO - ****************************************
+[2016-11-25 18:10:01,328] INFO - ****************************************
+[2016-11-25 18:10:01,329] INFO - 
+[2016-11-25 18:10:01,329] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 18:10:01,329] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 18:10:01,330] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 18:11:18,337] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 18:11:18,346] INFO - ****************************************
+[2016-11-25 18:11:18,346] INFO - ****************************************
+[2016-11-25 18:11:18,347] INFO - 
+[2016-11-25 18:11:18,347] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 18:11:18,347] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 18:11:18,348] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 18:11:52,432] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 18:11:52,439] INFO - ****************************************
+[2016-11-25 18:11:52,440] INFO - ****************************************
+[2016-11-25 18:11:52,440] INFO - 
+[2016-11-25 18:11:52,440] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 18:11:52,441] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 18:11:52,441] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 18:12:43,401] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 18:12:43,409] INFO - ****************************************
+[2016-11-25 18:12:43,410] INFO - ****************************************
+[2016-11-25 18:12:43,411] INFO - 
+[2016-11-25 18:12:43,411] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 18:12:43,411] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 18:12:43,412] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 18:15:04,566] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 18:15:04,573] INFO - ****************************************
+[2016-11-25 18:15:04,574] INFO - ****************************************
+[2016-11-25 18:15:04,575] INFO - 
+[2016-11-25 18:15:04,575] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 18:15:04,576] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 18:15:04,576] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 18:16:52,658] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 18:16:52,665] INFO - ****************************************
+[2016-11-25 18:16:52,666] INFO - ****************************************
+[2016-11-25 18:16:52,666] INFO - 
+[2016-11-25 18:16:52,667] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 18:16:52,667] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 18:16:52,667] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 18:17:46,379] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 18:17:46,387] INFO - ****************************************
+[2016-11-25 18:17:46,387] INFO - ****************************************
+[2016-11-25 18:17:46,388] INFO - 
+[2016-11-25 18:17:46,388] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 18:17:46,389] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 18:17:46,389] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 18:19:15,510] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 18:19:15,520] INFO - ****************************************
+[2016-11-25 18:19:15,521] INFO - ****************************************
+[2016-11-25 18:19:15,522] INFO - 
+[2016-11-25 18:19:15,523] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 18:19:15,523] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 18:19:15,524] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 18:22:54,568] INFO - # INICIO DO PROCESSAMENTO
+[2016-11-25 18:22:54,574] INFO - ****************************************
+[2016-11-25 18:22:54,575] INFO - ****************************************
+[2016-11-25 18:22:54,575] INFO - 
+[2016-11-25 18:22:54,576] INFO - # INÍCIO - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 18:22:54,576] INFO - # FIM - RECUPERANDO CONFIGURAÇÕES DE FILA
+[2016-11-25 18:22:54,576] INFO - # INÍCIO - CONSUMINDO MENSAGEM
+[2016-11-25 18:23:05,851] INFO - 
+[2016-11-25 18:23:05,851] INFO - # FIM - CONSUMINDO MENSAGEM
+[2016-11-25 18:23:05,852] INFO - 
+[2016-11-25 18:23:05,852] INFO - ****************************************
+[2016-11-25 18:23:05,852] INFO - ****************************************
+[2016-11-25 18:23:05,853] INFO - # FIM DO PROCESSAMENTO
+[2016-11-25 18:23:05,853] INFO - 
+[2016-11-25 18:23:05,854] INFO - 

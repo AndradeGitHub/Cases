@@ -1,0 +1,7 @@
+C:\WorkspaceBR\CentralPublisher\Develop\Domain\audatex.br.centralpublisher.domain.model\bin\Debug\audatex.br.centralpublisher.domain.model.dll
+C:\WorkspaceBR\CentralPublisher\Develop\Domain\audatex.br.centralpublisher.domain.model\bin\Debug\audatex.br.centralpublisher.domain.model.pdb
+C:\WorkspaceBR\CentralPublisher\Develop\Domain\audatex.br.centralpublisher.domain.model\bin\Debug\EntityFramework.dll
+C:\WorkspaceBR\CentralPublisher\Develop\Domain\audatex.br.centralpublisher.domain.model\bin\Debug\EntityFramework.xml
+C:\WorkspaceBR\CentralPublisher\Develop\Domain\audatex.br.centralpublisher.domain.model\obj\Debug\audatex.br.centralpublisher.domain.model.csprojResolveAssemblyReference.cache
+C:\WorkspaceBR\CentralPublisher\Develop\Domain\audatex.br.centralpublisher.domain.model\obj\Debug\audatex.br.centralpublisher.domain.model.dll
+C:\WorkspaceBR\CentralPublisher\Develop\Domain\audatex.br.centralpublisher.domain.model\obj\Debug\audatex.br.centralpublisher.domain.model.pdb

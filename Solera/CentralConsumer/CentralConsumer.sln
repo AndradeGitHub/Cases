@@ -1,0 +1,252 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{FC5A85E7-083E-4E52-94AE-687DF3568656}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{924CA3BC-56C0-46DE-937E-BEF3220C3906}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{17066D14-EB8C-4F69-9849-6481B111D8BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{61E184E4-A5F2-4CA0-9693-5537D8DB4B43}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8217CD4F-E6C4-4508-8AA5-C81041640DA0}"
+	ProjectSection(SolutionItems) = preProject
+		AxPedidoWS.vsmdi = AxPedidoWS.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "audatex.br.centralconsumer.application", "Application\audatex.br.centralconsumer.application\audatex.br.centralconsumer.application.csproj", "{CE292CA2-059F-4DA2-B265-1BA4A094D84E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "audatex.br.centralconsumer.domain", "Domain\audatex.br.centralconsumer.domain\audatex.br.centralconsumer.domain.csproj", "{E00EB5C2-4FB5-4D48-B816-44DC35BC9BA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "audatex.br.centralconsumer.domain.map", "Domain\audatex.br.centralconsumer.domain.map\audatex.br.centralconsumer.domain.map.csproj", "{8EE20BDE-F0B6-4D03-BE7C-7D239BD09172}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "audatex.br.centralconsumer.domain.model", "Domain\audatex.br.centralconsumer.domain.model\audatex.br.centralconsumer.domain.model.csproj", "{5D577355-4EA8-4B95-9C2D-7DA802372983}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "audatex.br.centralconsumer.infrastructure", "Infrastructure\audatex.br.centralconsumer.infrastructure\audatex.br.centralconsumer.infrastructure.csproj", "{73C64F44-C5EB-4EE6-AD97-854C8A204340}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "audatex.br.centralconsumer.domain.Tests", "Test\audatex.br.centralconsumer.domain.Tests\audatex.br.centralconsumer.domain.Tests.csproj", "{52E434BA-47A1-40E0-8322-E3BC71B22081}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "audatex.br.centralconsumer.domain.repository", "Domain\audatex.br.centralconsumer.domain.repository\audatex.br.centralconsumer.domain.repository.csproj", "{CF7DFED5-2D2C-41C6-9A52-143F8726520F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "audatex.br.centralconsumer.domain.repository.Tests", "Test\audatex.br.centralconsumer.domain.repository.Tests\audatex.br.centralconsumer.domain.repository.Tests.csproj", "{DA75EF51-A624-447A-97EE-AAAFFEAA376F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataBase", "DataBase", "{15E82EC3-F88A-4FA6-AB8A-A0566968776C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DDL", "DDL", "{8DB805FA-492E-41F4-80B2-AE3B5F445501}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DML", "DML", "{130929DE-4026-43CB-A271-289EBECD9E58}"
+	ProjectSection(SolutionItems) = preProject
+		DataBase\Insert Queues.sql = DataBase\Insert Queues.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interface", "Interface", "{F2E40BF3-FBBD-4A07-B752-5ECEC8A23740}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Console", "Console", "{FB8E10C5-F82C-4A4C-ACD3-F32D1DD99218}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WindowsService", "WindowsService", "{ECCAD0E4-A3F0-4019-B8AD-40A4D2CFF217}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "audatex.br.centralconsumer.ws", "Interface\WindowsService\audatex.br.centralconsumer.ws\audatex.br.centralconsumer.ws.csproj", "{DD20D32B-2AA0-439D-A44B-CCF80F6D5321}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "References", "References", "{E615F9F7-BDB4-40A0-8BDB-93137FA7424D}"
+	ProjectSection(SolutionItems) = preProject
+		References\AxFornecimento.dll = References\AxFornecimento.dll
+		References\AxFornecimento.exp = References\AxFornecimento.exp
+		References\AxFornecimento.lib = References\AxFornecimento.lib
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "audatex.br.centralconsumer.console", "Interface\Console\audatex.br.centralconsumer.console\audatex.br.centralconsumer.console.csproj", "{DFDD0095-6B2F-4253-BD81-DFD55E51F486}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE292CA2-059F-4DA2-B265-1BA4A094D84E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE292CA2-059F-4DA2-B265-1BA4A094D84E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE292CA2-059F-4DA2-B265-1BA4A094D84E}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{CE292CA2-059F-4DA2-B265-1BA4A094D84E}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{CE292CA2-059F-4DA2-B265-1BA4A094D84E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CE292CA2-059F-4DA2-B265-1BA4A094D84E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE292CA2-059F-4DA2-B265-1BA4A094D84E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE292CA2-059F-4DA2-B265-1BA4A094D84E}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{CE292CA2-059F-4DA2-B265-1BA4A094D84E}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{CE292CA2-059F-4DA2-B265-1BA4A094D84E}.Release|x86.ActiveCfg = Release|Any CPU
+		{E00EB5C2-4FB5-4D48-B816-44DC35BC9BA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E00EB5C2-4FB5-4D48-B816-44DC35BC9BA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E00EB5C2-4FB5-4D48-B816-44DC35BC9BA2}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{E00EB5C2-4FB5-4D48-B816-44DC35BC9BA2}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{E00EB5C2-4FB5-4D48-B816-44DC35BC9BA2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E00EB5C2-4FB5-4D48-B816-44DC35BC9BA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E00EB5C2-4FB5-4D48-B816-44DC35BC9BA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E00EB5C2-4FB5-4D48-B816-44DC35BC9BA2}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{E00EB5C2-4FB5-4D48-B816-44DC35BC9BA2}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{E00EB5C2-4FB5-4D48-B816-44DC35BC9BA2}.Release|x86.ActiveCfg = Release|Any CPU
+		{8EE20BDE-F0B6-4D03-BE7C-7D239BD09172}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EE20BDE-F0B6-4D03-BE7C-7D239BD09172}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EE20BDE-F0B6-4D03-BE7C-7D239BD09172}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{8EE20BDE-F0B6-4D03-BE7C-7D239BD09172}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{8EE20BDE-F0B6-4D03-BE7C-7D239BD09172}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8EE20BDE-F0B6-4D03-BE7C-7D239BD09172}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EE20BDE-F0B6-4D03-BE7C-7D239BD09172}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EE20BDE-F0B6-4D03-BE7C-7D239BD09172}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{8EE20BDE-F0B6-4D03-BE7C-7D239BD09172}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{8EE20BDE-F0B6-4D03-BE7C-7D239BD09172}.Release|x86.ActiveCfg = Release|Any CPU
+		{5D577355-4EA8-4B95-9C2D-7DA802372983}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D577355-4EA8-4B95-9C2D-7DA802372983}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D577355-4EA8-4B95-9C2D-7DA802372983}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{5D577355-4EA8-4B95-9C2D-7DA802372983}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{5D577355-4EA8-4B95-9C2D-7DA802372983}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5D577355-4EA8-4B95-9C2D-7DA802372983}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D577355-4EA8-4B95-9C2D-7DA802372983}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D577355-4EA8-4B95-9C2D-7DA802372983}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{5D577355-4EA8-4B95-9C2D-7DA802372983}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{5D577355-4EA8-4B95-9C2D-7DA802372983}.Release|x86.ActiveCfg = Release|Any CPU
+		{73C64F44-C5EB-4EE6-AD97-854C8A204340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73C64F44-C5EB-4EE6-AD97-854C8A204340}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73C64F44-C5EB-4EE6-AD97-854C8A204340}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{73C64F44-C5EB-4EE6-AD97-854C8A204340}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{73C64F44-C5EB-4EE6-AD97-854C8A204340}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{73C64F44-C5EB-4EE6-AD97-854C8A204340}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73C64F44-C5EB-4EE6-AD97-854C8A204340}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73C64F44-C5EB-4EE6-AD97-854C8A204340}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{73C64F44-C5EB-4EE6-AD97-854C8A204340}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{73C64F44-C5EB-4EE6-AD97-854C8A204340}.Release|x86.ActiveCfg = Release|Any CPU
+		{52E434BA-47A1-40E0-8322-E3BC71B22081}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52E434BA-47A1-40E0-8322-E3BC71B22081}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52E434BA-47A1-40E0-8322-E3BC71B22081}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{52E434BA-47A1-40E0-8322-E3BC71B22081}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{52E434BA-47A1-40E0-8322-E3BC71B22081}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{52E434BA-47A1-40E0-8322-E3BC71B22081}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52E434BA-47A1-40E0-8322-E3BC71B22081}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52E434BA-47A1-40E0-8322-E3BC71B22081}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{52E434BA-47A1-40E0-8322-E3BC71B22081}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{52E434BA-47A1-40E0-8322-E3BC71B22081}.Release|x86.ActiveCfg = Release|Any CPU
+		{CF7DFED5-2D2C-41C6-9A52-143F8726520F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF7DFED5-2D2C-41C6-9A52-143F8726520F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF7DFED5-2D2C-41C6-9A52-143F8726520F}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{CF7DFED5-2D2C-41C6-9A52-143F8726520F}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{CF7DFED5-2D2C-41C6-9A52-143F8726520F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CF7DFED5-2D2C-41C6-9A52-143F8726520F}.Debug|x86.Build.0 = Debug|Any CPU
+		{CF7DFED5-2D2C-41C6-9A52-143F8726520F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF7DFED5-2D2C-41C6-9A52-143F8726520F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF7DFED5-2D2C-41C6-9A52-143F8726520F}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{CF7DFED5-2D2C-41C6-9A52-143F8726520F}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{CF7DFED5-2D2C-41C6-9A52-143F8726520F}.Release|x86.ActiveCfg = Release|Any CPU
+		{CF7DFED5-2D2C-41C6-9A52-143F8726520F}.Release|x86.Build.0 = Release|Any CPU
+		{DA75EF51-A624-447A-97EE-AAAFFEAA376F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA75EF51-A624-447A-97EE-AAAFFEAA376F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA75EF51-A624-447A-97EE-AAAFFEAA376F}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{DA75EF51-A624-447A-97EE-AAAFFEAA376F}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{DA75EF51-A624-447A-97EE-AAAFFEAA376F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DA75EF51-A624-447A-97EE-AAAFFEAA376F}.Debug|x86.Build.0 = Debug|Any CPU
+		{DA75EF51-A624-447A-97EE-AAAFFEAA376F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA75EF51-A624-447A-97EE-AAAFFEAA376F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA75EF51-A624-447A-97EE-AAAFFEAA376F}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{DA75EF51-A624-447A-97EE-AAAFFEAA376F}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{DA75EF51-A624-447A-97EE-AAAFFEAA376F}.Release|x86.ActiveCfg = Release|Any CPU
+		{DA75EF51-A624-447A-97EE-AAAFFEAA376F}.Release|x86.Build.0 = Release|Any CPU
+		{DD20D32B-2AA0-439D-A44B-CCF80F6D5321}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD20D32B-2AA0-439D-A44B-CCF80F6D5321}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD20D32B-2AA0-439D-A44B-CCF80F6D5321}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{DD20D32B-2AA0-439D-A44B-CCF80F6D5321}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{DD20D32B-2AA0-439D-A44B-CCF80F6D5321}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DD20D32B-2AA0-439D-A44B-CCF80F6D5321}.Debug|x86.Build.0 = Debug|Any CPU
+		{DD20D32B-2AA0-439D-A44B-CCF80F6D5321}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD20D32B-2AA0-439D-A44B-CCF80F6D5321}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD20D32B-2AA0-439D-A44B-CCF80F6D5321}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{DD20D32B-2AA0-439D-A44B-CCF80F6D5321}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{DD20D32B-2AA0-439D-A44B-CCF80F6D5321}.Release|x86.ActiveCfg = Release|Any CPU
+		{DD20D32B-2AA0-439D-A44B-CCF80F6D5321}.Release|x86.Build.0 = Release|Any CPU
+		{DFDD0095-6B2F-4253-BD81-DFD55E51F486}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{DFDD0095-6B2F-4253-BD81-DFD55E51F486}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{DFDD0095-6B2F-4253-BD81-DFD55E51F486}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{DFDD0095-6B2F-4253-BD81-DFD55E51F486}.Debug|x86.ActiveCfg = Debug|x86
+		{DFDD0095-6B2F-4253-BD81-DFD55E51F486}.Debug|x86.Build.0 = Debug|x86
+		{DFDD0095-6B2F-4253-BD81-DFD55E51F486}.Release|Any CPU.ActiveCfg = Release|x86
+		{DFDD0095-6B2F-4253-BD81-DFD55E51F486}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{DFDD0095-6B2F-4253-BD81-DFD55E51F486}.Release|Mixed Platforms.Build.0 = Release|x86
+		{DFDD0095-6B2F-4253-BD81-DFD55E51F486}.Release|x86.ActiveCfg = Release|x86
+		{DFDD0095-6B2F-4253-BD81-DFD55E51F486}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8217CD4F-E6C4-4508-8AA5-C81041640DA0} = {FC5A85E7-083E-4E52-94AE-687DF3568656}
+		{CE292CA2-059F-4DA2-B265-1BA4A094D84E} = {61E184E4-A5F2-4CA0-9693-5537D8DB4B43}
+		{E00EB5C2-4FB5-4D48-B816-44DC35BC9BA2} = {17066D14-EB8C-4F69-9849-6481B111D8BE}
+		{8EE20BDE-F0B6-4D03-BE7C-7D239BD09172} = {17066D14-EB8C-4F69-9849-6481B111D8BE}
+		{5D577355-4EA8-4B95-9C2D-7DA802372983} = {17066D14-EB8C-4F69-9849-6481B111D8BE}
+		{73C64F44-C5EB-4EE6-AD97-854C8A204340} = {924CA3BC-56C0-46DE-937E-BEF3220C3906}
+		{52E434BA-47A1-40E0-8322-E3BC71B22081} = {FC5A85E7-083E-4E52-94AE-687DF3568656}
+		{CF7DFED5-2D2C-41C6-9A52-143F8726520F} = {17066D14-EB8C-4F69-9849-6481B111D8BE}
+		{DA75EF51-A624-447A-97EE-AAAFFEAA376F} = {FC5A85E7-083E-4E52-94AE-687DF3568656}
+		{8DB805FA-492E-41F4-80B2-AE3B5F445501} = {15E82EC3-F88A-4FA6-AB8A-A0566968776C}
+		{130929DE-4026-43CB-A271-289EBECD9E58} = {15E82EC3-F88A-4FA6-AB8A-A0566968776C}
+		{FB8E10C5-F82C-4A4C-ACD3-F32D1DD99218} = {F2E40BF3-FBBD-4A07-B752-5ECEC8A23740}
+		{ECCAD0E4-A3F0-4019-B8AD-40A4D2CFF217} = {F2E40BF3-FBBD-4A07-B752-5ECEC8A23740}
+		{DD20D32B-2AA0-439D-A44B-CCF80F6D5321} = {ECCAD0E4-A3F0-4019-B8AD-40A4D2CFF217}
+		{DFDD0095-6B2F-4253-BD81-DFD55E51F486} = {FB8E10C5-F82C-4A4C-ACD3-F32D1DD99218}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 11
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://axbrtfs:8080/tfs/axbf
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Application\\audatex.br.centralconsumer.application\\audatex.br.centralconsumer.application.csproj
+		SccProjectTopLevelParentUniqueName1 = CentralConsumer.sln
+		SccProjectName1 = Application/audatex.br.centralconsumer.application
+		SccLocalPath1 = Application\\audatex.br.centralconsumer.application
+		SccProjectUniqueName2 = Domain\\audatex.br.centralconsumer.domain\\audatex.br.centralconsumer.domain.csproj
+		SccProjectTopLevelParentUniqueName2 = CentralConsumer.sln
+		SccProjectName2 = Domain/audatex.br.centralconsumer.domain
+		SccLocalPath2 = Domain\\audatex.br.centralconsumer.domain
+		SccProjectUniqueName3 = Domain\\audatex.br.centralconsumer.domain.map\\audatex.br.centralconsumer.domain.map.csproj
+		SccProjectTopLevelParentUniqueName3 = CentralConsumer.sln
+		SccProjectName3 = Domain/audatex.br.centralconsumer.domain.map
+		SccLocalPath3 = Domain\\audatex.br.centralconsumer.domain.map
+		SccProjectUniqueName4 = Domain\\audatex.br.centralconsumer.domain.model\\audatex.br.centralconsumer.domain.model.csproj
+		SccProjectTopLevelParentUniqueName4 = CentralConsumer.sln
+		SccProjectName4 = Domain/audatex.br.centralconsumer.domain.model
+		SccLocalPath4 = Domain\\audatex.br.centralconsumer.domain.model
+		SccProjectUniqueName5 = Infrastructure\\audatex.br.centralconsumer.infrastructure\\audatex.br.centralconsumer.infrastructure.csproj
+		SccProjectTopLevelParentUniqueName5 = CentralConsumer.sln
+		SccProjectName5 = Infrastructure/audatex.br.centralconsumer.infrastructure
+		SccLocalPath5 = Infrastructure\\audatex.br.centralconsumer.infrastructure
+		SccProjectUniqueName6 = Test\\audatex.br.centralconsumer.domain.Tests\\audatex.br.centralconsumer.domain.Tests.csproj
+		SccProjectTopLevelParentUniqueName6 = CentralConsumer.sln
+		SccProjectName6 = Test/audatex.br.centralconsumer.domain.Tests
+		SccLocalPath6 = Test\\audatex.br.centralconsumer.domain.Tests
+		SccProjectUniqueName7 = Domain\\audatex.br.centralconsumer.domain.repository\\audatex.br.centralconsumer.domain.repository.csproj
+		SccProjectTopLevelParentUniqueName7 = CentralConsumer.sln
+		SccProjectName7 = Domain/audatex.br.centralconsumer.domain.repository
+		SccLocalPath7 = Domain\\audatex.br.centralconsumer.domain.repository
+		SccProjectUniqueName8 = Test\\audatex.br.centralconsumer.domain.repository.Tests\\audatex.br.centralconsumer.domain.repository.Tests.csproj
+		SccProjectTopLevelParentUniqueName8 = CentralConsumer.sln
+		SccProjectName8 = Test/audatex.br.centralconsumer.domain.repository.Tests
+		SccLocalPath8 = Test\\audatex.br.centralconsumer.domain.repository.Tests
+		SccProjectUniqueName9 = Interface\\WindowsService\\audatex.br.centralconsumer.ws\\audatex.br.centralconsumer.ws.csproj
+		SccProjectTopLevelParentUniqueName9 = CentralConsumer.sln
+		SccProjectName9 = Interface/WindowsService/audatex.br.centralconsumer.ws
+		SccLocalPath9 = Interface\\WindowsService\\audatex.br.centralconsumer.ws
+		SccProjectUniqueName10 = Interface\\Console\\audatex.br.centralconsumer.console\\audatex.br.centralconsumer.console.csproj
+		SccProjectTopLevelParentUniqueName10 = CentralConsumer.sln
+		SccProjectName10 = Interface/Console/audatex.br.centralconsumer.console
+		SccLocalPath10 = Interface\\Console\\audatex.br.centralconsumer.console
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = AxPedidoWS.vsmdi
+	EndGlobalSection
+EndGlobal

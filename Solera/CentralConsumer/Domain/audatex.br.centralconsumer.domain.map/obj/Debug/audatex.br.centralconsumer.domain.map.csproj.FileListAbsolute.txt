@@ -1,0 +1,5 @@
+C:\WorkspaceBR\CentralConsumer\Develop\Domain\audatex.br.centralconsumer.domain.map\bin\Debug\audatex.br.centralconsumer.domain.map.dll
+C:\WorkspaceBR\CentralConsumer\Develop\Domain\audatex.br.centralconsumer.domain.map\bin\Debug\audatex.br.centralconsumer.domain.map.pdb
+C:\WorkspaceBR\CentralConsumer\Develop\Domain\audatex.br.centralconsumer.domain.map\obj\Debug\audatex.br.centralconsumer.domain.map.csprojResolveAssemblyReference.cache
+C:\WorkspaceBR\CentralConsumer\Develop\Domain\audatex.br.centralconsumer.domain.map\obj\Debug\audatex.br.centralconsumer.domain.map.dll
+C:\WorkspaceBR\CentralConsumer\Develop\Domain\audatex.br.centralconsumer.domain.map\obj\Debug\audatex.br.centralconsumer.domain.map.pdb

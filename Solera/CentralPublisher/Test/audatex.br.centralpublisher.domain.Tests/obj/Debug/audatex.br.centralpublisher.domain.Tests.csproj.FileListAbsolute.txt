@@ -1,0 +1,5 @@
+C:\WorkspaceBR\CentralPublisher\Develop\Test\audatex.br.centralpublisher.domain.Tests\bin\Debug\audatex.br.centralpublisher.domain.Tests.dll
+C:\WorkspaceBR\CentralPublisher\Develop\Test\audatex.br.centralpublisher.domain.Tests\bin\Debug\audatex.br.centralpublisher.domain.Tests.pdb
+C:\WorkspaceBR\CentralPublisher\Develop\Test\audatex.br.centralpublisher.domain.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\WorkspaceBR\CentralPublisher\Develop\Test\audatex.br.centralpublisher.domain.Tests\obj\Debug\audatex.br.centralpublisher.domain.Tests.dll
+C:\WorkspaceBR\CentralPublisher\Develop\Test\audatex.br.centralpublisher.domain.Tests\obj\Debug\audatex.br.centralpublisher.domain.Tests.pdb

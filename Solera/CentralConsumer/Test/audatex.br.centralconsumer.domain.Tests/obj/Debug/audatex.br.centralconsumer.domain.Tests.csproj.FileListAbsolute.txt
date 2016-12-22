@@ -1,0 +1,6 @@
+C:\WorkspaceBR\CentralConsumer\Develop\Test\audatex.br.centralconsumer.domain.Tests\bin\Debug\audatex.br.centralconsumer.domain.Tests.dll
+C:\WorkspaceBR\CentralConsumer\Develop\Test\audatex.br.centralconsumer.domain.Tests\bin\Debug\audatex.br.centralconsumer.domain.Tests.pdb
+C:\WorkspaceBR\CentralConsumer\Develop\Test\audatex.br.centralconsumer.domain.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\WorkspaceBR\CentralConsumer\Develop\Test\audatex.br.centralconsumer.domain.Tests\obj\Debug\audatex.br.centralconsumer.domain.Tests.csprojResolveAssemblyReference.cache
+C:\WorkspaceBR\CentralConsumer\Develop\Test\audatex.br.centralconsumer.domain.Tests\obj\Debug\audatex.br.centralconsumer.domain.Tests.dll
+C:\WorkspaceBR\CentralConsumer\Develop\Test\audatex.br.centralconsumer.domain.Tests\obj\Debug\audatex.br.centralconsumer.domain.Tests.pdb

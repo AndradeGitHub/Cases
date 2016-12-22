@@ -1,0 +1,7 @@
+C:\WorkspaceBR\CentralConsumer\Develop\Domain\audatex.br.centralconsumer.domain.model\bin\Debug\audatex.br.centralconsumer.domain.model.dll
+C:\WorkspaceBR\CentralConsumer\Develop\Domain\audatex.br.centralconsumer.domain.model\bin\Debug\audatex.br.centralconsumer.domain.model.pdb
+C:\WorkspaceBR\CentralConsumer\Develop\Domain\audatex.br.centralconsumer.domain.model\bin\Debug\EntityFramework.dll
+C:\WorkspaceBR\CentralConsumer\Develop\Domain\audatex.br.centralconsumer.domain.model\bin\Debug\EntityFramework.xml
+C:\WorkspaceBR\CentralConsumer\Develop\Domain\audatex.br.centralconsumer.domain.model\obj\Debug\audatex.br.centralconsumer.domain.model.csprojResolveAssemblyReference.cache
+C:\WorkspaceBR\CentralConsumer\Develop\Domain\audatex.br.centralconsumer.domain.model\obj\Debug\audatex.br.centralconsumer.domain.model.dll
+C:\WorkspaceBR\CentralConsumer\Develop\Domain\audatex.br.centralconsumer.domain.model\obj\Debug\audatex.br.centralconsumer.domain.model.pdb
