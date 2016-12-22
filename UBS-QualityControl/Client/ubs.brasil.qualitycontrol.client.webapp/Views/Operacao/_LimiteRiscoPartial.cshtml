@@ -1,0 +1,167 @@
+﻿@model List<ubs.brasil.qualitycontrol.comum.entidade.LimitePerfilRisco>
+   
+@if (Model != null && Model.Count > 0)
+{
+    if (string.IsNullOrEmpty(Model[0].Msg))
+    {
+        string label = string.Empty;
+
+        if (Model[0].Acao.ToUpper().Equals("DIARIO"))
+        {
+            label = "Diária";
+        }
+        if (Model[0].Acao.ToUpper().Equals("MENSAL"))
+        {
+            label = "Mensal";
+        }
+        if (Model[0].Acao.ToUpper().Equals("EXCECAO"))
+        {
+            label = "Diária";
+        }     
+        
+        <table class="tableGridTopo">           
+            <tr class="trGridTopo">
+                <td class="tdGridTopo" style="width: 195px;">Perfil de Risco da Carteira</td>
+                <td class="tdGridTopo" style="width: 287px; padding: 0;" colspan="2">
+                    <table width="100%">
+                        <tr>
+                            <td class="tdGridTopo" style="width: 287px; text-align:center; border: 0;" colspan="2">Valorização Patrimonial @label (%)</td>
+                        </tr>
+                        <tr> 
+                            <td class="tdGridTopo" style="width: 144px; text-align:center; border: 0; padding-top: 10px; padding-bottom: 10px;">Inicial</td>
+                            <td class="tdGridTopo" style="width: 143px; text-align:center; border: 0; padding-top: 10px; padding-bottom: 10px;">Final</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="tdGridTopo" style="width: 287px; padding: 0;" colspan="2">
+                    <table width="100%">
+                        <tr>
+                            <td class="tdGridTopo" style="text-align:center; border: 0;" colspan="2">Valorização @label da Cota(%)</td>
+                        </tr>
+                        <tr>
+                            <td class="tdGridTopo" style="width: 144px; text-align:center; border: 0; padding-top: 10px; padding-bottom: 10px;">Inicial</td>
+                            <td class="tdGridTopo" style="width: 143px; text-align:center; border: 0; padding-top: 10px; padding-bottom: 10px;">Final</td>
+                        </tr>
+                    </table>        
+                </td>
+                <td class="tdGridTopo" style="width: 191px; padding: 0;" colspan="2">
+                    <table width="100%">
+                        @if (!Model[0].Acao.ToUpper().Equals("EXCECAO"))
+                        {
+                            <tr>
+                                <td class="tdGridTopo" style="width: 191px; border: 0; text-align:center;" colspan="2">Período</td>
+                            </tr>
+                            <tr>
+                                <td class="tdGridTopo" style="width: 96px; border: 0; text-align:center; padding-top: 10px; padding-bottom: 10px;">Inicial</td>                        
+                                <td class="tdGridTopo" style="width: 95px; border: 0; text-align:center; padding-top: 10px; padding-bottom: 10px;">Final</td>                       
+                            </tr>
+                        }
+                        else if (Model[0].Acao.ToUpper().Equals("EXCECAO"))
+                        {
+                            <tr>   
+                                <td class="tdGridTopo" style="width: 191px; border: 0; text-align:center;">Data</td>   
+                            </tr>
+                        }                      
+                    </table>          
+                </td>
+            </tr>       
+        </table>        
+        
+        string backColor = "#f5f4f4";
+
+        string controller = string.Empty;
+        string src = string.Empty;
+        string formatoData = string.Empty;
+        if (Model[0].Acao.ToUpper().Equals("DIARIO"))
+        {
+            controller = "LimiteDiario";
+            src = "LimiteDiarioOperacao";
+            formatoData = "dd/MM/yyyy";
+        }
+        if (Model[0].Acao.ToUpper().Equals("MENSAL"))
+        {
+            controller = "LimiteMensal";
+            src = "LimiteMensalOperacao";
+            formatoData = "MM/yyyy";
+        }
+        if (Model[0].Acao.ToUpper().Equals("EXCECAO"))
+        {
+            controller = "LimiteExcecao";
+            src = "LimiteExcecaoOperacao";
+            formatoData = "dd/MM/yyyy";
+        }
+
+        <div class="divGrid">
+            <table class="tableGrid">                 
+                @for (int i = 0; i < Model.Count; i++)
+                {
+                    if (backColor.Equals("#f5f4f4"))
+                    {
+                        backColor = "#ffffff";
+                    }
+                    else
+                    {
+                        backColor = "#f5f4f4";
+                    }
+
+                    double? vlrLimiteMin = null;
+                    double? vlrLimiteMax = null;
+                    string codLimitePerfilRiscoHidden = string.Empty;
+                    bool proxCount = false;
+
+                    int j = i + 1;
+
+                    if (@Model.Count > j)
+                    {
+                        if (Model[i].codPerfilRisco == Model[j].codPerfilRisco && Model[i].dtIniVigencia == Model[j].dtIniVigencia)
+                        {
+                            vlrLimiteMin = Model[j].vlrLimiteMin;
+                            vlrLimiteMax = Model[j].vlrLimiteMax;
+
+                            codLimitePerfilRiscoHidden = string.Concat(Model[i].codLimitePerfilRisco.ToString(), "/", Model[j].codLimitePerfilRisco.ToString());
+
+                            proxCount = true;
+                        }
+                    }
+                    else
+                    {
+                        codLimitePerfilRiscoHidden = Model[i].codLimitePerfilRisco.ToString();
+
+                        proxCount = false;
+                    }    
+                                 
+                    <tr class="trGrid" style="background-color: @backColor" 
+                        onmouseover="style.backgroundColor='#e5f4fa'; style.cursor='hand';" 
+                        onmouseout="style.backgroundColor='@backColor';" 
+                        onclick="location.href='@Url.Action(src, controller, new { codLimitePerfilRisco = codLimitePerfilRiscoHidden, dtIniVigencia = @Model[i].dtIniVigencia.ToString(formatoData), dtFimVigencia = @Model[i].dtFimVigencia.ToString(formatoData) })'">
+                        <td class="tdGrid" style="width:177px;">@Model[i].codPerfilRisco</td>            
+                        <td class="tdGrid" style="width:122px; text-align:center;">@Model[i].vlrLimiteMin.ToString().Replace(",", ".")</td>
+                        <td class="tdGrid" style="width:123px; text-align:center;">@Model[i].vlrLimiteMax.ToString().Replace(",", ".")</td>               
+                        <td class="tdGrid" style="width:122px; text-align:center;">@vlrLimiteMin.ToString().Replace(",", ".")</td>               
+                        <td class="tdGrid" style="width:123px; text-align:center;">@vlrLimiteMax.ToString().Replace(",", ".")</td>                                                    
+                        @if (!Model[0].Acao.ToUpper().Equals("EXCECAO"))
+                        {
+                            <td class="tdGrid" style="width:80px; text-align:center;">@Model[i].dtIniVigencia.ToString(formatoData)</td>  
+                            <td class="tdGrid" style="width:80px; text-align:center;">@Model[i].dtFimVigencia.ToString(formatoData)</td>
+                        }
+                        else
+                        {
+                            <td class="tdGrid" style="width:166px; text-align:center;">@Model[i].dtFimVigencia.ToString(formatoData)</td>    
+                        }
+                    </tr> 
+                    
+                        if (proxCount)
+                        {
+                            i++;
+                        }
+                }
+            </table>
+        </div>           
+    }
+    else
+    {
+        <script type="text/javascript">
+            document.getElementById("msgHidden").value = "@Model[0].Msg";            
+        </script>            
+    }     
+}

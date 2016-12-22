@@ -1,0 +1,9 @@
+﻿@model List<ubs.brasil.qualitycontrol.comum.entidade.PerfilDeRisco>
+   
+<select id="cboPerfilRisco" name="cboPerfilRisco">
+    <option value="">Selecione...</option>     
+    @foreach (ubs.brasil.qualitycontrol.comum.entidade.PerfilDeRisco perfilRisco in Model)
+    {       
+        <option value="@perfilRisco.codPerfilRisco">@perfilRisco.nomePerfilRisco</option>     
+    }   
+</select>       

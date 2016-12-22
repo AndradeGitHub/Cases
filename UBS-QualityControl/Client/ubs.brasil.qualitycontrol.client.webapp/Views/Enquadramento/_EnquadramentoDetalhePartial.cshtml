@@ -1,0 +1,112 @@
+﻿@model List<ubs.brasil.qualitycontrol.comum.entidade.Enquadramento>   
+
+@using ubs.brasil.qualitycontrol.comum.globals 
+
+<script src="../Scripts/jquery-1.10.1.js"></script>
+<script src="../Scripts/jquery.action.js"></script>
+
+<title>Detalhe da Inconsistência</title> 
+
+@if (Model != null && Model.Count > 0)
+{
+    string perfilUsuario = HttpContext.Current.User.Identity.Name.Split('|')[2];
+            
+    bool btnLiberar = false;
+
+    using (Html.BeginForm("",
+            "",
+            FormMethod.Post,
+            new
+            {
+                target = "",
+                name = "formEnquadramentoLiberar",
+                id = "formEnquadramentoLiberar"
+            })
+            )
+    {
+                                         
+        <input type="hidden" name="hdnCodProcessamento" id="hdnCodProcessamento" value="@Model[0].codProcessamento"/>
+        <input type="hidden" name="hdnCodCarteira" id="hdnCodCarteira" value="@Model[0].codCarteira"/>
+        <input type="hidden" name="hdnLiberar" id="hdnLiberar" value=""/>               
+    
+        <input type="hidden" name="dtResultado" id="dtResultado" value="@Model[0].dtResultado.ToString("dd/MM/yyyy")"/>
+        <input type="hidden" name="inDiarioMensal" id="inDiarioMensal" value="@Model[0].inDiarioMensal"/>
+        <input type="hidden" name="acao" id="acao" value="Pesquisar"/>
+                   
+        <table class="tableGridTopo" style="width: 800px;">
+            <tr class="trGridTopo">
+                <td class="tdGridTopo" style="background-color: Gray; color: White; font-size: 0.70em;">Carteira: @Model[0].codCarteira</td>
+            </tr>  
+        </table>
+
+        <div style="height: 213px; overflow-x: hidden; overflow-y: scroll; border-top-style: hidden;">
+            <table class="tableGrid" style="width: 783px; border-top-style: hidden;"> 
+                @foreach (ubs.brasil.qualitycontrol.comum.entidade.Enquadramento enquadramento in Model)
+                {
+                    string[] dsCausaInconsistencia = enquadramento.dsCausaInconsistencia.Split('|');
+
+                    <tr class="trGridTopo" style="height:20px;">                                
+                        <td class="tdGridTopo" style="font-size: 0.70em;">@enquadramento.nomeTipoFiltro</td> 
+                        @if (
+                                perfilUsuario.ToUpper().Equals(TipoUsuario.Aprovador) ||
+                                (perfilUsuario.ToUpper().Equals(TipoUsuario.Operacional) && !enquadramento.codTipoFiltroPai.Equals(1))
+                            )
+                        {
+                            if (enquadramento.inLiberado == null || !enquadramento.inLiberado.Equals("S"))
+                            {
+                                btnLiberar = true;                           
+
+                                <td class="tdGridChk" style="font-size: 0.70em; cursor: default; width: 10%;">
+                                    <input type="checkbox" name="@enquadramento.codSubTipoFiltro" id="@enquadramento.codSubTipoFiltro" class="chkGrid" />
+                                </td> 
+                            }
+                            else
+                            {
+                                <td class="tdGridTopo" style="font-size: 0.70em; width: 10%; border-left: 0px;"></td>   
+                            }
+                        }
+                        else
+                        {
+                            <td class="tdGridTopo" style="font-size: 0.70em; width: 10%; border-left: 0px;"></td>   
+                        }                            
+                    </tr>             
+                                    
+                        foreach (string dsCausaInconsistenciaInt in dsCausaInconsistencia)
+                        {                                                  
+                        <tr class="trGrid" style="height:20px;">                                
+                            <td class="tdGrid" style="font-size: 0.70em;" colspan="2">@string.Concat("- ", dsCausaInconsistenciaInt)</td>                                                                                                                                       
+                        </tr>                                                             
+                        }
+                }                                
+            </table> 
+        </div>                
+    
+        <table style="width: 800px; height: 40px; padding: 0; margin: 0;">
+            <tr class="tabelaLimiteDiarioTopo">
+                @if (perfilUsuario.ToUpper().Equals(TipoUsuario.Aprovador) || (perfilUsuario.ToUpper().Equals(TipoUsuario.Operacional) && btnLiberar))
+                {
+                    string acao = "";
+                    if (Model[0].Acao != null)
+                    {
+                        acao = Model[0].Acao;
+                    }
+                    
+                    <td class="tdGrid" style="padding-bottom: 0px; padding-left:50px; margin: 0; font-size: 0.95em; border-right: 0px; text-align: center;">
+                        <input type="button" id="btnSalvar" value="Liberar" class="btnPartial" onmouseover="style.backgroundColor='#e5f4fa';" onmouseout="style.backgroundColor='#d3dce0';" onclick="fnLiberarEnquadramento('@acao');"/>
+                    </td>            
+                }
+                <td class="tdGrid" style="padding-bottom: 0px; padding-right:50px; margin: 0; font-size: 0.95em; border-left: 0px; text-align: center;">
+                    <input type="button" id="btnCancelar" value="Fechar" class="btnPartial" onmouseover="style.backgroundColor='#e5f4fa';" onmouseout="style.backgroundColor='#d3dce0';" onclick="window.close();"/>
+                </td>  
+            </tr>          
+        </table>             
+    }
+}
+    
+@Styles.Render("~/Content/css")
+
+<script type="text/javascript">
+    window.name = "modalEnquadramento";
+
+    window.focus();    
+</script> 

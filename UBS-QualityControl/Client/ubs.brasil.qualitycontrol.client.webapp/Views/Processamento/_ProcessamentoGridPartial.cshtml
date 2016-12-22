@@ -1,0 +1,69 @@
+﻿@model List<ubs.brasil.qualitycontrol.comum.entidade.Processamento>
+   
+@using System.Globalization 
+@using ubs.brasil.qualitycontrol.comum.globals 
+
+@if (Model != null && Model.Count > 0)
+{          
+    if (string.IsNullOrEmpty(Model[0].Msg))
+    {
+        CultureInfo cultureData = new CultureInfo(ubs.brasil.qualitycontrol.client.webapp.GlobalConfig.CultureData);     
+        
+        string backColor = "#f5f4f4";
+
+        <table class="tableGridSemDiv">        
+            <tr class="trGridTopo">
+                <td class="tdGridTopo" style="width:50%;">Filtro</td>
+                <td class="tdGridTopo" style="width:20%; text-align: right; padding-right: 5px;">Quantidade</td>
+                <td class="tdGridTopo" style="width:30%; text-align: right; padding-right: 5px;">AuM (BRL)</td>
+            </tr>       
+    
+            @foreach (ubs.brasil.qualitycontrol.comum.entidade.Processamento processamento in Model)
+            {
+                if (backColor.Equals("#f5f4f4"))
+                {
+                    backColor = "#ffffff";
+                }
+                else
+                {
+                    backColor = "#f5f4f4";
+                }
+        
+                string nomeFiltro = string.Empty;
+                if (string.IsNullOrEmpty(processamento.nomeFiltroAbrev))
+                {
+                    nomeFiltro = processamento.nomeFiltro;
+                }
+                else
+                {
+                    nomeFiltro = processamento.nomeFiltroAbrev;            
+                }
+
+                string dtResultado = processamento.dtResultado.ToString("dd/MM/yyyy");
+                        
+                if (processamento.codTipoFiltroPai.Equals(1)) //Conciliação
+                {
+                    nomeFiltro = string.Concat(Utils.GetEnumDescriptionTipoFiltro((int)processamento.codTipoFiltroPai), " ", nomeFiltro);
+                }           
+            
+               <tr class="trGrid" style="background-color: @backColor" onmouseover="style.backgroundColor='#e5f4fa'; style.cursor='hand';" onmouseout="style.backgroundColor='@backColor';">
+                    <td class="tdGrid" onclick="fnAbreDetalheProcessamento('@processamento.codSubTipoFiltro', '@dtResultado');">                
+                        <a href="#">@nomeFiltro</a>                                    
+                    </td>            
+                    <td class="tdGrid" style="text-align: right; padding-right: 5px;">@processamento.qtdeCarteira</td>                                   
+                    <td class="tdGrid" style="text-align: right; padding-right: 5px;">@String.Format(cultureData, "{0:N}", processamento.vlPatrimonial)</td>               
+                </tr>     
+            }
+        </table>
+    
+        <script type="text/javascript">
+            document.getElementById("dtResultadoPesq").value = "@Model[0].dtResultado.ToString("dd/MM/yyyy")";    
+        </script>        
+    }
+    else
+    {
+        <script type="text/javascript">
+            document.getElementById("msgHidden").value = "@Model[0].Msg";            
+        </script>            
+    }
+}

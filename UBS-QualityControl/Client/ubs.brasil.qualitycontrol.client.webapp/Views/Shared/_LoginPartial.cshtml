@@ -1,0 +1,10 @@
+﻿@if (Request.IsAuthenticated) 
+{          
+    <text>        
+        Hello, @string.Concat(User.Identity.Name.Split('|')[1], ". ")
+        @using (Html.BeginForm("Logoff", "Autenticacao", FormMethod.Post, new { id = "logoutForm" })) {
+            @Html.AntiForgeryToken()
+            <a href="javascript:document.getElementById('logoutForm').submit()">Log off</a>
+        }
+    </text>
+}

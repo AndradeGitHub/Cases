@@ -1,0 +1,123 @@
+﻿@model List<ubs.brasil.qualitycontrol.comum.entidade.Processamento>
+   
+@using ubs.brasil.qualitycontrol.comum.globals 
+
+<script src="../Scripts/jquery-1.10.1.js"></script>
+<script src="../Scripts/jquery.action.js"></script>
+
+<title>Resultado Processamento - Carteiras</title> 
+
+@if (Model != null && Model.Count > 0)
+{
+    string perfilUsuario = HttpContext.Current.User.Identity.Name.Split('|')[2];
+    bool usuarioLiberacao = false;
+    string checkDisabled = string.Empty;
+
+    if (!string.IsNullOrEmpty(Model[0].Msg) && Model[0].Msg.Equals("A"))
+    {
+        <script type="text/javascript">
+            alert("Alteração concluída");
+
+            window.close();
+        </script>         
+    }
+
+    string backColor = "#f5f4f4";
+
+    using (Html.BeginForm("ProcessamentoResultadoDetalheCarteira",
+            "Processamento",
+            FormMethod.Post,
+            new
+            {
+                target = "modalResultadoCarteira",
+                name = "formProcessamentoDetalheCarteira",
+                id = "formProcessamentoDetalheCarteira"
+            }
+            ))
+    {      
+    
+        <input type="hidden" name="hdnLiberar" id="hdnLiberar" value=""/>
+        
+        <table class="tableGridTopo" style="width: 800px;">
+            <tr class="trGridTopo">            
+                <td class="tdGridTopo" style="width:158px; background-color: Gray; color: White; font-size: 0.70em;">Código</td>
+                <td class="tdGridTopo" style="width:422px; background-color: Gray; color: White; font-size: 0.70em;">Nome</td>
+            </tr> 
+        </table>
+     
+        //string heightDiv = "210px";
+        //if (perfilUsuario.ToUpper().Equals(TipoUsuario.Aprovador) ||
+        //    perfilUsuario.ToUpper().Equals(TipoUsuario.Operacional)
+        //    && (Model[0].codSubTipoFiltro != null && !Model[0].codSubTipoFiltro.Equals(16)))
+        //{
+        //    heightDiv = "176px";
+        //}
+     
+        <div style="height: 175px; overflow-x: hidden; overflow-y: scroll; border-top-style: hidden;">
+            <table class="tableGrid" style="width: 783px; border-top-style: hidden; table-layout: auto;">              
+                @foreach (ubs.brasil.qualitycontrol.comum.entidade.Processamento processamento in Model)
+                {
+                    if (perfilUsuario.ToUpper().Equals(TipoUsuario.Aprovador) ||
+                        (perfilUsuario.ToUpper().Equals(TipoUsuario.Operacional) && !processamento.codTipoFiltro.Equals(1)) &&
+                        (Model[0].codSubTipoFiltro != null && !Model[0].codSubTipoFiltro.Equals(16)))
+                    {
+                        usuarioLiberacao = true;
+                    }
+
+                    if (backColor.Equals("#f5f4f4"))
+                    {
+                        backColor = "#ffffff";
+                    }
+                    else
+                    {
+                        backColor = "#f5f4f4";
+                    }
+
+                    if (usuarioLiberacao)
+                    {                                           
+                        if (processamento.inLiberado == null || !processamento.inLiberado.Equals("S"))
+                        {
+                            string codCarteiraFunc = processamento.codCarteira.Replace(" ", "_");                            
+                            int codProcessamento = processamento.codProcessamento;
+                            
+                            string paramFunc = string.Concat(codCarteiraFunc, "|", codProcessamento, "|", "", "|", "");                          
+                        
+                            <tr class="trGrid" style="height:100%; width: 783px; background-color: @backColor" onmouseover="style.backgroundColor='#e5f4fa';" onmouseout="style.backgroundColor='@backColor';">                                                                                                                                                                                                                                                                           
+                                <td class="tdGrid" style="width:117px; font-size: 0.70em; cursor: hand; text-decoration: underline;" onclick="fnAbreDetalheEnquadramento('@paramFunc', 'processamento');">@processamento.codCarteira</td>                                                                                                            
+                                <td class="tdGrid" style="width:306px; font-size: 0.70em;">@processamento.nomeCarteira</td>                        
+                            </tr>                    
+                        }                        
+                    }
+                    else
+                    {
+                        if (processamento.inLiberado == null || !processamento.inLiberado.Equals("S"))
+                        {                                                
+                            <tr class="trGrid" style="height:100%; width: 783px; background-color: @backColor" onmouseover="style.backgroundColor='#e5f4fa';" onmouseout="style.backgroundColor='@backColor';">                                                                                              
+                                <td class="tdGrid" style="width:117px; font-size: 0.70em;">@processamento.codCarteira</td>                                                                            
+                                <td class="tdGrid" style="width:306px; font-size: 0.70em;">@processamento.nomeCarteira</td>                                                     
+                            </tr>                    
+                        }      
+                    }
+                }      
+            </table> 
+        </div>
+
+        <table style="width: 800px; height: 40px; padding: 0; margin: 0;">
+            <tr class="tabelaLimiteDiarioTopo">
+                <td class="tdGrid" style="padding-bottom: 0px; padding-right:50px; margin: 0; font-size: 0.95em; border-left: 0px; text-align: center;">
+                    <input type="button" id="btnCancelar" value="Fechar" class="btnPartial" onmouseover="style.backgroundColor='#e5f4fa';" onmouseout="style.backgroundColor='#d3dce0';" onclick="window.close();"/>
+                </td>  
+            </tr>          
+        </table>          
+    }
+}
+
+@Styles.Render("~/Content/css")
+
+<script type="text/javascript">
+    window.name = "modalResultadoCarteira";
+
+    //window.location.reload();
+
+    window.focus();
+</script> 

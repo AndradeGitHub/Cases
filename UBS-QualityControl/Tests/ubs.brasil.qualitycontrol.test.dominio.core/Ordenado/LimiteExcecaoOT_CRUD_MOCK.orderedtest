@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OrderedTest name="limiteexcecaoot_crud_mock" storage="c:\projetos\qualitycontrol\implementacao\tests\ubs.brasil.qualitycontrol.test.dominio.core\limiteexcecaoot_crud_mock.orderedtest" id="d8472027-6c08-4e34-8cef-9e084cbfb479" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestCategory>
+    <TestCategoryItem TestCategory="LIMITE EXCEÇÃO" />
+  </TestCategory>
+  <Execution id="65224d5f-13c8-418e-be9c-d5c4ef33eddd" />
+  <TestLinks>
+    <TestLink id="973aa61c-423e-818e-18a3-4ead7222f2ab" name="DeveSelecionarRegistroLimiteExcecao" storage="bin\debug\ubs.brasil.qualitycontrol.test.dominio.core.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="21d390ef-d1cb-af46-e7f4-10970089e3f6" name="DeveGravarLimiteExcecaoMOCK" storage="bin\debug\ubs.brasil.qualitycontrol.test.dominio.core.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="4becd220-d901-a9d0-461a-6c57d727beca" name="DeveAlterarLimiteExcecaoMOCK" storage="bin\debug\ubs.brasil.qualitycontrol.test.dominio.core.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="cd2915a2-0993-a41d-fe1b-8a9c4f1d6265" name="DeveApagarLimiteExcecaoMOCK" storage="bin\debug\ubs.brasil.qualitycontrol.test.dominio.core.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="d4907bba-9d53-fb8b-7b0e-d8e9452f4a76" name="DeveSelecionarRegistroLimiteMensal" storage="bin\debug\ubs.brasil.qualitycontrol.test.dominio.core.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestLinks>
+</OrderedTest>

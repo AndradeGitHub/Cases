@@ -1,0 +1,7 @@
+INSERT INTO TSYS_MODULE 
+  (ID_MODULE, 
+   DS_NAME)
+VALUES
+  ('QUALITYCONTROL', 
+   'Quality Control')
+

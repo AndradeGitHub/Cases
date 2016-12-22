@@ -1,0 +1,321 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{AA5197F3-D429-4EED-B757-4304B8C2054F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CAB5A342-9940-4DC9-A382-F31840249E1E}"
+	ProjectSection(SolutionItems) = preProject
+		QualityControl.vsmdi = QualityControl.vsmdi
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ubs.brasil.qualitycontrol.test.dominio.repositorio", "Tests\ubs.brasil.qualitycontrol.test.dominio.repositorio\ubs.brasil.qualitycontrol.test.dominio.repositorio.csproj", "{CA5A58D9-D4EF-439A-BA85-FA39501D2290}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{4D1E4EF3-4F60-4AE8-BFC8-120C4695EF5E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dominio", "Dominio", "{8A4BC88D-83BA-4B7F-A1DB-FC547ABE7F01}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Comum", "Comum", "{13A6EBFC-CC85-4E2B-8357-E72238EF327C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ubs.brasil.qualitycontrol.comum.entidade", "Comum\ubs.brasil.qualitycontrol.comum.entidade\ubs.brasil.qualitycontrol.comum.entidade.csproj", "{88B799F4-B689-4AAF-9BB1-D4B92F597945}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ubs.brasil.qualitycontrol.comum.globals", "Comum\ubs.brasil.qualitycontrol.comum.globals\ubs.brasil.qualitycontrol.comum.globals.csproj", "{BDB62D75-22BE-4CA9-AC00-CC623DD6CA7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ubs.brasil.qualitycontrol.dominio.core", "Dominio\ubs.brasil.qualitycontrol.dominio.core\ubs.brasil.qualitycontrol.dominio.core.csproj", "{F282CD0F-A7D8-46C2-8F17-8A9FFD2D2CE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ubs.brasil.qualitycontrol.dominio.repositorio", "Dominio\ubs.brasil.qualitycontrol.dominio.repositorio\ubs.brasil.qualitycontrol.dominio.repositorio.csproj", "{81A4C233-3EBC-4BAF-8E31-817041E66896}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ubs.brasil.qualitycontrol.client.webapp", "Client\ubs.brasil.qualitycontrol.client.webapp\ubs.brasil.qualitycontrol.client.webapp.csproj", "{F518C6DD-C605-4D40-BDEE-D20C19A36798}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BancoDeDados", "BancoDeDados", "{629C2B1E-5A42-49F3-9D2C-B0614C3BA260}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ubs.brasil.qualitycontrol.test.dominio.core", "Tests\ubs.brasil.qualitycontrol.test.dominio.core\ubs.brasil.qualitycontrol.test.dominio.core.csproj", "{B7A058C7-F62D-450E-9296-1D9FC0D54A82}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Referencias", "Referencias", "{F5BB1C9F-AD2C-4B96-B981-083E36551D03}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kerberos", "Kerberos", "{7F2174B0-2E5E-42B1-AFB6-CB25E9706527}"
+	ProjectSection(SolutionItems) = preProject
+		Referencias\Kerberos\Kerberos.BLL.dll = Referencias\Kerberos\Kerberos.BLL.dll
+		Referencias\Kerberos\Kerberos.DAL.dll = Referencias\Kerberos\Kerberos.DAL.dll
+		Referencias\Kerberos\Kerberos.Framework.dll = Referencias\Kerberos\Kerberos.Framework.dll
+		Referencias\Kerberos\Link.Ferramentas.dll = Referencias\Kerberos\Link.Ferramentas.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "KERBEROS", "KERBEROS", "{FD562359-26A2-4FC8-9672-4ED748B885EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "QUALITY_CONTROL", "QUALITY_CONTROL", "{7659F623-0C2C-4914-A371-6FDF58EC57A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WM_DB", "WM_DB", "{60CF913A-C03C-408A-A3CC-522B398CD404}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DCL", "DCL", "{5884725D-6CFD-4AD2-9147-4953EF1ACDD7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DDL", "DDL", "{7D7546AB-1EE1-4FA1-9C15-D74DD8D31D78}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DML", "DML", "{8D3C89C3-1DBC-4914-93C8-004BA74C98C8}"
+	ProjectSection(SolutionItems) = preProject
+		BancoDeDados\KERBEROS\DML\INSERT_TSYS_FUNCTION.sql = BancoDeDados\KERBEROS\DML\INSERT_TSYS_FUNCTION.sql
+		BancoDeDados\KERBEROS\DML\INSERT_TSYS_MODULE_PROFILE_PROD.sql = BancoDeDados\KERBEROS\DML\INSERT_TSYS_MODULE_PROFILE_PROD.sql
+		BancoDeDados\KERBEROS\DML\INSERT_TSYS_MODULE_PROFILE_UAT.sql = BancoDeDados\KERBEROS\DML\INSERT_TSYS_MODULE_PROFILE_UAT.sql
+		BancoDeDados\KERBEROS\DML\INSERT_TSYS_PROFILE.sql = BancoDeDados\KERBEROS\DML\INSERT_TSYS_PROFILE.sql
+		BancoDeDados\KERBEROS\DML\INSERT_TSYS_PROFILE_FUNCTION.sql = BancoDeDados\KERBEROS\DML\INSERT_TSYS_PROFILE_FUNCTION.sql
+		BancoDeDados\KERBEROS\DML\INSERT_TSYS_USER.sql = BancoDeDados\KERBEROS\DML\INSERT_TSYS_USER.sql
+		BancoDeDados\KERBEROS\DML\INSERT_TSYS_USER_PROFILE.sql = BancoDeDados\KERBEROS\DML\INSERT_TSYS_USER_PROFILE.sql
+		BancoDeDados\KERBEROS\DML\TSYS_MODULE.sql = BancoDeDados\KERBEROS\DML\TSYS_MODULE.sql
+		BancoDeDados\KERBEROS\DML\TSYS_USER_FUNCTION.sql = BancoDeDados\KERBEROS\DML\TSYS_USER_FUNCTION.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DCL", "DCL", "{A9B05DA8-B709-4A3F-AC8E-80ABDFB5F7D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DDL", "DDL", "{D3C18F9C-C3C5-4BDC-A4F0-BDB4EE383881}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DML", "DML", "{4F5269F1-9342-41BE-82EF-F85E07DED469}"
+	ProjectSection(SolutionItems) = preProject
+		BancoDeDados\QUALITY_CONTROL\DML\ENQUADRAMENTO DETALHE.sql = BancoDeDados\QUALITY_CONTROL\DML\ENQUADRAMENTO DETALHE.sql
+		BancoDeDados\QUALITY_CONTROL\DML\ENQUADRAMENTO.sql = BancoDeDados\QUALITY_CONTROL\DML\ENQUADRAMENTO.sql
+		BancoDeDados\QUALITY_CONTROL\DML\OPERACAO_HISTORICO.sql = BancoDeDados\QUALITY_CONTROL\DML\OPERACAO_HISTORICO.sql
+		BancoDeDados\QUALITY_CONTROL\DML\PROCESSAMENTO_HISTORICO.sql = BancoDeDados\QUALITY_CONTROL\DML\PROCESSAMENTO_HISTORICO.sql
+		BancoDeDados\QUALITY_CONTROL\DML\PROCESSAMENTO_RESULTADO.sql = BancoDeDados\QUALITY_CONTROL\DML\PROCESSAMENTO_RESULTADO.sql
+		BancoDeDados\QUALITY_CONTROL\DML\PROCESSAMENTO_RESULTADO_POPUP.sql = BancoDeDados\QUALITY_CONTROL\DML\PROCESSAMENTO_RESULTADO_POPUP.sql
+		BancoDeDados\QUALITY_CONTROL\DML\PROCESSAMENTO_RESULTADO_POPUP1.sql = BancoDeDados\QUALITY_CONTROL\DML\PROCESSAMENTO_RESULTADO_POPUP1.sql
+		BancoDeDados\QUALITY_CONTROL\DML\UPDATE_PROCESSAMENTO_RESULTADO_POPUP1.sql = BancoDeDados\QUALITY_CONTROL\DML\UPDATE_PROCESSAMENTO_RESULTADO_POPUP1.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PROCEDURE", "PROCEDURE", "{2717BF21-1E14-408F-AD44-45337D6FCC23}"
+	ProjectSection(SolutionItems) = preProject
+		BancoDeDados\QUALITY_CONTROL\DDL\PROCEDURE\SP_LIBERAR_INCONSISTENCIA_ATIVO.sql = BancoDeDados\QUALITY_CONTROL\DDL\PROCEDURE\SP_LIBERAR_INCONSISTENCIA_ATIVO.sql
+		BancoDeDados\QUALITY_CONTROL\DDL\PROCEDURE\SP_LIBERAR_INCONSISTENCIA_CARTEIRA.sql = BancoDeDados\QUALITY_CONTROL\DDL\PROCEDURE\SP_LIBERAR_INCONSISTENCIA_CARTEIRA.sql
+		BancoDeDados\QUALITY_CONTROL\DDL\PROCEDURE\SP_LISTA_INCONSISTENCIA_DETALHE.sql = BancoDeDados\QUALITY_CONTROL\DDL\PROCEDURE\SP_LISTA_INCONSISTENCIA_DETALHE.sql
+		BancoDeDados\QUALITY_CONTROL\DDL\PROCEDURE\SP_PROCESSAMENTO_FILTROS.sql = BancoDeDados\QUALITY_CONTROL\DDL\PROCEDURE\SP_PROCESSAMENTO_FILTROS.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TABLE", "TABLE", "{AD880056-A6C2-4689-9EE0-1F6FA4FEB40B}"
+	ProjectSection(SolutionItems) = preProject
+		BancoDeDados\QUALITY_CONTROL\DDL\TABLE\LIMITES_PERFIL_RISCO.sql = BancoDeDados\QUALITY_CONTROL\DDL\TABLE\LIMITES_PERFIL_RISCO.sql
+		BancoDeDados\QUALITY_CONTROL\DDL\TABLE\LOG_OPERACAO.sql = BancoDeDados\QUALITY_CONTROL\DDL\TABLE\LOG_OPERACAO.sql
+		BancoDeDados\QUALITY_CONTROL\DDL\TABLE\LOG_PROCESSAMENTO.sql = BancoDeDados\QUALITY_CONTROL\DDL\TABLE\LOG_PROCESSAMENTO.sql
+		BancoDeDados\QUALITY_CONTROL\DDL\TABLE\PROCESSAMENTO.sql = BancoDeDados\QUALITY_CONTROL\DDL\TABLE\PROCESSAMENTO.sql
+		BancoDeDados\QUALITY_CONTROL\DDL\TABLE\RESULTADO_ENQUADRAMENTO.sql = BancoDeDados\QUALITY_CONTROL\DDL\TABLE\RESULTADO_ENQUADRAMENTO.sql
+		BancoDeDados\QUALITY_CONTROL\DDL\TABLE\TIPO_FILTRO.sql = BancoDeDados\QUALITY_CONTROL\DDL\TABLE\TIPO_FILTRO.sql
+		BancoDeDados\QUALITY_CONTROL\DDL\TABLE\TIPO_FILTRO_ATIVO.sql = BancoDeDados\QUALITY_CONTROL\DDL\TABLE\TIPO_FILTRO_ATIVO.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DCL", "DCL", "{3FEE64C3-3305-4217-A450-F495B9519AEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DDL", "DDL", "{D8A9B7BD-F8CC-4DE0-A82F-6E6984AB0284}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DML", "DML", "{FDAD3D79-2B41-4173-8CB3-1D6F5F9C0A10}"
+	ProjectSection(SolutionItems) = preProject
+		BancoDeDados\WM_DB\DML\OPERACAO_HISTORICO.sql = BancoDeDados\WM_DB\DML\OPERACAO_HISTORICO.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TABLE", "TABLE", "{806AFBB5-EA7A-45AF-87BA-82927C0BCC82}"
+	ProjectSection(SolutionItems) = preProject
+		BancoDeDados\WM_DB\DDL\TABLE\ATIVOS.sql = BancoDeDados\WM_DB\DDL\TABLE\ATIVOS.sql
+		BancoDeDados\WM_DB\DDL\TABLE\CARTEIRA.sql = BancoDeDados\WM_DB\DDL\TABLE\CARTEIRA.sql
+		BancoDeDados\WM_DB\DDL\TABLE\CARTEIRA_COTA.sql = BancoDeDados\WM_DB\DDL\TABLE\CARTEIRA_COTA.sql
+		BancoDeDados\WM_DB\DDL\TABLE\LOG_CARGA.sql = BancoDeDados\WM_DB\DDL\TABLE\LOG_CARGA.sql
+		BancoDeDados\WM_DB\DDL\TABLE\LOG_OPERACAO.sql = BancoDeDados\WM_DB\DDL\TABLE\LOG_OPERACAO.sql
+		BancoDeDados\WM_DB\DDL\TABLE\PERFIL_RISCO.sql = BancoDeDados\WM_DB\DDL\TABLE\PERFIL_RISCO.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PROCEDURE", "PROCEDURE", "{433F609F-BB2F-4D1B-B7FC-81275622E9FD}"
+	ProjectSection(SolutionItems) = preProject
+		BancoDeDados\WM_DB\DDL\PROCEDURE\SP_WMDB_CARGA_ACESSO_USUARIO.sql = BancoDeDados\WM_DB\DDL\PROCEDURE\SP_WMDB_CARGA_ACESSO_USUARIO.sql
+		BancoDeDados\WM_DB\DDL\PROCEDURE\SP_WMDB_CARGA_ATIVOS.sql = BancoDeDados\WM_DB\DDL\PROCEDURE\SP_WMDB_CARGA_ATIVOS.sql
+		BancoDeDados\WM_DB\DDL\PROCEDURE\SP_WMDB_CARGA_CARTEIRA.sql = BancoDeDados\WM_DB\DDL\PROCEDURE\SP_WMDB_CARGA_CARTEIRA.sql
+		BancoDeDados\WM_DB\DDL\PROCEDURE\SP_WMDB_CARGA_CARTEIRA_BENCHMARK.sql = BancoDeDados\WM_DB\DDL\PROCEDURE\SP_WMDB_CARGA_CARTEIRA_BENCHMARK.sql
+		BancoDeDados\WM_DB\DDL\PROCEDURE\SP_WMDB_CARGA_CARTEIRA_COTA.sql = BancoDeDados\WM_DB\DDL\PROCEDURE\SP_WMDB_CARGA_CARTEIRA_COTA.sql
+		BancoDeDados\WM_DB\DDL\PROCEDURE\SP_WMDB_CARGA_DADOS_INSTITUCIONAIS.sql = BancoDeDados\WM_DB\DDL\PROCEDURE\SP_WMDB_CARGA_DADOS_INSTITUCIONAIS.sql
+		BancoDeDados\WM_DB\DDL\PROCEDURE\SP_WMDB_CARGA_GERAL.sql = BancoDeDados\WM_DB\DDL\PROCEDURE\SP_WMDB_CARGA_GERAL.sql
+		BancoDeDados\WM_DB\DDL\PROCEDURE\SP_WMDB_CARGA_INDEXADOR_PRECO.sql = BancoDeDados\WM_DB\DDL\PROCEDURE\SP_WMDB_CARGA_INDEXADOR_PRECO.sql
+		BancoDeDados\WM_DB\DDL\PROCEDURE\SP_WMDB_CARGA_INDEXADORES.sql = BancoDeDados\WM_DB\DDL\PROCEDURE\SP_WMDB_CARGA_INDEXADORES.sql
+		BancoDeDados\WM_DB\DDL\PROCEDURE\SP_WMDB_CARGA_MERCADO.sql = BancoDeDados\WM_DB\DDL\PROCEDURE\SP_WMDB_CARGA_MERCADO.sql
+		BancoDeDados\WM_DB\DDL\PROCEDURE\SP_WMDB_CARGA_MOVIMENTO.sql = BancoDeDados\WM_DB\DDL\PROCEDURE\SP_WMDB_CARGA_MOVIMENTO.sql
+		BancoDeDados\WM_DB\DDL\PROCEDURE\SP_WMDB_CARGA_PERFIL_RISCO.sql = BancoDeDados\WM_DB\DDL\PROCEDURE\SP_WMDB_CARGA_PERFIL_RISCO.sql
+		BancoDeDados\WM_DB\DDL\PROCEDURE\SP_WMDB_CARGA_POSICAO.sql = BancoDeDados\WM_DB\DDL\PROCEDURE\SP_WMDB_CARGA_POSICAO.sql
+		BancoDeDados\WM_DB\DDL\PROCEDURE\SP_WMDB_CARGA_RENT_CART_BENCHMARK.sql = BancoDeDados\WM_DB\DDL\PROCEDURE\SP_WMDB_CARGA_RENT_CART_BENCHMARK.sql
+		BancoDeDados\WM_DB\DDL\PROCEDURE\SP_WMDB_CARGA_RENTABILIDADECARTEIRA.sql = BancoDeDados\WM_DB\DDL\PROCEDURE\SP_WMDB_CARGA_RENTABILIDADECARTEIRA.sql
+		BancoDeDados\WM_DB\DDL\PROCEDURE\SP_WMDB_CARGA_RENTABILIDADEINDEXADORES.sql = BancoDeDados\WM_DB\DDL\PROCEDURE\SP_WMDB_CARGA_RENTABILIDADEINDEXADORES.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VIEW", "VIEW", "{A3B72847-7F20-4139-96C4-3A4DF1F9DCE6}"
+	ProjectSection(SolutionItems) = preProject
+		BancoDeDados\WM_DB\DDL\VIEW\WM_V_UBS_LOG_PROC_CARTEIRA.sql = BancoDeDados\WM_DB\DDL\VIEW\WM_V_UBS_LOG_PROC_CARTEIRA.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://eron-vaio:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Client\\ubs.brasil.qualitycontrol.client.webapp\\ubs.brasil.qualitycontrol.client.webapp.csproj
+		SccProjectTopLevelParentUniqueName1 = QualityControl.sln
+		SccProjectName1 = Client/ubs.brasil.qualitycontrol.client.webapp
+		SccLocalPath1 = Client\\ubs.brasil.qualitycontrol.client.webapp
+		SccProjectUniqueName2 = Comum\\ubs.brasil.qualitycontrol.comum.entidade\\ubs.brasil.qualitycontrol.comum.entidade.csproj
+		SccProjectTopLevelParentUniqueName2 = QualityControl.sln
+		SccProjectName2 = Comum/ubs.brasil.qualitycontrol.comum.entidade
+		SccLocalPath2 = Comum\\ubs.brasil.qualitycontrol.comum.entidade
+		SccProjectUniqueName3 = Comum\\ubs.brasil.qualitycontrol.comum.globals\\ubs.brasil.qualitycontrol.comum.globals.csproj
+		SccProjectTopLevelParentUniqueName3 = QualityControl.sln
+		SccProjectName3 = Comum/ubs.brasil.qualitycontrol.comum.globals
+		SccLocalPath3 = Comum\\ubs.brasil.qualitycontrol.comum.globals
+		SccProjectUniqueName4 = Dominio\\ubs.brasil.qualitycontrol.dominio.core\\ubs.brasil.qualitycontrol.dominio.core.csproj
+		SccProjectTopLevelParentUniqueName4 = QualityControl.sln
+		SccProjectName4 = Dominio/ubs.brasil.qualitycontrol.dominio.core
+		SccLocalPath4 = Dominio\\ubs.brasil.qualitycontrol.dominio.core
+		SccProjectUniqueName5 = Dominio\\ubs.brasil.qualitycontrol.dominio.repositorio\\ubs.brasil.qualitycontrol.dominio.repositorio.csproj
+		SccProjectTopLevelParentUniqueName5 = QualityControl.sln
+		SccProjectName5 = Dominio/ubs.brasil.qualitycontrol.dominio.repositorio
+		SccLocalPath5 = Dominio\\ubs.brasil.qualitycontrol.dominio.repositorio
+		SccProjectUniqueName6 = Tests\\ubs.brasil.qualitycontrol.test.dominio.core\\ubs.brasil.qualitycontrol.test.dominio.core.csproj
+		SccProjectTopLevelParentUniqueName6 = QualityControl.sln
+		SccProjectName6 = Tests/ubs.brasil.qualitycontrol.test.dominio.core
+		SccLocalPath6 = Tests\\ubs.brasil.qualitycontrol.test.dominio.core
+		SccProjectUniqueName7 = Tests\\ubs.brasil.qualitycontrol.test.dominio.repositorio\\ubs.brasil.qualitycontrol.test.dominio.repositorio.csproj
+		SccProjectTopLevelParentUniqueName7 = QualityControl.sln
+		SccProjectName7 = Tests/ubs.brasil.qualitycontrol.test.dominio.repositorio
+		SccLocalPath7 = Tests\\ubs.brasil.qualitycontrol.test.dominio.repositorio
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = QualityControl.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA5A58D9-D4EF-439A-BA85-FA39501D2290}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA5A58D9-D4EF-439A-BA85-FA39501D2290}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA5A58D9-D4EF-439A-BA85-FA39501D2290}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{CA5A58D9-D4EF-439A-BA85-FA39501D2290}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{CA5A58D9-D4EF-439A-BA85-FA39501D2290}.Debug|x64.ActiveCfg = Release|Any CPU
+		{CA5A58D9-D4EF-439A-BA85-FA39501D2290}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CA5A58D9-D4EF-439A-BA85-FA39501D2290}.Debug|x86.Build.0 = Debug|Any CPU
+		{CA5A58D9-D4EF-439A-BA85-FA39501D2290}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA5A58D9-D4EF-439A-BA85-FA39501D2290}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA5A58D9-D4EF-439A-BA85-FA39501D2290}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{CA5A58D9-D4EF-439A-BA85-FA39501D2290}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{CA5A58D9-D4EF-439A-BA85-FA39501D2290}.Release|x64.ActiveCfg = Release|x64
+		{CA5A58D9-D4EF-439A-BA85-FA39501D2290}.Release|x86.ActiveCfg = Release|Any CPU
+		{88B799F4-B689-4AAF-9BB1-D4B92F597945}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{88B799F4-B689-4AAF-9BB1-D4B92F597945}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{88B799F4-B689-4AAF-9BB1-D4B92F597945}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{88B799F4-B689-4AAF-9BB1-D4B92F597945}.Debug|x64.ActiveCfg = Release|x86
+		{88B799F4-B689-4AAF-9BB1-D4B92F597945}.Debug|x86.ActiveCfg = Debug|x86
+		{88B799F4-B689-4AAF-9BB1-D4B92F597945}.Debug|x86.Build.0 = Debug|x86
+		{88B799F4-B689-4AAF-9BB1-D4B92F597945}.Release|Any CPU.ActiveCfg = Release|x86
+		{88B799F4-B689-4AAF-9BB1-D4B92F597945}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{88B799F4-B689-4AAF-9BB1-D4B92F597945}.Release|Mixed Platforms.Build.0 = Release|x86
+		{88B799F4-B689-4AAF-9BB1-D4B92F597945}.Release|x64.ActiveCfg = Release|x64
+		{88B799F4-B689-4AAF-9BB1-D4B92F597945}.Release|x64.Build.0 = Release|x64
+		{88B799F4-B689-4AAF-9BB1-D4B92F597945}.Release|x86.ActiveCfg = Release|x86
+		{88B799F4-B689-4AAF-9BB1-D4B92F597945}.Release|x86.Build.0 = Release|x86
+		{BDB62D75-22BE-4CA9-AC00-CC623DD6CA7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDB62D75-22BE-4CA9-AC00-CC623DD6CA7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDB62D75-22BE-4CA9-AC00-CC623DD6CA7D}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{BDB62D75-22BE-4CA9-AC00-CC623DD6CA7D}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{BDB62D75-22BE-4CA9-AC00-CC623DD6CA7D}.Debug|x64.ActiveCfg = Release|Any CPU
+		{BDB62D75-22BE-4CA9-AC00-CC623DD6CA7D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BDB62D75-22BE-4CA9-AC00-CC623DD6CA7D}.Debug|x86.Build.0 = Debug|Any CPU
+		{BDB62D75-22BE-4CA9-AC00-CC623DD6CA7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDB62D75-22BE-4CA9-AC00-CC623DD6CA7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDB62D75-22BE-4CA9-AC00-CC623DD6CA7D}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{BDB62D75-22BE-4CA9-AC00-CC623DD6CA7D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{BDB62D75-22BE-4CA9-AC00-CC623DD6CA7D}.Release|x64.ActiveCfg = Release|x64
+		{BDB62D75-22BE-4CA9-AC00-CC623DD6CA7D}.Release|x64.Build.0 = Release|x64
+		{BDB62D75-22BE-4CA9-AC00-CC623DD6CA7D}.Release|x86.ActiveCfg = Release|Any CPU
+		{F282CD0F-A7D8-46C2-8F17-8A9FFD2D2CE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F282CD0F-A7D8-46C2-8F17-8A9FFD2D2CE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F282CD0F-A7D8-46C2-8F17-8A9FFD2D2CE6}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{F282CD0F-A7D8-46C2-8F17-8A9FFD2D2CE6}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{F282CD0F-A7D8-46C2-8F17-8A9FFD2D2CE6}.Debug|x64.ActiveCfg = Release|Any CPU
+		{F282CD0F-A7D8-46C2-8F17-8A9FFD2D2CE6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F282CD0F-A7D8-46C2-8F17-8A9FFD2D2CE6}.Debug|x86.Build.0 = Debug|Any CPU
+		{F282CD0F-A7D8-46C2-8F17-8A9FFD2D2CE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F282CD0F-A7D8-46C2-8F17-8A9FFD2D2CE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F282CD0F-A7D8-46C2-8F17-8A9FFD2D2CE6}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{F282CD0F-A7D8-46C2-8F17-8A9FFD2D2CE6}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{F282CD0F-A7D8-46C2-8F17-8A9FFD2D2CE6}.Release|x64.ActiveCfg = Release|x64
+		{F282CD0F-A7D8-46C2-8F17-8A9FFD2D2CE6}.Release|x64.Build.0 = Release|x64
+		{F282CD0F-A7D8-46C2-8F17-8A9FFD2D2CE6}.Release|x86.ActiveCfg = Release|Any CPU
+		{81A4C233-3EBC-4BAF-8E31-817041E66896}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81A4C233-3EBC-4BAF-8E31-817041E66896}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81A4C233-3EBC-4BAF-8E31-817041E66896}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{81A4C233-3EBC-4BAF-8E31-817041E66896}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{81A4C233-3EBC-4BAF-8E31-817041E66896}.Debug|x64.ActiveCfg = Release|Any CPU
+		{81A4C233-3EBC-4BAF-8E31-817041E66896}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{81A4C233-3EBC-4BAF-8E31-817041E66896}.Debug|x86.Build.0 = Debug|Any CPU
+		{81A4C233-3EBC-4BAF-8E31-817041E66896}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81A4C233-3EBC-4BAF-8E31-817041E66896}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81A4C233-3EBC-4BAF-8E31-817041E66896}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{81A4C233-3EBC-4BAF-8E31-817041E66896}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{81A4C233-3EBC-4BAF-8E31-817041E66896}.Release|x64.ActiveCfg = Release|x64
+		{81A4C233-3EBC-4BAF-8E31-817041E66896}.Release|x64.Build.0 = Release|x64
+		{81A4C233-3EBC-4BAF-8E31-817041E66896}.Release|x86.ActiveCfg = Release|Any CPU
+		{F518C6DD-C605-4D40-BDEE-D20C19A36798}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F518C6DD-C605-4D40-BDEE-D20C19A36798}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F518C6DD-C605-4D40-BDEE-D20C19A36798}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{F518C6DD-C605-4D40-BDEE-D20C19A36798}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{F518C6DD-C605-4D40-BDEE-D20C19A36798}.Debug|x64.ActiveCfg = Release|Any CPU
+		{F518C6DD-C605-4D40-BDEE-D20C19A36798}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F518C6DD-C605-4D40-BDEE-D20C19A36798}.Debug|x86.Build.0 = Debug|Any CPU
+		{F518C6DD-C605-4D40-BDEE-D20C19A36798}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F518C6DD-C605-4D40-BDEE-D20C19A36798}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F518C6DD-C605-4D40-BDEE-D20C19A36798}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{F518C6DD-C605-4D40-BDEE-D20C19A36798}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{F518C6DD-C605-4D40-BDEE-D20C19A36798}.Release|x64.ActiveCfg = Release|x64
+		{F518C6DD-C605-4D40-BDEE-D20C19A36798}.Release|x64.Build.0 = Release|x64
+		{F518C6DD-C605-4D40-BDEE-D20C19A36798}.Release|x86.ActiveCfg = Release|Any CPU
+		{B7A058C7-F62D-450E-9296-1D9FC0D54A82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7A058C7-F62D-450E-9296-1D9FC0D54A82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7A058C7-F62D-450E-9296-1D9FC0D54A82}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{B7A058C7-F62D-450E-9296-1D9FC0D54A82}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{B7A058C7-F62D-450E-9296-1D9FC0D54A82}.Debug|x64.ActiveCfg = Release|Any CPU
+		{B7A058C7-F62D-450E-9296-1D9FC0D54A82}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B7A058C7-F62D-450E-9296-1D9FC0D54A82}.Debug|x86.Build.0 = Debug|Any CPU
+		{B7A058C7-F62D-450E-9296-1D9FC0D54A82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7A058C7-F62D-450E-9296-1D9FC0D54A82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7A058C7-F62D-450E-9296-1D9FC0D54A82}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{B7A058C7-F62D-450E-9296-1D9FC0D54A82}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{B7A058C7-F62D-450E-9296-1D9FC0D54A82}.Release|x64.ActiveCfg = Release|x64
+		{B7A058C7-F62D-450E-9296-1D9FC0D54A82}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CAB5A342-9940-4DC9-A382-F31840249E1E} = {AA5197F3-D429-4EED-B757-4304B8C2054F}
+		{CA5A58D9-D4EF-439A-BA85-FA39501D2290} = {AA5197F3-D429-4EED-B757-4304B8C2054F}
+		{B7A058C7-F62D-450E-9296-1D9FC0D54A82} = {AA5197F3-D429-4EED-B757-4304B8C2054F}
+		{F518C6DD-C605-4D40-BDEE-D20C19A36798} = {4D1E4EF3-4F60-4AE8-BFC8-120C4695EF5E}
+		{F282CD0F-A7D8-46C2-8F17-8A9FFD2D2CE6} = {8A4BC88D-83BA-4B7F-A1DB-FC547ABE7F01}
+		{81A4C233-3EBC-4BAF-8E31-817041E66896} = {8A4BC88D-83BA-4B7F-A1DB-FC547ABE7F01}
+		{88B799F4-B689-4AAF-9BB1-D4B92F597945} = {13A6EBFC-CC85-4E2B-8357-E72238EF327C}
+		{BDB62D75-22BE-4CA9-AC00-CC623DD6CA7D} = {13A6EBFC-CC85-4E2B-8357-E72238EF327C}
+		{FD562359-26A2-4FC8-9672-4ED748B885EE} = {629C2B1E-5A42-49F3-9D2C-B0614C3BA260}
+		{7659F623-0C2C-4914-A371-6FDF58EC57A2} = {629C2B1E-5A42-49F3-9D2C-B0614C3BA260}
+		{60CF913A-C03C-408A-A3CC-522B398CD404} = {629C2B1E-5A42-49F3-9D2C-B0614C3BA260}
+		{7F2174B0-2E5E-42B1-AFB6-CB25E9706527} = {F5BB1C9F-AD2C-4B96-B981-083E36551D03}
+		{5884725D-6CFD-4AD2-9147-4953EF1ACDD7} = {FD562359-26A2-4FC8-9672-4ED748B885EE}
+		{7D7546AB-1EE1-4FA1-9C15-D74DD8D31D78} = {FD562359-26A2-4FC8-9672-4ED748B885EE}
+		{8D3C89C3-1DBC-4914-93C8-004BA74C98C8} = {FD562359-26A2-4FC8-9672-4ED748B885EE}
+		{A9B05DA8-B709-4A3F-AC8E-80ABDFB5F7D9} = {7659F623-0C2C-4914-A371-6FDF58EC57A2}
+		{D3C18F9C-C3C5-4BDC-A4F0-BDB4EE383881} = {7659F623-0C2C-4914-A371-6FDF58EC57A2}
+		{4F5269F1-9342-41BE-82EF-F85E07DED469} = {7659F623-0C2C-4914-A371-6FDF58EC57A2}
+		{3FEE64C3-3305-4217-A450-F495B9519AEF} = {60CF913A-C03C-408A-A3CC-522B398CD404}
+		{D8A9B7BD-F8CC-4DE0-A82F-6E6984AB0284} = {60CF913A-C03C-408A-A3CC-522B398CD404}
+		{FDAD3D79-2B41-4173-8CB3-1D6F5F9C0A10} = {60CF913A-C03C-408A-A3CC-522B398CD404}
+		{2717BF21-1E14-408F-AD44-45337D6FCC23} = {D3C18F9C-C3C5-4BDC-A4F0-BDB4EE383881}
+		{AD880056-A6C2-4689-9EE0-1F6FA4FEB40B} = {D3C18F9C-C3C5-4BDC-A4F0-BDB4EE383881}
+		{806AFBB5-EA7A-45AF-87BA-82927C0BCC82} = {D8A9B7BD-F8CC-4DE0-A82F-6E6984AB0284}
+		{433F609F-BB2F-4D1B-B7FC-81275622E9FD} = {D8A9B7BD-F8CC-4DE0-A82F-6E6984AB0284}
+		{A3B72847-7F20-4139-96C4-3A4DF1F9DCE6} = {D8A9B7BD-F8CC-4DE0-A82F-6E6984AB0284}
+	EndGlobalSection
+EndGlobal

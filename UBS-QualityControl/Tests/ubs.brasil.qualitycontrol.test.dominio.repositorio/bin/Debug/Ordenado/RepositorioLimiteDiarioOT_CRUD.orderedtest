@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OrderedTest name="repositoriolimitediarioot_crud" storage="c:\projetos\qualitycontrol\implementacao\tests\ubs.brasil.qualitycontrol.test.dominio.repositorio\repositoriolimitediarioot_crud.orderedtest" id="94f749a6-0f9c-4aff-bc3d-f1902881843e" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestCategory>
+    <TestCategoryItem TestCategory="LIMITE DIÁRIO" />
+  </TestCategory>
+  <TestLinks>
+    <TestLink id="5fbc2612-ecec-596e-11e5-e58a0ad8adbc" name="DeveGravarLimiteDiario" storage="bin\debug\ubs.brasil.qualitycontrol.test.dominio.repositorio.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="e19be233-98c4-ff7e-9cfc-365e3b7c9c57" name="DeveAlterarLimiteDiario" storage="bin\debug\ubs.brasil.qualitycontrol.test.dominio.repositorio.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="dd8f2d9a-93c0-ef3f-4824-69c80e550d76" name="DeveConsultarLimiteDiario" storage="bin\debug\ubs.brasil.qualitycontrol.test.dominio.repositorio.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="8fe68fd5-09f7-5a6f-ce4e-0edcce688cb5" name="DeveConsultarLimiteDiarioPorId" storage="bin\debug\ubs.brasil.qualitycontrol.test.dominio.repositorio.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="39cf898c-b3cb-08e6-4266-c092803956c9" name="DeveApagarLimiteDiario" storage="bin\debug\ubs.brasil.qualitycontrol.test.dominio.repositorio.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestLinks>
+</OrderedTest>

@@ -1,0 +1,7 @@
+﻿SELECT 
+	*
+FROM 
+	[WM_DB].[dbo].[LOG_OPERACAO]
+WHERE 
+	NO_SISTEMA = 'Q.C.'	AND
+	DT_LOG     = '2013-09-03'

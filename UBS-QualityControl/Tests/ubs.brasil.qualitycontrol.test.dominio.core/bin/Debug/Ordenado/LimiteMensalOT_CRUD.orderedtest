@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OrderedTest name="limitemensalot_crud" storage="c:\projetos\qualitycontrol\implementacao\tests\ubs.brasil.qualitycontrol.test.dominio.core\limitemensalot_crud.orderedtest" id="bb960b5c-9f75-4f81-b8c3-b0ca0d185835" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestCategory>
+    <TestCategoryItem TestCategory="LIMITE MENSAL" />
+  </TestCategory>
+  <Execution id="bfb6c6d4-df14-4eef-be59-3631fb2b7ce7" />
+  <TestLinks>
+    <TestLink id="d4907bba-9d53-fb8b-7b0e-d8e9452f4a76" name="DeveSelecionarRegistroLimiteMensal" storage="bin\debug\ubs.brasil.qualitycontrol.test.dominio.core.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="0e8ffb27-84e3-8059-cb84-9b1da357bdd6" name="DeveGravarLimiteMensal" storage="bin\debug\ubs.brasil.qualitycontrol.test.dominio.core.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="be6ac479-6262-048a-ab82-41515c6da020" name="NAO_DeveGravarLimiteMensal_REGISTRO_EXISTENTE" storage="bin\debug\ubs.brasil.qualitycontrol.test.dominio.core.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="22eeea5f-2e73-d098-7ae9-ad6ca0b501a0" name="DeveAlterarLimiteMensal" storage="bin\debug\ubs.brasil.qualitycontrol.test.dominio.core.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="512c16d2-f17b-8cf6-f8cc-22d20fc8bcb5" name="NAO_DeveAlterarLimiteMensal_CHAVE_EXISTENTE" storage="bin\debug\ubs.brasil.qualitycontrol.test.dominio.core.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="3ea1fd67-2d5e-0bd7-b47f-f2e0dbc2acdc" name="DeveApagarLimiteMensal" storage="bin\debug\ubs.brasil.qualitycontrol.test.dominio.core.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="d4907bba-9d53-fb8b-7b0e-d8e9452f4a76" name="DeveSelecionarRegistroLimiteMensal" storage="bin\debug\ubs.brasil.qualitycontrol.test.dominio.core.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestLinks>
+</OrderedTest>

@@ -1,0 +1,67 @@
+﻿USE [Quality_Control]
+GO
+
+/****** Object:  StoredProcedure [dbo].[SP_LIBERAR_INCONSISTENCIA_CARTEIRA]    Script Date: 09/27/2013 18:41:10 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[SP_LIBERAR_INCONSISTENCIA_CARTEIRA]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[SP_LIBERAR_INCONSISTENCIA_CARTEIRA]
+GO
+
+USE [Quality_Control]
+GO
+
+/****** Object:  StoredProcedure [dbo].[SP_LIBERAR_INCONSISTENCIA_CARTEIRA]    Script Date: 09/27/2013 18:41:10 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+
+
+CREATE PROCEDURE [dbo].[SP_LIBERAR_INCONSISTENCIA_CARTEIRA]
+(
+	@CD_USUARIO INT,  /*USUARIO QUE ACIONOU O PROCESSO, IMPORTANTE PARA OS LOGS*/
+	@CD_PROCESSAMENTO INT , /*CODIGO DO PROCESSAMENTO*/
+	@CD_CARTEIRA VARCHAR(15), /*CODIGO DA CARTEIRA*/
+	@LISTA_CD_SUBTIPO_FILTRO VARCHAR(MAX) /*CODIGO DA CARTEIRA*/
+)
+AS BEGIN
+
+	
+
+	DECLARE @table TABLE
+	(
+		CD VARCHAR(15)
+	)
+
+	--se a tabela com os códigos de carteira estiver vazia, insere todas as carteias
+	IF @LISTA_CD_SUBTIPO_FILTRO = ''
+	BEGIN
+		PRINT 'A lista de tipos de filtros não pode ser vazia!'
+		RETURN
+	END
+	ELSE
+	BEGIN
+		INSERT INTO @table (CD) 
+		SELECT DISTINCT STRVAL FROM WM_DB.[dbo].[Split](@LISTA_CD_SUBTIPO_FILTRO, ',')		
+		
+	END
+
+
+	UPDATE Quality_Control..RESULTADO_ENQUADRAMENTO
+	SET IN_LIBERADO = 'S'
+	FROM Quality_Control..RESULTADO_ENQUADRAMENTO re
+	INNER JOIN @table f ON re.CD_SUBTIPO_FILTRO = f.CD
+	WHERE
+		re.CD_PROCESSAMENTO = @CD_PROCESSAMENTO 
+		AND re.CD_CARTEIRA = @CD_CARTEIRA
+
+	PRINT 'Procedimento realizado com sucesso.'
+	
+END
+
+
+GO
+
+

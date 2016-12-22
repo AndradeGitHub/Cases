@@ -1,0 +1,82 @@
+﻿@model ubs.brasil.qualitycontrol.comum.entidade.Enquadramento
+
+@{
+    ViewBag.Title = "Enquadramento Diário";
+}
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="barra_principal">@ViewBag.Title</hgroup>
+        </div>
+    </section>
+}
+
+<hgroup class="title">
+    <h1>Consulta Enquadramento Diário</h1>    
+</hgroup>
+
+<div class="divPrincipal">
+
+    @using (Html.BeginForm("EnquadramentoDiario",
+            "Enquadramento",
+            FormMethod.Post,            
+            new { name       = "formEnquadramentoDiario", 
+                  id         = "formEnquadramentoDiario",
+                  onkeypress = "fnEnterAtivo(event, 'fnValidaEnquadramentoForm(|pesquisar|, |diario|)');" }                   
+            ))                
+    {            
+    
+        <div style="height: 60px; padding-bottom:0;">  
+            @Html.Hidden("acao", "")      
+            @Html.Hidden("msgHidden", "")  
+            @Html.Hidden("inDiarioMensal", "diario")          
+            <section id="deForm">
+                <ul id="campos">    
+                    <li>Data</li>  
+                    <li>@Html.TextBoxFor(m => m.dtResultado, new { @Value = "", onKeyPress = "return formatar(this, '##/##/####')", maxlength = 10 })</li>            
+                </ul>   
+            </section> 
+            <section id="botaoPesquisaForm">
+                <ul id="campos">            
+                    <li style="color: #efeeef">0</li>
+                    <li><input type="button" id="btnPesquisar" value="Pesquisar" class="btnSubmit" onclick="fnValidaEnquadramentoForm('pesquisar', 'diario');"/></li>                    
+                </ul>     
+            </section>    
+        </div>         
+        
+        <hr style="width: 97%; height: 2px; border: 0; background-color: #939191; margin-top: 5px; margin-bottom: 0;" />
+        
+        //Exibição das mensagens de erro
+        <div style="list-style-type: none; margin-top: 10px; margin-bottom: 0px;">
+            <span id="spanMensagem" class="message-error">
+                @if (Model != null && !string.IsNullOrEmpty(Model.Msg)) { @Model.Msg }
+            </span>                            
+        </div>          
+        
+        //Exibição da Grid
+        <div style="height: 350px; width:100%;  margin-top: 11px; margin-bottom: 0; overflow: auto;">
+            <table class="tabelaProcessamentoManual" style="width:100%; margin: 0px;">
+                @Html.Action("EnquadramentoGrid", new { ReturnUrl = ViewBag.ReturnUrl }) 
+            </table>          
+        </div>                       
+    } 
+
+</div>
+
+@Styles.Render("~/Content/css")   
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jquery")      
+    @Scripts.Render("~/bundles/jqueryvalform")   
+    @Scripts.Render("~/bundles/jquerymask")   
+    @Scripts.Render("~/bundles/jqueryaction")                         
+}
+
+<script type="text/javascript">
+    if (document.getElementById("msgHidden").value != "")
+        document.getElementById("spanMensagem").innerHTML = document.getElementById("msgHidden").value;
+
+    document.getElementById("dtResultado").focus();
+
+    window.name = "EnquadramentoDiarioPage";
+</script>          

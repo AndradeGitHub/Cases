@@ -1,0 +1,124 @@
+﻿@model ubs.brasil.qualitycontrol.comum.entidade.LogOperacao
+
+@{
+    ViewBag.Title = "Histórico de Operação";
+}
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="barra_principal">@ViewBag.Title</hgroup>
+        </div>
+    </section>
+}
+
+<hgroup class="title">
+    <h1>Histórico de Operação</h1>    
+</hgroup>
+
+<div class="divPrincipal">
+
+    @using (Html.BeginForm("HistoricoOperacao",
+            "Historico",
+            FormMethod.Post,
+            new { name       = "formHistoricoOperacao", 
+                  id         = "formHistoricoOperacao", 
+                  onkeypress = "fnEnterAtivo(event, 'fnValidaHistoricoOperacaoForm(|pesquisar|)');" }                  
+            ))                
+    {                 
+
+        <div style="height: 60px; padding-bottom:0;">  
+            @Html.Hidden("acao", "")      
+            @Html.Hidden("msgHidden", "")                          
+            @Html.Hidden("countRegistro", "")    
+            <section id="perfilForm" style="width: 170px;">
+                <ul id="campos">    
+                    <li>Funcionalidade</li>  
+                    <li>
+                        <select id="optFuncionalidade" name="optFuncionalidade" style="width: 165px;">
+                            <option value="">Todos</option>
+                            <option value="Limite Diário">Limite Diário</option>
+                            <option value="Limite Exceção">Limite Exceção</option>
+                            <option value="Limite Mensal">Limite Mensal</option>     
+                            <option value="Processamento Manual">Processamento Manual</option>                                                        
+                            <option value="Carga Manual">Carga Manual</option>                                                        
+                        </select>
+                    </li>            
+                </ul> 
+            </section>
+            <section id="perfilForm" style="width: 170px;">
+                <ul id="campos">    
+                    <li>Ação</li>  
+                    <li>
+                        <select id="optAcao" name="optAcao" style="width: 165px;">
+                            <option value="">Todos</option>
+                            <option value="Inclusão">Inclusão</option>
+                            <option value="Alteração">Alteração</option>
+                            <option value="Exclusão">Exclusão</option>                            
+                            <option value="Execução">Execução</option>                            
+                        </select>                    
+                    </li>            
+                </ul> 
+            </section>
+            <section id="perfilForm" style="width: 75px;">
+                <ul id="campos">    
+                    <li>Ação</li>  
+                    <li>
+                        <select id="optTipoDesc" name="optTipoDesc" style="width: 70px;">
+                            <option value="">Todos</option>
+                            <option value="OK">OK</option>
+                            <option value="Erro">Erro</option>                                                      
+                        </select>                    
+                    </li>            
+                </ul> 
+            </section>
+            <section id="deForm">
+                <ul id="campos">    
+                    <li>Data Inicial</li>  
+                    <li>@Html.TextBoxFor(m => m.dataInicial, new { @Value = "", onKeyPress = "return formatar(this, '##/##/####')", maxlength = 10 })</li>            
+                </ul>       
+            </section>   
+            <section id="deForm">
+                <ul id="campos">    
+                    <li>Data Final</li>  
+                    <li>@Html.TextBoxFor(m => m.dataFinal, new { @Value = "", onKeyPress = "return formatar(this, '##/##/####')", maxlength = 10 })</li>            
+                </ul>       
+            </section>                  
+            <section id="botaoPesquisaForm">
+                <ul id="campos">            
+                    <li style="color: #efeeef">0</li>
+                    <li><input type="button" id="btnPesquisar" value="Pesquisar" class="btnSubmit" onclick="fnValidaHistoricoOperacaoForm('pesquisar');"/></li>
+                </ul>     
+            </section>                         
+        </div>         
+        
+        <hr class="hrSeparacao" />
+        
+        //Exibição das mensagens de erro        
+        <div class="divErro">
+            <span id="spanMensagem" class="message-error"></span>                
+        </div>            
+        
+        //Exibição da Grid    
+        <div class="divGridExibicaoIncial">         
+            @Html.Action("HistoricoOperacaoGrid", new { ReturnUrl = ViewBag.ReturnUrl })                         
+        </div>
+    } 
+
+</div>
+
+<script type="text/javascript">
+    if (document.getElementById("msgHidden").value != "")
+        document.getElementById("spanMensagem").innerHTML = document.getElementById("msgHidden").value;
+
+    if (document.getElementById("countRegistro").value != "")
+        document.getElementById("spanCount").innerHTML = document.getElementById("countRegistro").value;
+
+    document.getElementById("dataInicial").focus();
+</script>          
+
+@Styles.Render("~/Content/css")   
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryvalform")   
+    @Scripts.Render("~/bundles/jquerymask")       
+}

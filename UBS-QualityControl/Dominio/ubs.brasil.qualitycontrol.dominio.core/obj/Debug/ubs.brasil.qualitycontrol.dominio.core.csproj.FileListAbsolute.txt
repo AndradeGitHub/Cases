@@ -1,0 +1,15 @@
+C:\Users\ERON\Desktop\BKP\Sistemas\UBS-QualityControlNew\Implementacao\Main\Dominio\ubs.brasil.qualitycontrol.dominio.core\bin\Debug\ubs.brasil.qualitycontrol.dominio.core.dll
+C:\Users\ERON\Desktop\BKP\Sistemas\UBS-QualityControlNew\Implementacao\Main\Dominio\ubs.brasil.qualitycontrol.dominio.core\bin\Debug\ubs.brasil.qualitycontrol.dominio.core.pdb
+C:\Users\ERON\Desktop\BKP\Sistemas\UBS-QualityControlNew\Implementacao\Main\Dominio\ubs.brasil.qualitycontrol.dominio.core\bin\Debug\EntityFramework.dll
+C:\Users\ERON\Desktop\BKP\Sistemas\UBS-QualityControlNew\Implementacao\Main\Dominio\ubs.brasil.qualitycontrol.dominio.core\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\ERON\Desktop\BKP\Sistemas\UBS-QualityControlNew\Implementacao\Main\Dominio\ubs.brasil.qualitycontrol.dominio.core\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\ERON\Desktop\BKP\Sistemas\UBS-QualityControlNew\Implementacao\Main\Dominio\ubs.brasil.qualitycontrol.dominio.core\bin\Debug\ubs.brasil.qualitycontrol.comum.entidade.dll
+C:\Users\ERON\Desktop\BKP\Sistemas\UBS-QualityControlNew\Implementacao\Main\Dominio\ubs.brasil.qualitycontrol.dominio.core\bin\Debug\ubs.brasil.qualitycontrol.comum.globals.dll
+C:\Users\ERON\Desktop\BKP\Sistemas\UBS-QualityControlNew\Implementacao\Main\Dominio\ubs.brasil.qualitycontrol.dominio.core\bin\Debug\ubs.brasil.qualitycontrol.dominio.repositorio.dll
+C:\Users\ERON\Desktop\BKP\Sistemas\UBS-QualityControlNew\Implementacao\Main\Dominio\ubs.brasil.qualitycontrol.dominio.core\bin\Debug\ubs.brasil.qualitycontrol.comum.entidade.pdb
+C:\Users\ERON\Desktop\BKP\Sistemas\UBS-QualityControlNew\Implementacao\Main\Dominio\ubs.brasil.qualitycontrol.dominio.core\bin\Debug\ubs.brasil.qualitycontrol.comum.globals.pdb
+C:\Users\ERON\Desktop\BKP\Sistemas\UBS-QualityControlNew\Implementacao\Main\Dominio\ubs.brasil.qualitycontrol.dominio.core\bin\Debug\ubs.brasil.qualitycontrol.dominio.repositorio.pdb
+C:\Users\ERON\Desktop\BKP\Sistemas\UBS-QualityControlNew\Implementacao\Main\Dominio\ubs.brasil.qualitycontrol.dominio.core\bin\Debug\EntityFramework.xml
+C:\Users\ERON\Desktop\BKP\Sistemas\UBS-QualityControlNew\Implementacao\Main\Dominio\ubs.brasil.qualitycontrol.dominio.core\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ERON\Desktop\BKP\Sistemas\UBS-QualityControlNew\Implementacao\Main\Dominio\ubs.brasil.qualitycontrol.dominio.core\obj\Debug\ubs.brasil.qualitycontrol.dominio.core.dll
+C:\Users\ERON\Desktop\BKP\Sistemas\UBS-QualityControlNew\Implementacao\Main\Dominio\ubs.brasil.qualitycontrol.dominio.core\obj\Debug\ubs.brasil.qualitycontrol.dominio.core.pdb

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OrderedTest name="limitediarioot_crud" storage="c:\projetos\qualitycontrol\implementacao\tests\ubs.brasil.qualitycontrol.test.dominio.core\limitediarioot_crud.orderedtest" id="c7c9ffd5-cfb3-4f0c-9c59-ed07b51e0c0c" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestCategory>
+    <TestCategoryItem TestCategory="LIMITE DIÁRIO" />
+  </TestCategory>
+  <Execution id="75297ab6-5329-42b7-983c-2fdf9dd56cc3" />
+  <TestLinks>
+    <TestLink id="29877930-e618-587e-2ae0-fdeb31b87a56" name="DeveSelecionarRegistroLimiteDiario" storage="bin\debug\ubs.brasil.qualitycontrol.test.dominio.core.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="0e9d9a50-8527-b19c-5da1-ca90fae7be49" name="DeveGravarLimiteDiario" storage="bin\debug\ubs.brasil.qualitycontrol.test.dominio.core.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="200b4214-8e8f-ef44-3cd9-b5049645f16c" name="NAO_DeveGravarLimiteDiario_REGISTRO_EXISTENTE" storage="bin\debug\ubs.brasil.qualitycontrol.test.dominio.core.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="976b0da8-4dad-15ac-9bd3-8d188ee24a31" name="DeveAlterarLimiteDiario" storage="bin\debug\ubs.brasil.qualitycontrol.test.dominio.core.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="d56cf2cc-2842-72c5-9c30-0ea5340140d3" name="NAO_DeveAlterarLimiteDiario_CHAVE_EXISTENTE" storage="bin\debug\ubs.brasil.qualitycontrol.test.dominio.core.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="005724f4-371b-9915-1fc7-8599addfc38d" name="DeveApagarLimiteDiario" storage="bin\debug\ubs.brasil.qualitycontrol.test.dominio.core.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="29877930-e618-587e-2ae0-fdeb31b87a56" name="DeveSelecionarRegistroLimiteDiario" storage="bin\debug\ubs.brasil.qualitycontrol.test.dominio.core.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestLinks>
+</OrderedTest>

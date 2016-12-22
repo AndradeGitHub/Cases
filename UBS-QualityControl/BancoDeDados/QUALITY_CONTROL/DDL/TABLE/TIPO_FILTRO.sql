@@ -1,0 +1,54 @@
+USE [Quality_Control]
+GO
+
+IF  EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[fk_tip_tip_filtro]') AND parent_object_id = OBJECT_ID(N'[dbo].[TIPO_FILTRO]'))
+ALTER TABLE [dbo].[TIPO_FILTRO] DROP CONSTRAINT [fk_tip_tip_filtro]
+GO
+
+USE [Quality_Control]
+GO
+
+/****** Object:  Table [dbo].[TIPO_FILTRO]    Script Date: 08/26/2013 13:55:35 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[TIPO_FILTRO]') AND type in (N'U'))
+DROP TABLE [dbo].[TIPO_FILTRO]
+GO
+
+USE [Quality_Control]
+GO
+
+/****** Object:  Table [dbo].[TIPO_FILTRO]    Script Date: 08/26/2013 13:55:35 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[TIPO_FILTRO](
+	[CD_TIPO_FILTRO] [int] NOT NULL,
+	[NO_TIPO_FILTRO] [varchar](60) NOT NULL,
+	[NO_TIPO_FILTRO_ABR] [varchar](50) NULL,
+	[CD_TIPO_FILTRO_PAI] [int] NOT NULL,
+	[IN_ATIVO_INATIVO] [char](1) NOT NULL,
+	[DT_ALTERACAO] [datetime] NULL,
+	[CD_USUARIO_ALTERACAO] [int] NULL,
+ CONSTRAINT [pk_tipo_filtro] PRIMARY KEY CLUSTERED 
+(
+	[CD_TIPO_FILTRO] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+
+ALTER TABLE [dbo].[TIPO_FILTRO]  WITH CHECK ADD  CONSTRAINT [fk_tip_tip_filtro] FOREIGN KEY([CD_TIPO_FILTRO_PAI])
+REFERENCES [dbo].[TIPO_FILTRO] ([CD_TIPO_FILTRO])
+GO
+
+ALTER TABLE [dbo].[TIPO_FILTRO] CHECK CONSTRAINT [fk_tip_tip_filtro]
+GO
+

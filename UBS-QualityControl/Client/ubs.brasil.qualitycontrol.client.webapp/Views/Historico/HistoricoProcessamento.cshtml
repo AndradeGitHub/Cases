@@ -1,0 +1,109 @@
+﻿@model ubs.brasil.qualitycontrol.comum.entidade.LogProcessamento
+
+@{
+    ViewBag.Title = "Histórico de Processamento";
+}
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="barra_principal">@ViewBag.Title</hgroup>
+        </div>
+    </section>
+}
+
+<hgroup class="title">
+    <h1>Histórico de Processamento</h1>    
+</hgroup>
+
+<div class="divPrincipal">
+
+    @using (Html.BeginForm("HistoricoProcessamento",
+            "Historico",
+            FormMethod.Post,
+            new { name       = "formHistoricoProcessamento", 
+                  id         = "formHistoricoProcessamento",
+                  onkeypress = "fnEnterAtivo(event, 'fnValidaHistoricoProcessamentoForm(|pesquisar|)');" }                              
+            ))                
+    {             
+    
+        <div style="height: 60px; padding-bottom:0;">  
+            @Html.Hidden("acao", "")      
+            @Html.Hidden("msgHidden", "")      
+            @Html.Hidden("countRegistro", "")                                  
+            <section id="deForm">
+                <ul id="campos">    
+                    <li>Data</li>  
+                    <li>@Html.TextBoxFor(m => m.dtProcessada, new { @Value = "", onKeyPress = "return formatar(this, '##/##/####')", maxlength = 10 })</li>            
+                </ul>       
+            </section>    
+            <section id="botaoPesquisaForm">
+                <ul id="campos">            
+                    <li style="color: #efeeef">0</li>
+                    <li><input type="button" value="Definir Carteiras" class="btnSubmit" onclick="fnAbreCarteirasHistoricoProc();"/></li>                    
+                </ul>     
+            </section>                                      
+            <section id="botaoPesquisaForm">
+                <ul id="campos">            
+                    <li style="color: #efeeef">0</li>
+                    <li><input type="button" id="btnPesquisar" value="Pesquisar" class="btnSubmit" onclick="fnValidaHistoricoProcessamentoForm('pesquisar');"/></li>                    
+                </ul>     
+            </section>                                      
+        </div>         
+        
+        <hr class="hrSeparacao" />
+
+        //Exibição das mensagens de erro e carteiras       
+        <div class="divErro">
+            <table width="100%">
+                <tr>
+                    <td style="width: 40%; text-align: left;"><span id="spanMensagem" class="message-error"></span></td>
+                    <td id="tdCarteiras" style="width: 60%; text-align: right;">
+                        <span id="spanCarteiras" class="message-error" style="color: #000000;"></span> 
+                        <textarea id="txtaCarteiras" rows="1" cols="1" style="width: 300px;" readonly="true"></textarea>
+                    </td>                    
+                </tr>                                             
+            </table>
+        </div>                             
+                        
+        //Exibição da Grid    
+        <div class="divGridExibicaoIncial"> 
+            @Html.Action("HistoricoProcessamentoGrid", new { ReturnUrl = ViewBag.ReturnUrl })                         
+        </div>                                                    
+    } 
+
+</div>
+
+@if (Session["carteiras"] != null)
+{        
+    <script type="text/javascript">        
+        document.getElementById("tdCarteiras").style.display = "block";
+        document.getElementById("spanCarteiras").innerHTML = '@string.Concat("Carteiras Selecionadas: ")';
+        document.getElementById("txtaCarteiras").innerHTML = '@Session["carteiras"]';        
+    </script>
+}
+else
+{
+    <script type="text/javascript">
+        document.getElementById("tdCarteiras").style.display = "none";
+    </script>
+}
+
+<script type="text/javascript">    
+    if (document.getElementById("msgHidden").value != "") 
+        document.getElementById("spanMensagem").innerHTML = document.getElementById("msgHidden").value;    
+
+    if (document.getElementById("countRegistro").value != "")
+        document.getElementById("spanCount").innerHTML = document.getElementById("countRegistro").value;
+
+    window.name = "historicoProcessamentoPage";
+
+    document.getElementById("dtProcessada").focus();
+</script>          
+
+@Styles.Render("~/Content/css")   
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryvalform")   
+    @Scripts.Render("~/bundles/jquerymask")       
+    @Scripts.Render("~/bundles/jqueryaction")      
+}

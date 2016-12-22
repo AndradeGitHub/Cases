@@ -1,0 +1,32 @@
+USE [WM_DB]
+GO
+
+/****** Object:  Table [dbo].[PERFIL_RISCO]    Script Date: 08/26/2013 13:59:13 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[PERFIL_RISCO]') AND type in (N'U'))
+DROP TABLE [dbo].[PERFIL_RISCO]
+GO
+
+USE [WM_DB]
+GO
+
+/****** Object:  Table [dbo].[PERFIL_RISCO]    Script Date: 08/26/2013 13:59:13 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[PERFIL_RISCO](
+	[CD_PERFIL_RISCO] [char](8) NOT NULL,
+	[NO_PERFIL_RISCO] [varchar](30) NOT NULL,
+	[IN_ATIVO_INATIVO] [char](1) NULL
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+

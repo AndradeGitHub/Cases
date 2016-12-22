@@ -1,0 +1,72 @@
+﻿@model List<ubs.brasil.qualitycontrol.comum.entidade.Carteira>  
+
+@using System.Linq;
+
+<script src="../Scripts/jquery.action.js"></script>
+
+<title>Carteiras</title> 
+
+@if (Model != null && Model.Count > 0)
+{
+    if (string.IsNullOrEmpty(Model[0].Msg))
+    {
+        string backColor = "#f5f4f4";
+
+        var lstCarteira = Model.OrderBy(item => item.codCarteira).ToList<ubs.brasil.qualitycontrol.comum.entidade.Carteira>();
+
+        <table class="tableGridTopo" style="width: 800px;">
+            <tr class="trGridTopo">
+                <td class="tdGridTopo" style="width:709px; background-color: Gray; color: White; font-size: 0.70em;">Carteira</td>
+@*                <td class="tdGridTopo" style="width:91px; background-color: Gray; font-size: 0.7em; text-align: center;">
+                    <input type="checkbox" name="chkCarteiraTodos" id="chkCarteiraTodos" class="chkGrid" onclick="fnCheckAll(this);" />                                                    
+                </td>*@
+            </tr>  
+        </table>
+
+        <div style="height: 213px; overflow-x: hidden; overflow-y: scroll; border-top-style: hidden;">
+            <table class="tableGrid" style="width: 770px; border-top-style: hidden;"> 
+                @foreach (ubs.brasil.qualitycontrol.comum.entidade.Carteira carteira in lstCarteira)
+                {
+                    if (backColor.Equals("#f5f4f4"))
+                    {
+                        backColor = "#ffffff";
+                    }
+                    else
+                    {
+                        backColor = "#f5f4f4";
+                    }                                
+                        
+                    <tr class="trGrid" style="height:20px; background-color: @backColor" onmouseover="style.backgroundColor='#e5f4fa'; style.cursor='hand';" onmouseout="style.backgroundColor='@backColor';">                               
+                        <td class="tdGrid" style="width:730px; font-size: 0.70em;">@carteira.codCarteira</td>                                        
+                        <td class="tdGrid" style="width:50px; font-size: 0.70em; text-align: center;"><input type="checkbox" name="@carteira.codCarteira" id="@carteira.codCarteira" class="chkGrid" /></td>                                                 
+                    </tr>                         
+                }      
+            </table> 
+        </div>            
+    
+        <table style="width: 800px; height: 40px; padding: 0; margin: 0;">
+            <tr class="tabelaLimiteDiarioTopo">
+                <td class="tdGrid" style="padding-bottom: 0px; padding-left:50px; margin: 0; font-size: 0.95em; border-right: 0px; text-align: center;">
+                    <input type="button" id="btnSalvar" value="Selecionar" class="btnPartial" onmouseover="style.backgroundColor='#e5f4fa';" onmouseout="style.backgroundColor='#d3dce0';" onclick="fnSelecionarChks();"/>
+                </td>            
+                <td class="tdGrid" style="padding-bottom: 0px; padding-right:50px; margin: 0; font-size: 0.95em; border-left: 0px; text-align: center;">
+                    <input type="button" id="btnCancelar" value="Fechar" class="btnPartial" onmouseover="style.backgroundColor='#e5f4fa';" onmouseout="style.backgroundColor='#d3dce0';" onclick="window.close();"/>
+                </td>  
+            </tr>          
+        </table>                                   
+    }
+    else
+    {
+        <script type="text/javascript">
+            document.getElementById("msgHidden").value = "@Model[0].Msg";            
+        </script>            
+    }
+}
+
+@Styles.Render("~/Content/css")
+
+<script type="text/javascript">
+    window.name = "modalCarteiras";
+
+    window.focus();    
+</script> 

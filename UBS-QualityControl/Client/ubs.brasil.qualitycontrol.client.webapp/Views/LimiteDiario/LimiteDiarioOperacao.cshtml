@@ -1,0 +1,120 @@
+﻿@model ubs.brasil.qualitycontrol.comum.entidade.LimitePerfilRisco
+
+@{
+    ViewBag.Title = "Limite Diário";
+}
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="barra_principal">@ViewBag.Title</hgroup>
+        </div>
+    </section>
+}
+
+<hgroup class="title">
+    <h1>Cadastro de Limites Diários</h1>    
+</hgroup>
+
+<div style="height: 500px;">
+
+    @using (Html.BeginForm("LimiteDiarioOperacao",
+            "LimiteDiario",
+            FormMethod.Post,
+            new { name = "formLimiteDiarioOp", id = "formLimiteDiarioOp" }               
+            ))
+    {      
+     
+        <div style="height: 50px; padding-bottom:0;">
+            @Html.Hidden("acao", "")
+            <section id="deForm">
+                <ul id="campos">    
+                    <li>De</li>  
+                    <li>@Html.TextBoxFor(m => m.dtIniVigencia, new { onKeyPress = "return formatar(this, '##/##/####')", maxlength = 10 })</li>              
+                </ul>
+            </section>
+            <section id="ateForm">
+                <ul id="campos">
+                    <li>Até</li>
+                    <li>@Html.TextBoxFor(m => m.dtFimVigencia, new { onKeyPress = "return formatar(this, '##/##/####')", maxlength = 10 })</li>  
+                </ul>
+            </section> 
+        </div> 
+            
+        <hr class="hrSeparador" style="margin-top: 15px;" />
+                           
+        //Exibição das mensagens de erro        
+        <div class="divErro">
+            <span id="spanMensagem" class="message-error">
+                @if (Model != null)
+                {
+                    @Model.Msg       
+            
+                    if (Model.Msg.Equals("* Limite Diário alterado.") || Model.Msg.Equals("* Limite Diário excluído."))
+                    {
+                        <script type="text/javascript">
+                            document.getElementById("dtIniVigencia").value = "";
+                            document.getElementById("dtFimVigencia").value = "";       
+                        </script>
+                    }
+                }
+            </span>                
+        </div>          
+        
+        <div>
+            <table width="100%">        
+                @if (string.IsNullOrEmpty(Request.QueryString["codLimitePerfilRisco"]))
+                {
+                    @Html.Action("LimitePerfilRiscoList", new { ReturnUrl = ViewBag.ReturnUrl });
+                }
+                else
+                {
+                    @Html.Action("LimiteDiarioOperacaoList", new { ReturnUrl = ViewBag.ReturnUrl });
+                }
+            </table>      
+        </div>                    
+        
+        if (string.IsNullOrEmpty(Request.QueryString["codLimitePerfilRisco"]))
+        {
+            <div class="divBotoesOperacao" style="padding-left:200px;">        
+                <section id="botoes">
+                    <ul id="campos">                        
+                        <li><input type="button" id="btnSubmit" value="Salvar" class="btnSubmit" onclick="fnValidaLimiteOperacaoForm('incluir', 'diario');"/></li>
+                    </ul>     
+                </section>       
+                <section id="botoes">
+                    <ul id="campos">                        
+                        <li><input type="button" value="Cancelar" class="btnSubmit" onclick="location.href='@Url.Action("LimiteDiario", "LimiteDiario")'"/></li>                 
+                        </ul>        
+                </section>
+            </div> 
+        }
+        else
+        {
+            <div class="divBotoesOperacao" style="padding-left:70px;">        
+                <section id="botoes">
+                    <ul id="campos">                        
+                        <li><input type="button" id="btnSubmit" value="Salvar" class="btnSubmit" onclick="fnValidaLimiteOperacaoForm('alterar', 'diario');"/></li>
+                    </ul>     
+                </section>    
+                <section id="botoes">
+                    <ul id="campos">                                    
+                        <li><input type="button" id="btnExcluir" value="Excluir" class="btnSubmit" onclick="fnValidaLimiteOperacaoForm('excluir', 'diario');"/></li>
+                    </ul>     
+                </section>                                                 
+                <section id="botoes">
+                    <ul id="campos">                        
+                        <li><input type="button" value="Cancelar" class="btnSubmit" onclick="location.href='@Url.Action("LimiteDiario", "LimiteDiario")'"/></li>                 
+                        </ul>        
+                </section>               
+            </div> 
+        }
+    }
+
+</div>
+
+@Styles.Render("~/Content/css")   
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryvalform")        
+    @Scripts.Render("~/bundles/jquerymask")        
+}

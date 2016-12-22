@@ -1,0 +1,75 @@
+﻿@model ubs.brasil.qualitycontrol.comum.entidade.Processamento
+
+@{
+    ViewBag.Title = "Resultado Processamento";
+}
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="barra_principal">@ViewBag.Title</hgroup>
+        </div>
+    </section>
+}
+
+<hgroup class="title">
+    <h1>Resultado Processamento</h1>    
+</hgroup>
+
+<div class="divPrincipal">
+
+    @using (Html.BeginForm("ProcessamentoResultado",
+            "Processamento",
+            FormMethod.Post,
+            new { name       = "formProcessamentoResultado",
+                  id         = "formProcessamentoResultado",
+                  onkeypress = "fnEnterAtivo(event, 'fnValidaProcessamentoResultadoForm(|pesquisar|)');" }
+            ))
+    {    
+            
+        <div class="divResultado">  
+            @Html.Hidden("acao", "")      
+            @Html.Hidden("msgHidden", "")                          
+            <section id="deForm">
+                <ul id="campos">    
+                    <li>Data</li>  
+                    <li>@Html.TextBoxFor(m => m.dtResultadoPesq, new { @Value = "", onKeyPress = "return formatar(this, '##/##/####')", maxlength = 10 })</li>            
+                </ul>       
+            </section>  
+            <section id="botaoPesquisaForm">
+                <ul id="campos">            
+                    <li style="color: #efeeef">0</li>
+                    <li><input type="button" id="btnPesquisar" value="Pesquisar" class="btnSubmit" onclick="fnValidaProcessamentoResultadoForm('pesquisar');"/></li>                    
+                </ul>     
+            </section>                                                             
+        </div>                                                                                 
+        
+        <hr class="hrSeparador" />             
+        
+        //Exibição das mensagens de erro        
+        <div class="divErro">
+            <span id="spanMensagem" class="message-error"></span>                
+        </div>         
+        
+        //Exibição da Grid
+        <div class="divGrid">            
+            @Html.Action("ProcessamentoResultadoGrid", new { ReturnUrl = ViewBag.ReturnUrl })             
+        </div>          
+    } 
+
+</div>
+
+@Styles.Render("~/Content/css")   
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jquery")      
+    @Scripts.Render("~/bundles/jqueryvalform")   
+    @Scripts.Render("~/bundles/jquerymask")   
+    @Scripts.Render("~/bundles/jqueryaction")                         
+}
+
+<script type="text/javascript">
+    if (document.getElementById("msgHidden").value != "")
+        document.getElementById("spanMensagem").innerHTML = document.getElementById("msgHidden").value;
+
+    document.getElementById("dtResultadoPesq").focus();
+</script>          

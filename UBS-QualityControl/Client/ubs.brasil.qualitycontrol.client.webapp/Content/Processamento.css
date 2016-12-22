@@ -1,0 +1,68 @@
+﻿/***********************************************************
+ Processamento Manual
+***********************************************************/
+.divStatus {    
+    width:500px; 
+    height: 350px; 
+    background-color: #e2e2e2; 
+    border: 1px solid #000000; 
+    overflow: auto; 
+    position: absolute; 
+    left: 37%; 
+    top: 250px; 
+    display: none;
+    z-index: 1;
+}
+
+.divDetalhe
+{
+    width: 500px; 
+    height:90px; 
+
+    scrollbar-arrow-color: #000000;
+    scrollbar-3dlight-color: #e2e2e2;
+    scrollbar-highlight-color: #e2e2e2;
+    scrollbar-face-color: #e2e2e2;
+    scrollbar-shadow-color: #e2e2e2;
+    scrollbar-darkshadow-color: #e2e2e2;
+    scrollbar-track-color: #e2e2e2;
+}
+
+/***********************************************************
+ Processamento Resultado
+***********************************************************/
+.divResultado
+{
+    width: 100%; 
+    height: 60px; 
+    padding-bottom: 0; 
+    margin-bottom: 0;
+}
+
+/**********************************************************/
+
+.divGridDetalhe
+{
+    overflow: auto; 
+    height: 210px; 
+    width: 100%; 
+    padding: 0; 
+    margin: 0;
+}
+
+.divBotoesDetalhe
+{
+    height: 5px; 
+    width: 100%; 
+    padding: 0; 
+    margin: 0;
+}
+
+.tableGridDetalhe
+{
+    height: 5px; 
+    width: 100%; 
+    border:1px solid #000000; 
+    padding: 0; 
+    margin: 0;
+}

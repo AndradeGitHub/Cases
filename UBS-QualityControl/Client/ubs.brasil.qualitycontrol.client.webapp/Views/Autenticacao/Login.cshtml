@@ -1,0 +1,84 @@
+﻿@model ubs.brasil.qualitycontrol.comum.entidade.Usuario
+
+@{    
+    ViewBag.Title = "Log In";    
+}
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="barra_principal">@ViewBag.Title</hgroup>
+        </div>
+    </section>
+}
+
+@if (!HttpContext.Current.User.Identity.IsAuthenticated)
+{
+    <hgroup class="title">
+        <h1>@ViewBag.Title</h1>
+    </hgroup>
+
+    <div style="height: 500px;">
+    
+        @using (Html.BeginForm("Login",
+                "Autenticacao",
+                FormMethod.Post,                
+                new { name = "formLogin", id = "formLogin" }                
+                ))
+        {
+                        
+            //Exibição das mensagens de erro
+            <div style="list-style-type: none; margin-top: 0px; margin-bottom: 10px;">
+                <span id="spanMensagem" class="message-error">
+                    @if (Model != null && !string.IsNullOrEmpty(Model.Msg))
+                    { @Model.Msg }
+                    @Request["msg"]
+                </span>                            
+            </div>  
+                   
+            <div style="height: 65px; padding-bottom:0;">                
+                <section id="user">
+                    <ul id="campos"> 
+                        <li>
+                            Username:
+                            @Html.TextBoxFor(m => m.nomeLogin)
+                            @*@Html.TextBoxFor(m => m.nomeLogin, new { @Value = "QC_APROVADOR_USER" })*@
+                        </li>
+                    </ul>
+                </section>
+            </div>     
+            <div style="height: 65px; width: 300px; padding-bottom:0;">  
+                <section id="pass">
+                    <ul id="campos"> 
+                        <li>
+                            Password:                            
+                            @Html.PasswordFor(m => m.dsSenha)
+                            @*@Html.PasswordFor(m => m.dsSenha, new { @Value = "eron@#1234" })*@
+                        </li>
+                    </ul>
+                </section> 
+            </div>  
+            <div style="float: left; padding-left: 187px; height: 65px; padding-bottom:0;">     
+                <section id="botaoPesquisaForm">      
+                    <ul id="campos">             
+                        <li>
+                            <input type="button" id="btnLogIn" value="  Log In  " class="btnSubmit" />
+                        </li>
+                    </ul>
+                </section>               
+            </div>                      
+        }    
+
+    </div>
+
+    <script type="text/javascript">
+        document.getElementById("nomeLogin").focus();    
+    </script>
+}
+else
+{
+    <div style="height: 500px;"></div>
+}     
+
+@section Scripts {    
+    @Scripts.Render("~/bundles/jqueryvalform")    
+}

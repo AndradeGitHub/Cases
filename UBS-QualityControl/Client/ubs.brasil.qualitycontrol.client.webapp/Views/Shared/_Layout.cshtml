@@ -1,0 +1,78 @@
+﻿@using ubs.brasil.qualitycontrol.client.webapp
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title class="title">Quality Control (@GlobalConfig.Ambiente) - @ViewBag.Title</title>
+        <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <meta name="viewport" content="width=device-width" />
+        @Styles.Render("~/Content/css")
+        @Scripts.Render("~/bundles/modernizr")        
+    </head>
+    <body>
+        <header>
+            <div class="content-wrapper" style="width: 100%;">
+                <div class="float-left">
+                @if (GlobalConfig.Ambiente.Equals("UAT"))
+                {
+                    <p class="site-title-UAT"></p>
+                }
+                else
+                {
+                    <p class="site-title"></p>
+                }                
+                    <p class="site-title-product">Quality Control</p>
+                </div>
+                @if (HttpContext.Current.User.Identity.IsAuthenticated)
+                {
+                    <div style="float:right; width: 50%; margin-top:0;">     
+                        <section id="login" style="float:right;">
+                            @Html.Partial("_LoginPartial")
+                        </section> 
+                    </div>
+                    <div style="float:right; width: 50%;">                                                                                        
+                        <section id="login" style="float:right;">
+                            @Html.ActionLink("Histórico Operações", "HistoricoOperacao", "Historico")
+                        </section>                                                                                         
+                        <section id="login" style="float:right;">
+                            @Html.ActionLink("Histórico Processamento", "HistoricoProcessamento", "Historico")
+                        </section>                                    
+                    </div>
+                    <div style="float:right; width: 85%;">
+                        <nav style="float:right; width: 100%;">                                                         
+                            <ul id="menu" style="padding-top: 10px">                                                                                     
+                                <li>@Html.ActionLink("Limites Diários", "LimiteDiario", "LimiteDiario")</li>                                
+                                <li>@Html.ActionLink("Limites Exceção", "LimiteExcecao", "LimiteExcecao")</li>
+                                <li>@Html.ActionLink("Limites Mensais", "LimiteMensal", "LimiteMensal")</li>                        
+                                <li>@Html.ActionLink("Resultado Processamento", "ProcessamentoResultado", "Processamento")</li>
+                                <li>@Html.ActionLink("Enquadramento Diário", "EnquadramentoDiario", "Enquadramento")</li>
+                                <li>@Html.ActionLink("Enquadramento Mensal", "EnquadramentoMensal", "Enquadramento")</li>
+                                <li>@Html.ActionLink("Carga", "CargaGeral", "Carga")</li>
+                                <li>@Html.ActionLink("Processamento", "ProcessamentoManual", "Processamento")</li>
+                            </ul>
+                        </nav>                                                                                           
+                    </div>
+                }
+            </div>
+        </header>
+        <div id="body">
+            @RenderSection("featured", required: false)
+            <section class="content-wrapper main-content clear-fix">
+                @RenderBody()
+            </section>
+        </div>
+        <div class="linha-rodape"></div>
+        <footer>
+            <div class="content-wrapper">
+                <div class="float-left">
+                    <p>&copy; @DateTime.Now.Year - UBS Intranet</p>
+                </div>
+            </div>
+        </footer>
+
+        @Scripts.Render("~/bundles/jquery")
+        @RenderSection("scripts", required: false)
+
+    </body>
+</html>

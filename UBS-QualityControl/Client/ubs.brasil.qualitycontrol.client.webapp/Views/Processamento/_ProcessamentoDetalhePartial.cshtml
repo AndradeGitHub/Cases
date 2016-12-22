@@ -1,0 +1,143 @@
+﻿@model List<ubs.brasil.qualitycontrol.comum.entidade.Processamento>   
+
+@using System.Globalization 
+@using ubs.brasil.qualitycontrol.comum.globals 
+
+<script src="../Scripts/jquery-1.10.1.js"></script>
+<script src="../Scripts/jquery.action.js"></script>
+
+<title>Resultado Processamento - Bloqueio de Ativos</title> 
+
+@if (Model != null && Model.Count > 0)
+{
+    CultureInfo cultureData = new CultureInfo(ubs.brasil.qualitycontrol.client.webapp.GlobalConfig.CultureData);     
+    
+    string perfilUsuario = HttpContext.Current.User.Identity.Name.Split('|')[2];
+    
+    if (!string.IsNullOrEmpty(Model[0].Msg) && Model[0].Msg.Equals("A"))
+    {
+        <script type="text/javascript">
+            alert("Alteração concluída");
+
+            window.close();
+        </script>         
+    }
+
+    string backColor = "#f5f4f4";
+
+    int i = 0;
+
+    using (Html.BeginForm("ProcessamentoResultadoDetalhe",
+            "Processamento",
+            FormMethod.Post,
+            new
+            {
+                target = "modalResultado",
+                name = "formProcessamentoDetalhe",
+                id = "formProcessamentoDetalhe"
+            }
+            ))
+    {    
+        
+    <input type="hidden" name="hdnParametrosRet" id="hdnParametrosRet" value="@Model[0].codSubTipoFiltroRet,@Model[0].dtResultadoRet.ToString("dd/MM/yyyy")"/>    
+    <input type="hidden" name="hdnLiberar" id="hdnLiberar" value=""/>    
+    
+    <table class="tableGridTopo" style="width: 800px;">
+        <tr class="trGridTopo">
+            <td class="tdGridTopo" style="background-color: Gray; color: White; font-size: 0.70em;" colspan="5">Filtro: @Model[0].nomeFiltroAbrev</td>
+        </tr> 
+        <tr class="trGridTopo">
+            <td class="tdGridTopo" style="width:311px; font-size: 0.70em;">Ativo</td>
+            <td class="tdGridTopo" style="width:196px; font-size: 0.70em; text-align: right; padding-right: 5px;">Quantidade</td>
+            <td class="tdGridTopo" style="width:115px; font-size: 0.70em; text-align: right; padding-right: 5px;">AuM (BRL)</td>
+            <td class="tdGridTopo" style="width:114px; font-size: 0.70em; text-align: right; padding-right: 5px;">Posição Ativo (BRL)</td>
+            @if (perfilUsuario.ToUpper().Equals(TipoUsuario.Aprovador))
+            {
+                <td class="tdGridTopo" style="width:60px; font-size: 0.70em;">Liberar</td>
+            }            
+        </tr>   
+    </table>
+
+    <div style="height: 189px; overflow-x: hidden; overflow-y: scroll; border-top-style: hidden;">
+        <table class="tableGrid" style="width: 770px; border-top-style: hidden;"> 
+            @foreach (ubs.brasil.qualitycontrol.comum.entidade.Processamento processamento in Model)
+            {
+                if (backColor.Equals("#f5f4f4"))
+                {
+                    backColor = "#ffffff";
+                }
+                else
+                {
+                    backColor = "#f5f4f4";
+                }
+
+                string ativo = string.Empty;
+                if (!string.IsNullOrEmpty(processamento.codAtivo))
+                {
+                    ativo = processamento.codAtivo;
+                }
+                else if (!string.IsNullOrEmpty(processamento.codTipoAtivo))
+                {
+                    ativo = processamento.codTipoAtivo;
+                }                
+
+                string dtResultado = processamento.dtResultado.ToString("dd/MM/yyyy");
+                        
+                <tr class="trGrid" style="height:20px; background-color: @backColor" onmouseover="style.backgroundColor='#e5f4fa'; style.cursor='hand';" onmouseout="style.backgroundColor='@backColor';">
+                    @if (perfilUsuario.ToUpper().Equals(TipoUsuario.Aprovador))
+                    {                               
+                        <td class="tdGrid" style="width:297px; font-size: 0.70em;" onclick="fnAbreDetalheAtivoProcessamento('@processamento.codSubTipoFiltro', '@dtResultado', '@processamento.codAtivo', '@processamento.codTipoAtivo');">
+                            <a href="#">@ativo</a>
+                        </td>                                        
+                        <td class="tdGrid" style="width:198px; font-size: 0.70em; text-align: right; padding-right: 5px;">@processamento.qtdeCarteira</td>
+                        <td class="tdGrid" style="width:120px; font-size: 0.70em; text-align: right; padding-right: 5px;">@String.Format(cultureData, "{0:N}", processamento.vlPatrimonial)</td>                                       
+                        <td class="tdGrid" style="width:120px; font-size: 0.70em; text-align: right; padding-right: 5px;">@String.Format(cultureData, "{0:N}", processamento.vlrPosicaoAtivo)</td>     
+                        <td align="center" class="tdGridChk" style="width:46px; font-size: 0.70em; cursor: default; border: 1px solid #000000;">
+                            <input type="hidden" name="hdnLiberar_@i" id="hdnLiberar_@i" value="@processamento.codSubTipoFiltro,@dtResultado,@processamento.codAtivo,@processamento.codTipoAtivo"/>
+                            <input type="hidden" name="hdnBloquear_@i" id="hdnBloquear_@i" value="@processamento.codSubTipoFiltro,@dtResultado,@processamento.codAtivo,@processamento.codTipoAtivo"/>
+                            @if (processamento.inLiberado == null || !processamento.inLiberado.Equals("S"))
+                            {
+                                <input type="checkbox" name="@i" id="@i" class="chkGrid" />                                   
+                            }                            
+                        </td>               
+                    }
+                    else
+                    {
+                        <td class="tdGrid" style="width:327px; font-size: 0.70em;" onclick="fnAbreDetalheAtivoProcessamento('@processamento.codSubTipoFiltro', '@dtResultado', '@processamento.codAtivo', '@processamento.codTipoAtivo');">
+                            <a href="#">@ativo</a>
+                        </td>                                        
+                        <td class="tdGrid" style="width:214px; font-size: 0.70em; text-align: right; padding-right: 5px;">@processamento.qtdeCarteira</td>
+                        <td class="tdGrid" style="width:130px; font-size: 0.70em; text-align: right; padding-right: 5px;">@String.Format(cultureData, "{0:N}", processamento.vlPatrimonial)</td>                                       
+                        <td class="tdGrid" style="width:109px; font-size: 0.70em; text-align: right; padding-right: 5px;">@String.Format(cultureData, "{0:N}", processamento.vlrPosicaoAtivo)</td>                                       
+                    }
+                    
+                </tr> 
+                        
+                    i++;
+            }      
+        </table> 
+    </div>            
+    
+    <table style="width: 800px; height: 40px; padding: 0; margin: 0;">
+        <tr class="tabelaLimiteDiarioTopo">
+            @if (perfilUsuario.ToUpper().Equals(TipoUsuario.Aprovador))
+            {
+                <td class="tdGrid" style="padding-bottom: 0px; padding-left:50px; margin: 0; font-size: 0.95em; border-right: 0px; text-align: center;">
+                    <input type="button" id="btnSalvar" value="Salvar" class="btnPartial" onmouseover="style.backgroundColor='#e5f4fa';" onmouseout="style.backgroundColor='#d3dce0';" onclick="fnLiberarBloquear();"/>
+                </td>            
+            }
+            <td class="tdGrid" style="padding-bottom: 0px; padding-right:50px; margin: 0; font-size: 0.95em; border-left: 0px; text-align: center;">
+                <input type="button" id="btnCancelar" value="Fechar" class="btnPartial" onmouseover="style.backgroundColor='#e5f4fa';" onmouseout="style.backgroundColor='#d3dce0';" onclick="window.close();"/>
+            </td>  
+        </tr>          
+    </table>     
+    }
+} 
+
+@Styles.Render("~/Content/css")
+
+<script type="text/javascript">
+    window.name = "modalResultado";
+
+    window.focus();    
+</script> 

@@ -1,0 +1,114 @@
+﻿@model PagedList.IPagedList<ubs.brasil.qualitycontrol.comum.entidade.LogProcessamento>
+   
+@using ubs.brasil.qualitycontrol.client.webapp.Filters;
+
+@if (Model != null && Model.Count > 0)
+{
+    if (string.IsNullOrEmpty(Model[0].Msg))
+    {
+        AutenticacaoUsuario kerberosAutenticacao = new AutenticacaoUsuario();
+        
+        if (!string.IsNullOrEmpty(ViewBag.QtdeRegistro))
+        {
+            <script type="text/javascript">
+                document.getElementById("countRegistro").value = "@ViewBag.QtdeRegistro";            
+            </script>
+        }
+
+        string backColor = "#f5f4f4";
+                
+        <table class="tableGridTopo">           
+            <tr class="trGridTopo">
+                <td class="tdGridTopo" style="width:141px;">Carteira</td>
+                <td class="tdGridTopo" style="width:119px;">Dt. Processada</td>
+                <td class="tdGridTopo" style="width:119px;">Dt. Processamento</td>
+                <td class="tdGridTopo" style="width:415px;">Descrição</td>
+                <td class="tdGridTopo" style="width:164px;">Usu. Resp.</td>
+            </tr>       
+        </table>
+                 
+        <div class="divGrid">
+            <table class="tableGrid"> 
+                @foreach (ubs.brasil.qualitycontrol.comum.entidade.LogProcessamento logProcessamento in Model)
+                {
+                    if (backColor.Equals("#f5f4f4"))
+                    {
+                        backColor = "#ffffff";
+                    }
+                    else
+                    {
+                        backColor = "#f5f4f4";
+                    }
+
+                    string data = string.Empty;
+
+                    var usuario = kerberosAutenticacao.RetornaUsuarioPorId(logProcessamento.codUsuarioResponsavel);
+                    
+                   <tr class="trGrid" style="background-color: @backColor;" onmouseover="style.backgroundColor='#e5f4fa';" onmouseout="style.backgroundColor='@backColor';">
+                        <td class="tdGrid" style="width:119px;">@logProcessamento.codCarteira</td>            
+                        <td class="tdGrid" style="width:102px;">@logProcessamento.dtProcessada.ToString("dd/MM/yyyy HH:mm")</td>
+                        <td class="tdGrid" style="width:103px;">@logProcessamento.dtProcessamento.ToString("dd/MM/yyyy HH:mm")</td>               
+                        <td class="tdGrid" style="width:350px;">@logProcessamento.dsDescricao</td>               
+                        <td class="tdGrid" style="width:138px;">@usuario.Name</td>                            
+                    </tr> 
+                }
+            </table>
+        </div>
+        
+        <div class="divPaginacao">
+            <table class="tablePaginacao">
+                <tr>
+                    <td class="tdPaginacao" style="width: 30%; text-align: left;">
+                        Página @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) de @Model.PageCount
+                    </td>
+                    <td class="tdPaginacao" style="width: 40%; text-align: center;">            
+                        @if (Model.HasPreviousPage)
+                        {
+                            @Html.ActionLink("<<", "HistoricoProcessamento", new { dtForm = ViewBag.DtForm.ToString("d/M/yyyy"), logProcessamentoForm = ViewBag.logProcessamentoForm, pagina = 1 })
+                            @Html.Raw("&nbsp;")
+                            @Html.ActionLink("< Anterior", "HistoricoProcessamento", new { dtForm = ViewBag.DtForm.ToString("d/M/yyyy"), logProcessamentoForm = ViewBag.logProcessamentoForm, pagina = Model.PageNumber - 1 })
+                        }
+                        else
+                        {
+                            if (Model.Count > 1000)
+                            {
+                                @Html.Raw("<<")
+                                @Html.Raw("&nbsp;")
+                                @Html.Raw("Anterior")
+                            }
+                        }
+            
+                        &nbsp;
+            
+                        @if (Model.HasNextPage)
+                        {
+                            @Html.ActionLink("Próxima >", "HistoricoProcessamento", new { dtForm = ViewBag.DtForm.ToString("d/M/yyyy"), logProcessamentoForm = ViewBag.logProcessamentoForm, pagina = Model.PageNumber + 1 })                                                              
+                            @Html.Raw("&nbsp;")
+                            @Html.ActionLink(">>", "HistoricoProcessamento", new { dtForm = ViewBag.DtForm.ToString("d/M/yyyy"), logProcessamentoForm = ViewBag.logProcessamentoForm, pagina = Model.PageCount })
+                        }
+                        else
+                        {
+                            if (Model.Count > 1000)
+                            {                
+                                @Html.Raw("Próxima")
+                                @Html.Raw("&nbsp;")
+                                @Html.Raw(">>")
+                            }
+                        }
+                    </td>            
+                    <td id="spanCount" class="message-count"></td>                        
+                </tr>
+            </table> 
+        </div>  
+                 
+        <script type="text/javascript">
+            document.getElementById("dtProcessada").value = '@ViewBag.DtForm.ToString("dd/MM/yyyy")';    
+        </script>                                               
+    }
+    else
+    {
+        <script type="text/javascript">
+            document.getElementById("msgHidden").value = "@Model[0].Msg";            
+        </script>            
+    }
+}

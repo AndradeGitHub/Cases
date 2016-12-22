@@ -1,0 +1,36 @@
+USE [WM_DB]
+GO
+
+/****** Object:  Table [dbo].[LOG_PROCESSAMENTO_CARTEIRA]    Script Date: 08/26/2013 14:16:46 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[LOG_PROCESSAMENTO_CARTEIRA]') AND type in (N'U'))
+DROP TABLE [dbo].[LOG_PROCESSAMENTO_CARTEIRA]
+GO
+
+USE [WM_DB]
+GO
+
+/****** Object:  Table [dbo].[LOG_PROCESSAMENTO_CARTEIRA]    Script Date: 08/26/2013 14:16:46 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[LOG_PROCESSAMENTO_CARTEIRA](
+	[CD_CARTEIRA] [varchar](15) NOT NULL,
+	[DT_INI_PROC] [datetime] NOT NULL,
+	[DT_INICIO] [datetime] NOT NULL,
+	[DT_FIM] [datetime] NOT NULL,
+	[IN_ABERTURA_FECHAMENTO] [char](1) NULL,
+	[DT_FIM_PROC] [datetime] NULL,
+	[DT_CARTEIRA] [smalldatetime] NOT NULL
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OrderedTest name="limiteexcecaoot_crud" storage="c:\projetos\qualitycontrol\implementacao\tests\ubs.brasil.qualitycontrol.test.dominio.core\limiteexcecaoot_crud.orderedtest" id="fab4d05c-4b31-4538-b555-e45dbc00e8e5" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestCategory>
+    <TestCategoryItem TestCategory="LIMITE EXCEÇÃO" />
+  </TestCategory>
+  <Execution id="c11aacfc-64a3-4f72-bca2-4b1110b1acea" />
+  <TestLinks>
+    <TestLink id="973aa61c-423e-818e-18a3-4ead7222f2ab" name="DeveSelecionarRegistroLimiteExcecao" storage="bin\debug\ubs.brasil.qualitycontrol.test.dominio.core.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="ed01d3b1-b41f-45f8-d8d6-ce18d749d6c6" name="DeveGravarLimiteExcecao" storage="bin\debug\ubs.brasil.qualitycontrol.test.dominio.core.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="033938bc-50bc-8507-b5f3-4b2cc066bf0e" name="NAO_DeveGravarLimiteExcecao_REGISTRO_EXISTENTE" storage="bin\debug\ubs.brasil.qualitycontrol.test.dominio.core.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="48764355-82fc-0b8e-f912-191723e68761" name="DeveAlterarLimiteExcecao" storage="bin\debug\ubs.brasil.qualitycontrol.test.dominio.core.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="719516c0-dfc0-0cac-6c20-02792eef83c5" name="NAO_DeveAlterarLimiteExcecao_CHAVE_EXISTENTE" storage="bin\debug\ubs.brasil.qualitycontrol.test.dominio.core.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="a77c02cc-58e7-e096-67fd-4590ad92122b" name="DeveApagarLimiteExcecao" storage="bin\debug\ubs.brasil.qualitycontrol.test.dominio.core.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="973aa61c-423e-818e-18a3-4ead7222f2ab" name="DeveSelecionarRegistroLimiteExcecao" storage="bin\debug\ubs.brasil.qualitycontrol.test.dominio.core.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestLinks>
+</OrderedTest>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OrderedTest name="repositoriolimiteexcecaoot_crud" storage="c:\projetos\qualitycontrol\implementacao\tests\ubs.brasil.qualitycontrol.test.dominio.repositorio\repositoriolimiteexcecaoot_crud.orderedtest" id="c3025020-54ee-4286-978a-12f6da55b2d4" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestCategory>
+    <TestCategoryItem TestCategory="LIMITE EXCEÇÃO" />
+  </TestCategory>
+  <Execution id="ef27ad37-ec72-4a8e-8dd4-79ff8831e1b1" />
+  <TestLinks>
+    <TestLink id="c3d8fd7a-2e6c-402d-b66a-27757781113c" name="DeveGravarLimiteExcecao" storage="bin\debug\ubs.brasil.qualitycontrol.test.dominio.repositorio.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="e6a30e5a-599d-4079-1cfd-dc88382d6914" name="DeveAlterarLimiteExcecao" storage="bin\debug\ubs.brasil.qualitycontrol.test.dominio.repositorio.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="fed47dcf-aadc-4b6c-4d20-7a83afc7b9bc" name="DeveConsultarLimiteExcecao" storage="bin\debug\ubs.brasil.qualitycontrol.test.dominio.repositorio.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="549c2340-cc0d-4ed6-a46a-4fab5e199709" name="DeveConsultarLimiteExcecaoPorId" storage="bin\debug\ubs.brasil.qualitycontrol.test.dominio.repositorio.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="ba53b493-22c6-1b11-e37d-5e2a680bc064" name="DeveApagarLimiteExcecao" storage="bin\debug\ubs.brasil.qualitycontrol.test.dominio.repositorio.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestLinks>
+</OrderedTest>

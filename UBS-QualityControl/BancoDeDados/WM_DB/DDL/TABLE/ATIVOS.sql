@@ -1,0 +1,39 @@
+USE [WM_DB]
+GO
+
+/****** Object:  Table [dbo].[ATIVOS]    Script Date: 08/26/2013 13:58:43 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[ATIVOS]') AND type in (N'U'))
+DROP TABLE [dbo].[ATIVOS]
+GO
+
+USE [WM_DB]
+GO
+
+/****** Object:  Table [dbo].[ATIVOS]    Script Date: 08/26/2013 13:58:44 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[ATIVOS](
+	[CD_ATIVO] [varchar](12) NOT NULL,
+	[CD_TIPO_ATIVO] [char](2) NOT NULL,
+	[NO_ATIVO] [varchar](60) NULL,
+	[CD_CLASSE_ATIVO] [int] NULL,
+	[CD_ISIN] [varchar](15) NULL,
+ CONSTRAINT [pk_ativo] PRIMARY KEY CLUSTERED 
+(
+	[CD_ATIVO] ASC,
+	[CD_TIPO_ATIVO] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON, FILLFACTOR = 80) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+

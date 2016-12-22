@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="http://localhost/QualityControl" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="C:\Inetpub\wwwroot\QualityControl" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="False" msdeployMarkAsApp="True" profileName="QualityControl" publishMethod="MSDeploy" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True" />
+  <publishProfile publishUrl="localhost" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="c:\QualityControl" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="MSDeploy" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="False" />
+</publishData>

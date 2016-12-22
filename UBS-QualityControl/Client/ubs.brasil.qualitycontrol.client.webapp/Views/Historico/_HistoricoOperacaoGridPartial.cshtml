@@ -1,0 +1,123 @@
+﻿@model PagedList.IPagedList<ubs.brasil.qualitycontrol.comum.entidade.LogOperacao>
+
+@if (Model != null && Model.Count > 0)
+{
+    if (string.IsNullOrEmpty(Model[0].Msg))
+    {
+        if (!string.IsNullOrEmpty(ViewBag.QtdeRegistro))
+        {
+            <script type="text/javascript">
+                document.getElementById("countRegistro").value = "@ViewBag.QtdeRegistro";            
+            </script>
+        }
+
+        string backColor = "#f5f4f4";
+        
+        <table class="tableGridTopo">           
+            <tr class="trGridTopo">
+                <td class="tdGridTopo" style="width:125px;">Tipo Funcionalidade</td>
+                <td class="tdGridTopo" style="width:100px;">Funcionalidade</td>
+                <td class="tdGridTopo" style="width:100px;">Ação</td>
+                <td class="tdGridTopo" style="width:110px;">Tipo Descrição</td>
+                <td class="tdGridTopo" style="width:418px;">Descrição</td>
+                <td class="tdGridTopo" style="width:107px;">Data</td>
+            </tr>  
+        </table>     
+    
+        <div class="divGrid">
+            <table class="tableGrid">    
+                @foreach (ubs.brasil.qualitycontrol.comum.entidade.LogOperacao logOperacao in Model)
+                {
+                    if (backColor.Equals("#f5f4f4"))
+                    {
+                        backColor = "#ffffff";
+                    }
+                    else
+                    {
+                        backColor = "#f5f4f4";
+                    }
+
+                    string data = string.Empty;
+                              
+                   <tr class="trGrid" style="background-color: @backColor;" onmouseover="style.backgroundColor='#e5f4fa';" onmouseout="style.backgroundColor='@backColor';">
+                        <td class="tdGrid" style="width:110px;">@logOperacao.nomeTipoFuncionalidade</td>
+                        <td class="tdGrid" style="width:89px;">@logOperacao.nomeFuncionalidade</td>            
+                        <td class="tdGrid" style="width:86px;">@logOperacao.acao</td>
+                        <td class="tdGrid" style="width:95px;">@logOperacao.nomeTipoDescricao</td>
+                        <td class="tdGrid" style="width:356px;">@logOperacao.txDescricao</td>               
+                        <td class="tdGrid" style="width:92px;">@logOperacao.dtLogOperacao.ToString("dd/MM/yyyy HH:mm")</td>               
+                    </tr> 
+                }
+            </table>
+        </div>
+        
+        <div class="divPaginacao">
+            <table class="tablePaginacao">
+                <tr>
+                    <td class="tdPaginacao" style="width: 30%; text-align: left;">
+                        Página @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) de @Model.PageCount
+                    </td>
+                    <td class="tdPaginacao" style="width: 40%; text-align: center;">
+                        @if (Model.HasPreviousPage)
+                        {
+                            @Html.ActionLink("<<", "HistoricoOperacao", new { dtIniForm = ViewBag.DtIniForm.ToString("d/M/yyyy"), 
+                                                                              dtFimForm = ViewBag.DtFimForm.ToString("d/M/yyyy"), 
+                                                                              logOperacaoForm = ViewBag.logOperacaoForm, 
+                                                                              pagina = 1 })
+                            @Html.Raw("&nbsp;")
+                            @Html.ActionLink("< Anterior", "HistoricoOperacao", new { dtIniForm = ViewBag.DtIniForm.ToString("d/M/yyyy"), 
+                                                                                      dtFimForm = ViewBag.DtFimForm.ToString("d/M/yyyy"), 
+                                                                                      logOperacaoForm = ViewBag.logOperacaoForm, 
+                                                                                      pagina = Model.PageNumber - 1 })
+                        }
+                        else
+                        {
+                            if (Model.Count > 1000)
+                            {
+                                @Html.Raw("<<")
+                                @Html.Raw("&nbsp;")
+                                @Html.Raw("Anterior")
+                            }
+                        }
+            
+                        &nbsp;
+            
+                        @if (Model.HasNextPage)
+                        {
+                            @Html.ActionLink("Próxima >", "HistoricoOperacao", new { dtIniForm = ViewBag.DtIniForm.ToString("d/M/yyyy"), 
+                                                                                     dtFimForm = ViewBag.DtFimForm.ToString("d/M/yyyy"), 
+                                                                                     logOperacaoForm = ViewBag.logOperacaoForm, 
+                                                                                     pagina = Model.PageNumber + 1 })                                                              
+                            @Html.Raw("&nbsp;")
+                            @Html.ActionLink(">>", "HistoricoOperacao", new { dtIniForm = ViewBag.DtIniForm.ToString("d/M/yyyy"),
+                                                                              dtFimForm = ViewBag.DtFimForm.ToString("d/M/yyyy"), 
+                                                                              logOperacaoForm = ViewBag.logOperacaoForm, 
+                                                                              pagina = Model.PageCount })
+                        }
+                        else
+                        {
+                            if (Model.Count > 1000)
+                            {                
+                                @Html.Raw("Próxima")
+                                @Html.Raw("&nbsp;")
+                                @Html.Raw(">>")
+                            }
+                        }
+                    </td>            
+                    <td id="spanCount" class="message-count"></td>                        
+                </tr>
+            </table> 
+        </div>        
+    
+        <script type="text/javascript">
+            document.getElementById("dataInicial").value = '@ViewBag.DtIniForm.ToString("dd/MM/yyyy")';
+            document.getElementById("dataFinal").value = '@ViewBag.DtFimForm.ToString("dd/MM/yyyy")';    
+        </script>      
+    }
+    else
+    {
+        <script type="text/javascript">
+            document.getElementById("msgHidden").value = "@Model[0].Msg";            
+        </script>            
+    }        
+}

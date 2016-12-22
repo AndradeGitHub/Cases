@@ -1,0 +1,11 @@
+C:\Users\ERON\Desktop\BKP\Sistemas\UBS-QualityControlNew\Implementacao\Main\Dominio\ubs.brasil.qualitycontrol.dominio.repositorio\bin\Debug\ubs.brasil.qualitycontrol.dominio.repositorio.dll
+C:\Users\ERON\Desktop\BKP\Sistemas\UBS-QualityControlNew\Implementacao\Main\Dominio\ubs.brasil.qualitycontrol.dominio.repositorio\bin\Debug\ubs.brasil.qualitycontrol.dominio.repositorio.pdb
+C:\Users\ERON\Desktop\BKP\Sistemas\UBS-QualityControlNew\Implementacao\Main\Dominio\ubs.brasil.qualitycontrol.dominio.repositorio\bin\Debug\EntityFramework.dll
+C:\Users\ERON\Desktop\BKP\Sistemas\UBS-QualityControlNew\Implementacao\Main\Dominio\ubs.brasil.qualitycontrol.dominio.repositorio\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\ERON\Desktop\BKP\Sistemas\UBS-QualityControlNew\Implementacao\Main\Dominio\ubs.brasil.qualitycontrol.dominio.repositorio\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\ERON\Desktop\BKP\Sistemas\UBS-QualityControlNew\Implementacao\Main\Dominio\ubs.brasil.qualitycontrol.dominio.repositorio\bin\Debug\ubs.brasil.qualitycontrol.comum.entidade.dll
+C:\Users\ERON\Desktop\BKP\Sistemas\UBS-QualityControlNew\Implementacao\Main\Dominio\ubs.brasil.qualitycontrol.dominio.repositorio\bin\Debug\ubs.brasil.qualitycontrol.comum.entidade.pdb
+C:\Users\ERON\Desktop\BKP\Sistemas\UBS-QualityControlNew\Implementacao\Main\Dominio\ubs.brasil.qualitycontrol.dominio.repositorio\bin\Debug\EntityFramework.xml
+C:\Users\ERON\Desktop\BKP\Sistemas\UBS-QualityControlNew\Implementacao\Main\Dominio\ubs.brasil.qualitycontrol.dominio.repositorio\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ERON\Desktop\BKP\Sistemas\UBS-QualityControlNew\Implementacao\Main\Dominio\ubs.brasil.qualitycontrol.dominio.repositorio\obj\Debug\ubs.brasil.qualitycontrol.dominio.repositorio.dll
+C:\Users\ERON\Desktop\BKP\Sistemas\UBS-QualityControlNew\Implementacao\Main\Dominio\ubs.brasil.qualitycontrol.dominio.repositorio\obj\Debug\ubs.brasil.qualitycontrol.dominio.repositorio.pdb

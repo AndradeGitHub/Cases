@@ -1,0 +1,8 @@
+INSERT INTO TSYS_PROFILE_FUNCTION 
+  (ID_FUNCTION, 
+   ID_MODULE, 
+   ID_PROFILE)
+VALUES
+  ('QualityControl.LiberarAtivo', 
+   'QUALITYCONTROL', 
+   49)

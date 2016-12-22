@@ -1,0 +1,90 @@
+﻿@model ubs.brasil.qualitycontrol.comum.entidade.LimitePerfilRisco
+
+@{
+    ViewBag.Title = "Limite Diário";
+}
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="barra_principal">@ViewBag.Title</hgroup>
+        </div>
+    </section>
+}
+
+<hgroup class="title">
+    <h1>Consulta de Limites Diários</h1>    
+</hgroup>
+
+<div class="divPrincipal">
+
+    @using (Html.BeginForm("LimiteDiario",
+            "LimiteDiario",
+            FormMethod.Post,            
+            new { name       = "formLimiteDiario",
+                  id         = "formLimiteDiario",
+                  onkeypress = "fnEnterAtivo(event, 'fnValidaLimiteForm(|pesquisar|, |diario|)');" }                 
+            ))
+    {                
+        <div style="height: 50px; padding-bottom:0;">
+            @Html.Hidden("acao", "")      
+            @Html.Hidden("msgHidden", "")     
+            <section id="deForm">
+                <ul id="campos">    
+                    <li>De</li>  
+                    <li>@Html.TextBoxFor(m => m.dtInicial, new { @Value = "", onKeyPress = "return formatar(this, '##/##/####')", maxlength = 10 })</li>            
+                </ul>
+            </section>
+            <section id="ateForm">
+                <ul id="campos">
+                    <li>Até</li>
+                    <li>@Html.TextBoxFor(m => m.dtFinal, new { @Value = "", onKeyPress = "return formatar(this, '##/##/####')", maxlength = 10 })</li>   
+                </ul>
+            </section>
+            <section id="perfilForm">
+                <ul id="campos">
+                    <li>Perfil de Risco de Carteira</li>            
+                    <li>@Html.Action("PerfilRiscoList", new { ReturnUrl = ViewBag.ReturnUrl })</li>       
+                </ul>     
+            </section>   
+            <section id="botaoPesquisaForm">
+                <ul id="campos">            
+                    <li style="color: #efeeef">0</li>
+                    <li><input type="button" id="btnSubmit" value="Pesquisar" class="btnSubmit" onclick="fnValidaLimiteForm('pesquisar', 'diario');"/></li>
+                </ul>     
+            </section>       
+            <section id="botaoIncluirForm">
+                <ul id="campos">            
+                    <li style="color: #efeeef">0</li>
+                    <li><input type="button" value="Incluir" class="btnSubmit" onclick="location.href='@Url.Action("LimiteDiarioOperacao", "LimiteDiario")'"/></li>
+                </ul>     
+            </section>   
+        </div>       
+        
+        <hr class="hrSeparador" style="margin-top: 15px;" />             
+        
+        //Exibição das mensagens de erro        
+        <div class="divErro">
+            <span id="spanMensagem" class="message-error"></span>                
+        </div>            
+        
+        //Exibição da Grid    
+        <div class="divGridExibicaoIncial"> 
+            @Html.Action("LimiteRiscoList", new { ReturnUrl = ViewBag.ReturnUrl })                         
+        </div>                                        
+    }
+
+</div>
+
+<script type="text/javascript">
+    if (document.getElementById("msgHidden").value != "")
+        document.getElementById("spanMensagem").innerHTML = document.getElementById("msgHidden").value;
+
+    document.getElementById("dtInicial").focus();
+</script>  
+
+@Styles.Render("~/Content/css")   
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryvalform")   
+    @Scripts.Render("~/bundles/jquerymask")       
+}

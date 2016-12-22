@@ -1,0 +1,8 @@
+INSERT INTO TSYS_USER_FUNCTION 
+  (ID_USER, 
+   ID_MODULE, 
+   ID_FUNCTION)
+VALUES
+  (322, 
+   'QUALITYCONTROL', 
+   'QualityControl.LiberarAtivo')

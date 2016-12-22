@@ -1,0 +1,5 @@
+C:\Users\ERON\Desktop\BKP\Sistemas\UBS-QualityControlNew\Implementacao\Main\Comum\ubs.brasil.qualitycontrol.comum.globals\bin\Debug\ubs.brasil.qualitycontrol.comum.globals.dll
+C:\Users\ERON\Desktop\BKP\Sistemas\UBS-QualityControlNew\Implementacao\Main\Comum\ubs.brasil.qualitycontrol.comum.globals\bin\Debug\ubs.brasil.qualitycontrol.comum.globals.pdb
+C:\Users\ERON\Desktop\BKP\Sistemas\UBS-QualityControlNew\Implementacao\Main\Comum\ubs.brasil.qualitycontrol.comum.globals\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ERON\Desktop\BKP\Sistemas\UBS-QualityControlNew\Implementacao\Main\Comum\ubs.brasil.qualitycontrol.comum.globals\obj\Debug\ubs.brasil.qualitycontrol.comum.globals.dll
+C:\Users\ERON\Desktop\BKP\Sistemas\UBS-QualityControlNew\Implementacao\Main\Comum\ubs.brasil.qualitycontrol.comum.globals\obj\Debug\ubs.brasil.qualitycontrol.comum.globals.pdb

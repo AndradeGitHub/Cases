@@ -1,0 +1,15 @@
+C:\Users\ERON\Desktop\BKP\Sistemas\UBS-QualityControlNew\Implementacao\Main\Comum\ubs.brasil.qualitycontrol.comum.entidade\bin\Debug\ubs.brasil.qualitycontrol.comum.entidade.dll
+C:\Users\ERON\Desktop\BKP\Sistemas\UBS-QualityControlNew\Implementacao\Main\Comum\ubs.brasil.qualitycontrol.comum.entidade\bin\Debug\ubs.brasil.qualitycontrol.comum.entidade.pdb
+C:\Users\ERON\Desktop\BKP\Sistemas\UBS-QualityControlNew\Implementacao\Main\Comum\ubs.brasil.qualitycontrol.comum.entidade\bin\Debug\EntityFramework.dll
+C:\Users\ERON\Desktop\BKP\Sistemas\UBS-QualityControlNew\Implementacao\Main\Comum\ubs.brasil.qualitycontrol.comum.entidade\bin\Debug\System.Web.Http.dll
+C:\Users\ERON\Desktop\BKP\Sistemas\UBS-QualityControlNew\Implementacao\Main\Comum\ubs.brasil.qualitycontrol.comum.entidade\bin\Debug\System.Net.Http.dll
+C:\Users\ERON\Desktop\BKP\Sistemas\UBS-QualityControlNew\Implementacao\Main\Comum\ubs.brasil.qualitycontrol.comum.entidade\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\ERON\Desktop\BKP\Sistemas\UBS-QualityControlNew\Implementacao\Main\Comum\ubs.brasil.qualitycontrol.comum.entidade\bin\Debug\EntityFramework.xml
+C:\Users\ERON\Desktop\BKP\Sistemas\UBS-QualityControlNew\Implementacao\Main\Comum\ubs.brasil.qualitycontrol.comum.entidade\bin\Debug\System.Web.Http.xml
+C:\Users\ERON\Desktop\BKP\Sistemas\UBS-QualityControlNew\Implementacao\Main\Comum\ubs.brasil.qualitycontrol.comum.entidade\bin\Debug\System.Net.Http.xml
+C:\Users\ERON\Desktop\BKP\Sistemas\UBS-QualityControlNew\Implementacao\Main\Comum\ubs.brasil.qualitycontrol.comum.entidade\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\ERON\Desktop\BKP\Sistemas\UBS-QualityControlNew\Implementacao\Main\Comum\ubs.brasil.qualitycontrol.comum.entidade\bin\Debug\pt-br\System.Net.Http.resources.dll
+C:\Users\ERON\Desktop\BKP\Sistemas\UBS-QualityControlNew\Implementacao\Main\Comum\ubs.brasil.qualitycontrol.comum.entidade\bin\Debug\pt-br\System.Net.Http.Formatting.resources.dll
+C:\Users\ERON\Desktop\BKP\Sistemas\UBS-QualityControlNew\Implementacao\Main\Comum\ubs.brasil.qualitycontrol.comum.entidade\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\ERON\Desktop\BKP\Sistemas\UBS-QualityControlNew\Implementacao\Main\Comum\ubs.brasil.qualitycontrol.comum.entidade\obj\x86\Debug\ubs.brasil.qualitycontrol.comum.entidade.dll
+C:\Users\ERON\Desktop\BKP\Sistemas\UBS-QualityControlNew\Implementacao\Main\Comum\ubs.brasil.qualitycontrol.comum.entidade\obj\x86\Debug\ubs.brasil.qualitycontrol.comum.entidade.pdb

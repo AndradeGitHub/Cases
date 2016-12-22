@@ -1,0 +1,97 @@
+﻿@model List<ubs.brasil.qualitycontrol.comum.entidade.Carteira>  
+
+<script src="../Scripts/jquery.action.js"></script>
+
+@if (Model != null && Model.Count > 0)
+{
+    if (string.IsNullOrEmpty(Model[0].Msg))
+    {
+        string backColor = "#f5f4f4";
+
+        string onMouseOverCodCarteira = "style.backgroundColor='#d3dce0'; style.cursor= 'hand';";
+        string onMouseOutCodCarteira = "style.backgroundColor='#d0cfcf';";
+        string onMouseOverNomeCarteira = "style.backgroundColor='#d3dce0'; style.cursor= 'hand';";
+        string onMouseOutNomeCarteira = "style.backgroundColor='#d0cfcf';";
+        
+        string backColorCodCarteira = string.Empty;
+        string backColorNomeCarteira = string.Empty;
+
+        var lstCarteira = Model;
+
+        if (Model[0].Order != null)
+        {
+            if (Model[0].Order.Equals("codCarteira"))
+            {
+                lstCarteira = Model.OrderBy(item => item.codCarteira).ToList<ubs.brasil.qualitycontrol.comum.entidade.Carteira>();                
+
+                backColorCodCarteira = "#d3dce0";
+
+                onMouseOverCodCarteira = string.Empty;
+                onMouseOutCodCarteira = string.Empty;
+            }                        
+            else if (Model[0].Order.Equals("nomeCarteira"))
+            {                                
+                lstCarteira = Model.OrderBy(item => item.nomeCarteira).ToList<ubs.brasil.qualitycontrol.comum.entidade.Carteira>();                
+                
+                backColorNomeCarteira = "#d3dce0";
+
+                onMouseOverNomeCarteira = string.Empty;
+                onMouseOutNomeCarteira = string.Empty;                
+            }
+        }                                                         
+
+        <table class="tableGridTopo">           
+            <tr class="trGridTopo">
+                <td class="tdGridTopo" style="background-color: Gray; color: White;" colspan="3">Filtro de Carteiras</td>
+            </tr> 
+            <tr class="trGridTopo">
+                <td class="tdGridChk" style="width: 78px;">
+                    <input type="checkbox" name="chkCarteiraTodos" id="chkCarteiraTodos" class="chkGrid" onclick="fnCheckAllCarteira(this);"/>
+                </td>
+                <td class="tdGridTopo" style="width: 157px; background-color: @backColorCodCarteira;" 
+                    onmouseover="@onMouseOverCodCarteira" onmouseout="@onMouseOutCodCarteira" onclick="fnPesquisaCarteiraOrder('codCarteira')">Código Carteira</td>
+                <td class="tdGridTopo" style="width: 722px; background-color: @backColorNomeCarteira;" 
+                    onmouseover="@onMouseOverNomeCarteira" onmouseout="@onMouseOutNomeCarteira" onclick="fnPesquisaCarteiraOrder('nomeCarteira')">Nome Carteira</td>
+            </tr> 
+        </table>
+    
+        <div class="divGrid">
+            <table class="tableGrid">                                    
+                @foreach (ubs.brasil.qualitycontrol.comum.entidade.Carteira carteira in lstCarteira)
+                {
+                    if (backColor.Equals("#f5f4f4"))
+                    {
+                        backColor = "#ffffff";
+                    }
+                    else
+                    {
+                        backColor = "#f5f4f4";
+                    }                        
+                                                   
+                    <tr class="trGrid" style="background-color: @backColor;" onmouseover="style.backgroundColor='#e5f4fa';" onmouseout="style.backgroundColor='@backColor';">                            
+                        <td class="tdGridChk" style="width: 73px;">                                    
+                            <input type="checkbox" name="@carteira.codCarteira" id="@carteira.codCarteira" class="chkGrid"/>
+                        </td>   
+                        <td class="tdGrid" style="width: 148px;">@carteira.codCarteira</td>                            
+                        <td class="tdGrid" style="width: 678px;">@carteira.nomeCarteira</td>                                                     
+                    </tr> 
+                }                                                        
+            </table>   
+        </div> 
+            
+        <table class="tablePaginacao">
+            <tr>    
+                @if (!string.IsNullOrEmpty(ViewBag.QtdeRegistro))
+                {
+                    <td id="spanCount" class="message-count">@ViewBag.QtdeRegistro</td>                     
+                }                
+            </tr>
+        </table> 
+    }
+    else
+    {
+        <script type="text/javascript">
+            document.getElementById("msgHidden").value = "@Model[0].Msg";            
+        </script>            
+    }
+}
