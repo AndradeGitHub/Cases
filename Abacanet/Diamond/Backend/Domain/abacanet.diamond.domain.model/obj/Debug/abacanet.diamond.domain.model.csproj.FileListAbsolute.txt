@@ -1,0 +1,10 @@
+C:\Sistemas\Abacanet\diamond-backend\ABACANET-Diamond\Domain\abacanet.diamond.domain.model\bin\Debug\abacanet.diamond.domain.model.dll
+C:\Sistemas\Abacanet\diamond-backend\ABACANET-Diamond\Domain\abacanet.diamond.domain.model\bin\Debug\abacanet.diamond.domain.model.pdb
+C:\Sistemas\Abacanet\diamond-backend\ABACANET-Diamond\Domain\abacanet.diamond.domain.model\obj\Debug\abacanet.diamond.domain.model.csprojResolveAssemblyReference.cache
+C:\Sistemas\Abacanet\diamond-backend\ABACANET-Diamond\Domain\abacanet.diamond.domain.model\obj\Debug\abacanet.diamond.domain.model.dll
+C:\Sistemas\Abacanet\diamond-backend\ABACANET-Diamond\Domain\abacanet.diamond.domain.model\obj\Debug\abacanet.diamond.domain.model.pdb
+C:\Sistemas\Pessoal\ABACANET-Diamond\Domain\abacanet.diamond.domain.model\bin\Debug\abacanet.diamond.domain.model.dll
+C:\Sistemas\Pessoal\ABACANET-Diamond\Domain\abacanet.diamond.domain.model\bin\Debug\abacanet.diamond.domain.model.pdb
+C:\Sistemas\Pessoal\ABACANET-Diamond\Domain\abacanet.diamond.domain.model\obj\Debug\abacanet.diamond.domain.model.csprojResolveAssemblyReference.cache
+C:\Sistemas\Pessoal\ABACANET-Diamond\Domain\abacanet.diamond.domain.model\obj\Debug\abacanet.diamond.domain.model.dll
+C:\Sistemas\Pessoal\ABACANET-Diamond\Domain\abacanet.diamond.domain.model\obj\Debug\abacanet.diamond.domain.model.pdb

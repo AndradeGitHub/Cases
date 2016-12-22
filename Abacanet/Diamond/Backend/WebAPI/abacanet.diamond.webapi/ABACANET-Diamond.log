@@ -1,0 +1,14 @@
+2016-06-29 14:35:23,810 ERROR  - # ERROR: 
+System.InvalidOperationException: The 'Page' property on 'MappingDomainModel' could not be set to a 'System.String' value. You must set this property to a non-null value of type 'System.Int32'. 
+   em System.Data.Entity.Core.Common.Internal.Materialization.Shaper.ErrorHandlingValueReader`1.GetValue(DbDataReader reader, Int32 ordinal)
+   em lambda_method(Closure , Shaper )
+   em System.Data.Entity.Core.Common.Internal.Materialization.Shaper.HandleEntityAppendOnly[TEntity](Func`2 constructEntityDelegate, EntityKey entityKey, EntitySet entitySet)
+   em lambda_method(Closure , Shaper )
+   em System.Data.Entity.Core.Common.Internal.Materialization.Coordinator`1.ReadNextElement(Shaper shaper)
+   em System.Data.Entity.Core.Common.Internal.Materialization.Shaper`1.SimpleEnumerator.MoveNext()
+   em System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   em System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   em System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   em abacanet.diamond.domain.repository.MappingRepository.GetAll() na C:\Sistemas\Abacanet\diamond-backend\ABACANET-Diamond\Domain\abacanet.diamond.domain.repository\MappingRepository.cs:linha 27
+   em System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   em abacanet.diamond.application.MappingFacade.GelAllMapping[T]() na C:\Sistemas\Abacanet\diamond-backend\ABACANET-Diamond\Application\abacanet.diamond.application\MappingFacade.cs:linha 40
