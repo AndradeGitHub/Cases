@@ -1,0 +1,6 @@
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Test\audatex.br.audabridge2.domain.Tests\bin\Debug\audatex.br.audabridge2.domain.Tests.dll
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Test\audatex.br.audabridge2.domain.Tests\bin\Debug\audatex.br.audabridge2.domain.Tests.pdb
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Test\audatex.br.audabridge2.domain.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Test\audatex.br.audabridge2.domain.Tests\obj\Debug\audatex.br.audabridge2.domain.Tests.csprojResolveAssemblyReference.cache
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Test\audatex.br.audabridge2.domain.Tests\obj\Debug\audatex.br.audabridge2.domain.Tests.dll
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Test\audatex.br.audabridge2.domain.Tests\obj\Debug\audatex.br.audabridge2.domain.Tests.pdb

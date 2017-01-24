@@ -1,0 +1,241 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{D080616B-4F68-4B33-BE10-9978F0A41DAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "audatex.br.audabridge2.domain.model", "Domain\audatex.br.audabridge2.domain.model\audatex.br.audabridge2.domain.model.csproj", "{96235779-175D-4395-BDDE-4B7FB7CD2DDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "audatex.br.audabridge2.domain", "Domain\audatex.br.audabridge2.domain\audatex.br.audabridge2.domain.csproj", "{E7087834-317E-43B6-9573-6F9A3E466041}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "audatex.br.audabridge2.domain.repository", "Domain\audatex.br.audabridge2.domain.repository\audatex.br.audabridge2.domain.repository.csproj", "{80D32B32-2F83-426F-9FC0-4362E54869DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{65E7E867-354A-4560-847D-7B43B3E9B307}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "audatex.br.audabridge2.infrastructure", "Infrastructure\audatex.br.audabridge2.infrastructure\audatex.br.audabridge2.infrastructure.csproj", "{FF931521-E235-4BFE-A6CC-FCF754AC3B2B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{FC8378C8-82D0-406C-AB5C-DA732D55454F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "audatex.br.audabridge2.application", "Application\audatex.br.audabridge2.application\audatex.br.audabridge2.application.csproj", "{884BCA25-9BA0-4EA9-A7CE-E8F83BEFC408}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adapter", "Adapter", "{2C91C701-93FB-41F7-A1F1-BAEABBD6C34C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entrada", "Entrada", "{8F42B944-E684-4C16-A18B-AEC7C57908CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Saida", "Saida", "{8830F8D0-79E7-4ABB-A0BC-BFA0C8341231}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "audatex.br.audabridge2.application.adapter.entrada.bradesco", "Application\audatex.br.audabridge2.application.adapter.entrada.bradesco\audatex.br.audabridge2.application.adapter.entrada.bradesco.csproj", "{5FB641A2-A546-4795-A7BA-5B0074B40D7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "audatex.br.audabridge2.application.adapter.saida.bradesco", "Application\audatex.br.audabridge2.application.adapter.saida.bradesco\audatex.br.audabridge2.application.adapter.saida.bradesco.csproj", "{5D72064D-2DB2-47A8-83A4-2143F8E2A9D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugin", "Plugin", "{BE21EDAF-787B-473D-BBFF-952E28924C97}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tomada1", "Tomada1", "{BB1AC926-320C-402D-84A4-8F84906B0FF5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tomada3", "Tomada3", "{37E27656-F4D7-455F-9F61-AA10961DE83F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "audatex.br.audabridge2.domain.plugin.t1.bradesco", "Domain\audatex.br.audabridge2.domain.plugin.t1.bradesco\audatex.br.audabridge2.domain.plugin.t1.bradesco.csproj", "{671A4928-B54E-48DD-B00C-E363E4A19667}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "audatex.br.audabridge2.domain.plugin.t3.bradesco", "Domain\audatex.br.audabridge2.domain.plugin.t3.bradesco\audatex.br.audabridge2.domain.plugin.t3.bradesco.csproj", "{801E2A77-E79B-47B4-BF2D-4E223CD15607}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{17B09C0C-062C-4A9F-934A-84CFB208225A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{5165E1AF-5521-466F-9491-DF544BA188E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "audatex.br.audabridge2.service.wcf", "Service\audatex.br.audabridge2.service.wcf\audatex.br.audabridge2.service.wcf.csproj", "{52F39AA1-8239-403A-8B4B-027FB3E38EBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "audatex.br.audabridge2.service.webapi", "Service\audatex.br.audabridge2.service.webapi\audatex.br.audabridge2.service.webapi.csproj", "{8EEAA83A-8076-45F3-BFF8-76143C1AB630}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "audatex.br.audabridge2.domain.repository.Mock.Tests", "Test\audatex.br.audabridge2.domain.repository.Mock.Tests\audatex.br.audabridge2.domain.repository.Mock.Tests.csproj", "{DA3A9A8A-2197-426E-8E21-0E122F6E4B95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "audatex.br.audabridge2.domain.Tests", "Test\audatex.br.audabridge2.domain.Tests\audatex.br.audabridge2.domain.Tests.csproj", "{F7AB3C20-401A-4292-AFB6-B88684B5C12B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "audatex.br.audabridge2.domain.repository.Tests", "Test\audatex.br.audabridge2.domain.repository.Tests\audatex.br.audabridge2.domain.repository.Tests.csproj", "{C8436068-531B-4287-A6F5-E5B8953CA3FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "audatex.br.audabridge2.domain.model.bradesco", "Domain\audatex.br.audabridge2.domain.model.bradesco\audatex.br.audabridge2.domain.model.bradesco.csproj", "{BD68FBD7-08FE-4D64-B2C7-E5D4B8E69A81}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DB", "DB", "{FE4E5A50-E70D-4424-A84B-8F4F36CFD1F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DML", "DML", "{A21A3D18-D057-4540-8B87-4D17426CEE87}"
+	ProjectSection(SolutionItems) = preProject
+		DB\Operacao.sql = DB\Operacao.sql
+		DB\Plugin.sql = DB\Plugin.sql
+		DB\Seguradora.sql = DB\Seguradora.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DDL", "DDL", "{8EF0AA78-36ED-4A1E-88FF-52FE39034B92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "audatex.br.audabridge2.domain.model.i360", "Domain\audatex.br.audabridge2.domain.model.i360\audatex.br.audabridge2.domain.model.i360.csproj", "{F0642DCD-D6B7-421B-A3E3-8388532597F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96235779-175D-4395-BDDE-4B7FB7CD2DDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96235779-175D-4395-BDDE-4B7FB7CD2DDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96235779-175D-4395-BDDE-4B7FB7CD2DDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96235779-175D-4395-BDDE-4B7FB7CD2DDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7087834-317E-43B6-9573-6F9A3E466041}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7087834-317E-43B6-9573-6F9A3E466041}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7087834-317E-43B6-9573-6F9A3E466041}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7087834-317E-43B6-9573-6F9A3E466041}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80D32B32-2F83-426F-9FC0-4362E54869DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80D32B32-2F83-426F-9FC0-4362E54869DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80D32B32-2F83-426F-9FC0-4362E54869DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80D32B32-2F83-426F-9FC0-4362E54869DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF931521-E235-4BFE-A6CC-FCF754AC3B2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF931521-E235-4BFE-A6CC-FCF754AC3B2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF931521-E235-4BFE-A6CC-FCF754AC3B2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF931521-E235-4BFE-A6CC-FCF754AC3B2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{884BCA25-9BA0-4EA9-A7CE-E8F83BEFC408}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{884BCA25-9BA0-4EA9-A7CE-E8F83BEFC408}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{884BCA25-9BA0-4EA9-A7CE-E8F83BEFC408}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{884BCA25-9BA0-4EA9-A7CE-E8F83BEFC408}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FB641A2-A546-4795-A7BA-5B0074B40D7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FB641A2-A546-4795-A7BA-5B0074B40D7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FB641A2-A546-4795-A7BA-5B0074B40D7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FB641A2-A546-4795-A7BA-5B0074B40D7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D72064D-2DB2-47A8-83A4-2143F8E2A9D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D72064D-2DB2-47A8-83A4-2143F8E2A9D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D72064D-2DB2-47A8-83A4-2143F8E2A9D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D72064D-2DB2-47A8-83A4-2143F8E2A9D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{671A4928-B54E-48DD-B00C-E363E4A19667}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{671A4928-B54E-48DD-B00C-E363E4A19667}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{671A4928-B54E-48DD-B00C-E363E4A19667}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{671A4928-B54E-48DD-B00C-E363E4A19667}.Release|Any CPU.Build.0 = Release|Any CPU
+		{801E2A77-E79B-47B4-BF2D-4E223CD15607}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{801E2A77-E79B-47B4-BF2D-4E223CD15607}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{801E2A77-E79B-47B4-BF2D-4E223CD15607}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{801E2A77-E79B-47B4-BF2D-4E223CD15607}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52F39AA1-8239-403A-8B4B-027FB3E38EBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52F39AA1-8239-403A-8B4B-027FB3E38EBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52F39AA1-8239-403A-8B4B-027FB3E38EBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52F39AA1-8239-403A-8B4B-027FB3E38EBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EEAA83A-8076-45F3-BFF8-76143C1AB630}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EEAA83A-8076-45F3-BFF8-76143C1AB630}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EEAA83A-8076-45F3-BFF8-76143C1AB630}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EEAA83A-8076-45F3-BFF8-76143C1AB630}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA3A9A8A-2197-426E-8E21-0E122F6E4B95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA3A9A8A-2197-426E-8E21-0E122F6E4B95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA3A9A8A-2197-426E-8E21-0E122F6E4B95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA3A9A8A-2197-426E-8E21-0E122F6E4B95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7AB3C20-401A-4292-AFB6-B88684B5C12B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7AB3C20-401A-4292-AFB6-B88684B5C12B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7AB3C20-401A-4292-AFB6-B88684B5C12B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7AB3C20-401A-4292-AFB6-B88684B5C12B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8436068-531B-4287-A6F5-E5B8953CA3FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8436068-531B-4287-A6F5-E5B8953CA3FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8436068-531B-4287-A6F5-E5B8953CA3FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8436068-531B-4287-A6F5-E5B8953CA3FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD68FBD7-08FE-4D64-B2C7-E5D4B8E69A81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD68FBD7-08FE-4D64-B2C7-E5D4B8E69A81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD68FBD7-08FE-4D64-B2C7-E5D4B8E69A81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD68FBD7-08FE-4D64-B2C7-E5D4B8E69A81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0642DCD-D6B7-421B-A3E3-8388532597F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0642DCD-D6B7-421B-A3E3-8388532597F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0642DCD-D6B7-421B-A3E3-8388532597F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0642DCD-D6B7-421B-A3E3-8388532597F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{96235779-175D-4395-BDDE-4B7FB7CD2DDC} = {D080616B-4F68-4B33-BE10-9978F0A41DAD}
+		{E7087834-317E-43B6-9573-6F9A3E466041} = {D080616B-4F68-4B33-BE10-9978F0A41DAD}
+		{80D32B32-2F83-426F-9FC0-4362E54869DE} = {D080616B-4F68-4B33-BE10-9978F0A41DAD}
+		{FF931521-E235-4BFE-A6CC-FCF754AC3B2B} = {65E7E867-354A-4560-847D-7B43B3E9B307}
+		{884BCA25-9BA0-4EA9-A7CE-E8F83BEFC408} = {FC8378C8-82D0-406C-AB5C-DA732D55454F}
+		{2C91C701-93FB-41F7-A1F1-BAEABBD6C34C} = {FC8378C8-82D0-406C-AB5C-DA732D55454F}
+		{8F42B944-E684-4C16-A18B-AEC7C57908CE} = {2C91C701-93FB-41F7-A1F1-BAEABBD6C34C}
+		{8830F8D0-79E7-4ABB-A0BC-BFA0C8341231} = {2C91C701-93FB-41F7-A1F1-BAEABBD6C34C}
+		{5FB641A2-A546-4795-A7BA-5B0074B40D7A} = {8F42B944-E684-4C16-A18B-AEC7C57908CE}
+		{5D72064D-2DB2-47A8-83A4-2143F8E2A9D0} = {8830F8D0-79E7-4ABB-A0BC-BFA0C8341231}
+		{BE21EDAF-787B-473D-BBFF-952E28924C97} = {D080616B-4F68-4B33-BE10-9978F0A41DAD}
+		{BB1AC926-320C-402D-84A4-8F84906B0FF5} = {BE21EDAF-787B-473D-BBFF-952E28924C97}
+		{37E27656-F4D7-455F-9F61-AA10961DE83F} = {BE21EDAF-787B-473D-BBFF-952E28924C97}
+		{671A4928-B54E-48DD-B00C-E363E4A19667} = {BB1AC926-320C-402D-84A4-8F84906B0FF5}
+		{801E2A77-E79B-47B4-BF2D-4E223CD15607} = {37E27656-F4D7-455F-9F61-AA10961DE83F}
+		{52F39AA1-8239-403A-8B4B-027FB3E38EBB} = {5165E1AF-5521-466F-9491-DF544BA188E6}
+		{8EEAA83A-8076-45F3-BFF8-76143C1AB630} = {5165E1AF-5521-466F-9491-DF544BA188E6}
+		{DA3A9A8A-2197-426E-8E21-0E122F6E4B95} = {17B09C0C-062C-4A9F-934A-84CFB208225A}
+		{F7AB3C20-401A-4292-AFB6-B88684B5C12B} = {17B09C0C-062C-4A9F-934A-84CFB208225A}
+		{C8436068-531B-4287-A6F5-E5B8953CA3FF} = {17B09C0C-062C-4A9F-934A-84CFB208225A}
+		{BD68FBD7-08FE-4D64-B2C7-E5D4B8E69A81} = {D080616B-4F68-4B33-BE10-9978F0A41DAD}
+		{A21A3D18-D057-4540-8B87-4D17426CEE87} = {FE4E5A50-E70D-4424-A84B-8F4F36CFD1F3}
+		{8EF0AA78-36ED-4A1E-88FF-52FE39034B92} = {FE4E5A50-E70D-4424-A84B-8F4F36CFD1F3}
+		{F0642DCD-D6B7-421B-A3E3-8388532597F0} = {D080616B-4F68-4B33-BE10-9978F0A41DAD}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 17
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://axbrtfs:8080/tfs/axbf
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Domain\\audatex.br.audabridge2.domain.model\\audatex.br.audabridge2.domain.model.csproj
+		SccProjectTopLevelParentUniqueName1 = AudaBridge2.sln
+		SccProjectName1 = Domain/audatex.br.audabridge2.domain.model
+		SccLocalPath1 = Domain\\audatex.br.audabridge2.domain.model
+		SccProjectUniqueName2 = Domain\\audatex.br.audabridge2.domain\\audatex.br.audabridge2.domain.csproj
+		SccProjectTopLevelParentUniqueName2 = AudaBridge2.sln
+		SccProjectName2 = Domain/audatex.br.audabridge2.domain
+		SccLocalPath2 = Domain\\audatex.br.audabridge2.domain
+		SccProjectUniqueName3 = Domain\\audatex.br.audabridge2.domain.repository\\audatex.br.audabridge2.domain.repository.csproj
+		SccProjectTopLevelParentUniqueName3 = AudaBridge2.sln
+		SccProjectName3 = Domain/audatex.br.audabridge2.domain.repository
+		SccLocalPath3 = Domain\\audatex.br.audabridge2.domain.repository
+		SccProjectUniqueName4 = Infrastructure\\audatex.br.audabridge2.infrastructure\\audatex.br.audabridge2.infrastructure.csproj
+		SccProjectTopLevelParentUniqueName4 = AudaBridge2.sln
+		SccProjectName4 = Infrastructure/audatex.br.audabridge2.infrastructure
+		SccLocalPath4 = Infrastructure\\audatex.br.audabridge2.infrastructure
+		SccProjectUniqueName5 = Application\\audatex.br.audabridge2.application\\audatex.br.audabridge2.application.csproj
+		SccProjectTopLevelParentUniqueName5 = AudaBridge2.sln
+		SccProjectName5 = Application/audatex.br.audabridge2.application
+		SccLocalPath5 = Application\\audatex.br.audabridge2.application
+		SccProjectUniqueName6 = Application\\audatex.br.audabridge2.application.adapter.entrada.bradesco\\audatex.br.audabridge2.application.adapter.entrada.bradesco.csproj
+		SccProjectTopLevelParentUniqueName6 = AudaBridge2.sln
+		SccProjectName6 = Application/audatex.br.audabridge2.application.adapter.entrada.bradesco
+		SccLocalPath6 = Application\\audatex.br.audabridge2.application.adapter.entrada.bradesco
+		SccProjectUniqueName7 = Application\\audatex.br.audabridge2.application.adapter.saida.bradesco\\audatex.br.audabridge2.application.adapter.saida.bradesco.csproj
+		SccProjectTopLevelParentUniqueName7 = AudaBridge2.sln
+		SccProjectName7 = Application/audatex.br.audabridge2.application.adapter.saida.bradesco
+		SccLocalPath7 = Application\\audatex.br.audabridge2.application.adapter.saida.bradesco
+		SccProjectUniqueName8 = Domain\\audatex.br.audabridge2.domain.plugin.t1.bradesco\\audatex.br.audabridge2.domain.plugin.t1.bradesco.csproj
+		SccProjectTopLevelParentUniqueName8 = AudaBridge2.sln
+		SccProjectName8 = Domain/audatex.br.audabridge2.domain.plugin.t1.bradesco
+		SccLocalPath8 = Domain\\audatex.br.audabridge2.domain.plugin.t1.bradesco
+		SccProjectUniqueName9 = Domain\\audatex.br.audabridge2.domain.plugin.t3.bradesco\\audatex.br.audabridge2.domain.plugin.t3.bradesco.csproj
+		SccProjectTopLevelParentUniqueName9 = AudaBridge2.sln
+		SccProjectName9 = Domain/audatex.br.audabridge2.domain.plugin.t3.bradesco
+		SccLocalPath9 = Domain\\audatex.br.audabridge2.domain.plugin.t3.bradesco
+		SccProjectUniqueName10 = Service\\audatex.br.audabridge2.service.wcf\\audatex.br.audabridge2.service.wcf.csproj
+		SccProjectTopLevelParentUniqueName10 = AudaBridge2.sln
+		SccProjectName10 = Service/audatex.br.audabridge2.service.wcf
+		SccLocalPath10 = Service\\audatex.br.audabridge2.service.wcf
+		SccProjectUniqueName11 = Service\\audatex.br.audabridge2.service.webapi\\audatex.br.audabridge2.service.webapi.csproj
+		SccProjectTopLevelParentUniqueName11 = AudaBridge2.sln
+		SccProjectName11 = Service/audatex.br.audabridge2.service.webapi
+		SccLocalPath11 = Service\\audatex.br.audabridge2.service.webapi
+		SccProjectUniqueName12 = Test\\audatex.br.audabridge2.domain.repository.Mock.Tests\\audatex.br.audabridge2.domain.repository.Mock.Tests.csproj
+		SccProjectTopLevelParentUniqueName12 = AudaBridge2.sln
+		SccProjectName12 = Test/audatex.br.audabridge2.domain.repository.Mock.Tests
+		SccLocalPath12 = Test\\audatex.br.audabridge2.domain.repository.Mock.Tests
+		SccProjectUniqueName13 = Test\\audatex.br.audabridge2.domain.Tests\\audatex.br.audabridge2.domain.Tests.csproj
+		SccProjectTopLevelParentUniqueName13 = AudaBridge2.sln
+		SccProjectName13 = Test/audatex.br.audabridge2.domain.Tests
+		SccLocalPath13 = Test\\audatex.br.audabridge2.domain.Tests
+		SccProjectUniqueName14 = Test\\audatex.br.audabridge2.domain.repository.Tests\\audatex.br.audabridge2.domain.repository.Tests.csproj
+		SccProjectTopLevelParentUniqueName14 = AudaBridge2.sln
+		SccProjectName14 = Test/audatex.br.audabridge2.domain.repository.Tests
+		SccLocalPath14 = Test\\audatex.br.audabridge2.domain.repository.Tests
+		SccProjectUniqueName15 = Domain\\audatex.br.audabridge2.domain.model.bradesco\\audatex.br.audabridge2.domain.model.bradesco.csproj
+		SccProjectTopLevelParentUniqueName15 = AudaBridge2.sln
+		SccProjectName15 = Domain/audatex.br.audabridge2.domain.model.bradesco
+		SccLocalPath15 = Domain\\audatex.br.audabridge2.domain.model.bradesco
+		SccProjectUniqueName16 = Domain\\audatex.br.audabridge2.domain.model.i360\\audatex.br.audabridge2.domain.model.i360.csproj
+		SccProjectTopLevelParentUniqueName16 = AudaBridge2.sln
+		SccProjectName16 = Domain/audatex.br.audabridge2.domain.model.i360
+		SccLocalPath16 = Domain\\audatex.br.audabridge2.domain.model.i360
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,4 @@
+C:\WorkspaceBR\AudaBridge 2.0\Main\Backend\Domain\audatex.br.audabridge2.domain.adapter.saida.bradesco\bin\Debug\audatex.br.audabridge2.domain.adapter.saida.bradesco.dll
+C:\WorkspaceBR\AudaBridge 2.0\Main\Backend\Domain\audatex.br.audabridge2.domain.adapter.saida.bradesco\bin\Debug\audatex.br.audabridge2.domain.adapter.saida.bradesco.pdb
+C:\WorkspaceBR\AudaBridge 2.0\Main\Backend\Domain\audatex.br.audabridge2.domain.adapter.saida.bradesco\obj\Debug\audatex.br.audabridge2.domain.adapter.saida.bradesco.dll
+C:\WorkspaceBR\AudaBridge 2.0\Main\Backend\Domain\audatex.br.audabridge2.domain.adapter.saida.bradesco\obj\Debug\audatex.br.audabridge2.domain.adapter.saida.bradesco.pdb

@@ -1,0 +1,5 @@
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Domain\audatex.br.audabridge2.domain.model.i360\bin\Debug\audatex.br.audabridge2.domain.model.i360.dll
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Domain\audatex.br.audabridge2.domain.model.i360\bin\Debug\audatex.br.audabridge2.domain.model.i360.pdb
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Domain\audatex.br.audabridge2.domain.model.i360\obj\Debug\audatex.br.audabridge2.domain.model.i360.csprojResolveAssemblyReference.cache
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Domain\audatex.br.audabridge2.domain.model.i360\obj\Debug\audatex.br.audabridge2.domain.model.i360.dll
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Domain\audatex.br.audabridge2.domain.model.i360\obj\Debug\audatex.br.audabridge2.domain.model.i360.pdb

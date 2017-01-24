@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="audatex.br.audabridge2.service.wcf.Service1" CodeBehind="Service1.svc.cs" %>

@@ -1,0 +1,17 @@
+C:\WorkspaceBR\AudaBridge 2.0\Main\Backend\Domain\audatex.br.audabridge2.domain.adapter.saida.bradesco\bin\Debug\audatex.br.audabridge2.application.adapter.saida.bradesco.dll
+C:\WorkspaceBR\AudaBridge 2.0\Main\Backend\Domain\audatex.br.audabridge2.domain.adapter.saida.bradesco\bin\Debug\audatex.br.audabridge2.application.adapter.saida.bradesco.pdb
+C:\WorkspaceBR\AudaBridge 2.0\Main\Backend\Domain\audatex.br.audabridge2.domain.adapter.saida.bradesco\obj\Debug\audatex.br.audabridge2.application.adapter.saida.bradesco.dll
+C:\WorkspaceBR\AudaBridge 2.0\Main\Backend\Domain\audatex.br.audabridge2.domain.adapter.saida.bradesco\obj\Debug\audatex.br.audabridge2.application.adapter.saida.bradesco.pdb
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Application\audatex.br.audabridge2.application.adapter.saida.bradesco\bin\Debug\audatex.br.audabridge2.application.adapter.saida.bradesco.dll
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Application\audatex.br.audabridge2.application.adapter.saida.bradesco\bin\Debug\audatex.br.audabridge2.application.adapter.saida.bradesco.pdb
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Application\audatex.br.audabridge2.application.adapter.saida.bradesco\bin\Debug\audatex.br.audabridge2.domain.model.bradesco.dll
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Application\audatex.br.audabridge2.application.adapter.saida.bradesco\bin\Debug\audatex.br.audabridge2.domain.model.dll
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Application\audatex.br.audabridge2.application.adapter.saida.bradesco\bin\Debug\audatex.br.audabridge2.domain.model.i360.dll
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Application\audatex.br.audabridge2.application.adapter.saida.bradesco\bin\Debug\Newtonsoft.Json.dll
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Application\audatex.br.audabridge2.application.adapter.saida.bradesco\bin\Debug\audatex.br.audabridge2.domain.model.bradesco.pdb
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Application\audatex.br.audabridge2.application.adapter.saida.bradesco\bin\Debug\audatex.br.audabridge2.domain.model.i360.pdb
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Application\audatex.br.audabridge2.application.adapter.saida.bradesco\bin\Debug\audatex.br.audabridge2.domain.model.pdb
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Application\audatex.br.audabridge2.application.adapter.saida.bradesco\bin\Debug\Newtonsoft.Json.xml
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Application\audatex.br.audabridge2.application.adapter.saida.bradesco\obj\Debug\audatex.br.audabridge2.application.adapter.saida.bradesco.csprojResolveAssemblyReference.cache
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Application\audatex.br.audabridge2.application.adapter.saida.bradesco\obj\Debug\audatex.br.audabridge2.application.adapter.saida.bradesco.dll
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Application\audatex.br.audabridge2.application.adapter.saida.bradesco\obj\Debug\audatex.br.audabridge2.application.adapter.saida.bradesco.pdb

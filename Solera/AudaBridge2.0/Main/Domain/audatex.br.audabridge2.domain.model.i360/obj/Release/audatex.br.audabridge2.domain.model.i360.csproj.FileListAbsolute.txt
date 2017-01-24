@@ -1,0 +1,4 @@
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Domain\audatex.br.audabridge2.domain.model.i360\bin\Release\audatex.br.audabridge2.domain.model.i360.dll
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Domain\audatex.br.audabridge2.domain.model.i360\bin\Release\audatex.br.audabridge2.domain.model.i360.pdb
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Domain\audatex.br.audabridge2.domain.model.i360\obj\Release\audatex.br.audabridge2.domain.model.i360.dll
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Domain\audatex.br.audabridge2.domain.model.i360\obj\Release\audatex.br.audabridge2.domain.model.i360.pdb

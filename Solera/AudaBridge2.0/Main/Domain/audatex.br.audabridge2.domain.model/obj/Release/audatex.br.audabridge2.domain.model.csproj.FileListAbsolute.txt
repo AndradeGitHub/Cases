@@ -1,0 +1,4 @@
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Domain\audatex.br.audabridge2.domain.model\bin\Release\audatex.br.audabridge2.domain.model.dll
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Domain\audatex.br.audabridge2.domain.model\bin\Release\audatex.br.audabridge2.domain.model.pdb
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Domain\audatex.br.audabridge2.domain.model\obj\Release\audatex.br.audabridge2.domain.model.dll
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Domain\audatex.br.audabridge2.domain.model\obj\Release\audatex.br.audabridge2.domain.model.pdb

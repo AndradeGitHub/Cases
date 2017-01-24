@@ -1,0 +1,7 @@
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Domain\audatex.br.audabridge2.domain.model.bradesco\bin\Debug\audatex.br.audabridge2.domain.model.bradesco.dll
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Domain\audatex.br.audabridge2.domain.model.bradesco\bin\Debug\audatex.br.audabridge2.domain.model.bradesco.pdb
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Domain\audatex.br.audabridge2.domain.model.bradesco\bin\Debug\Newtonsoft.Json.dll
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Domain\audatex.br.audabridge2.domain.model.bradesco\bin\Debug\Newtonsoft.Json.xml
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Domain\audatex.br.audabridge2.domain.model.bradesco\obj\Debug\audatex.br.audabridge2.domain.model.bradesco.csprojResolveAssemblyReference.cache
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Domain\audatex.br.audabridge2.domain.model.bradesco\obj\Debug\audatex.br.audabridge2.domain.model.bradesco.dll
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Domain\audatex.br.audabridge2.domain.model.bradesco\obj\Debug\audatex.br.audabridge2.domain.model.bradesco.pdb

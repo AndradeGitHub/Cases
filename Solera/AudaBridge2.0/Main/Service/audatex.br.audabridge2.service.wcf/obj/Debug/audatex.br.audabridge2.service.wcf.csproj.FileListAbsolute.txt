@@ -1,0 +1,12 @@
+C:\WorkspaceBR\AudaBridge 2.0\Main\Backend\Services\audatex.br.audabridge2.service.wcf\bin\audatex.br.audabridge2.service.wcf.dll.config
+C:\WorkspaceBR\AudaBridge 2.0\Main\Backend\Services\audatex.br.audabridge2.service.wcf\bin\audatex.br.audabridge2.service.wcf.dll
+C:\WorkspaceBR\AudaBridge 2.0\Main\Backend\Services\audatex.br.audabridge2.service.wcf\bin\audatex.br.audabridge2.service.wcf.pdb
+C:\WorkspaceBR\AudaBridge 2.0\Main\Backend\Services\audatex.br.audabridge2.service.wcf\obj\Debug\audatex.br.audabridge2.service.wcf.csprojResolveAssemblyReference.cache
+C:\WorkspaceBR\AudaBridge 2.0\Main\Backend\Services\audatex.br.audabridge2.service.wcf\obj\Debug\audatex.br.audabridge2.service.wcf.dll
+C:\WorkspaceBR\AudaBridge 2.0\Main\Backend\Services\audatex.br.audabridge2.service.wcf\obj\Debug\audatex.br.audabridge2.service.wcf.pdb
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Service\audatex.br.audabridge2.service.wcf\bin\audatex.br.audabridge2.service.wcf.dll.config
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Service\audatex.br.audabridge2.service.wcf\bin\audatex.br.audabridge2.service.wcf.dll
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Service\audatex.br.audabridge2.service.wcf\bin\audatex.br.audabridge2.service.wcf.pdb
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Service\audatex.br.audabridge2.service.wcf\obj\Debug\audatex.br.audabridge2.service.wcf.csprojResolveAssemblyReference.cache
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Service\audatex.br.audabridge2.service.wcf\obj\Debug\audatex.br.audabridge2.service.wcf.dll
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Service\audatex.br.audabridge2.service.wcf\obj\Debug\audatex.br.audabridge2.service.wcf.pdb

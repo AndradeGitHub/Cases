@@ -1,0 +1,6 @@
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Domain\audatex.br.audabridge2.domain.model.bradesco\bin\Release\audatex.br.audabridge2.domain.model.bradesco.dll
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Domain\audatex.br.audabridge2.domain.model.bradesco\bin\Release\audatex.br.audabridge2.domain.model.bradesco.pdb
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Domain\audatex.br.audabridge2.domain.model.bradesco\bin\Release\Newtonsoft.Json.dll
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Domain\audatex.br.audabridge2.domain.model.bradesco\bin\Release\Newtonsoft.Json.xml
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Domain\audatex.br.audabridge2.domain.model.bradesco\obj\Release\audatex.br.audabridge2.domain.model.bradesco.dll
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Domain\audatex.br.audabridge2.domain.model.bradesco\obj\Release\audatex.br.audabridge2.domain.model.bradesco.pdb

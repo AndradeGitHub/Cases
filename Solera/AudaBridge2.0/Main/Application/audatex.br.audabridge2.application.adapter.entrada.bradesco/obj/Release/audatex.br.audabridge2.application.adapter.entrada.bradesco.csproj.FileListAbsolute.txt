@@ -1,0 +1,13 @@
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Application\audatex.br.audabridge2.application.adapter.entrada.bradesco\bin\Release\audatex.br.audabridge2.application.adapter.entrada.bradesco.dll
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Application\audatex.br.audabridge2.application.adapter.entrada.bradesco\bin\Release\audatex.br.audabridge2.application.adapter.entrada.bradesco.pdb
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Application\audatex.br.audabridge2.application.adapter.entrada.bradesco\bin\Release\audatex.br.audabridge2.domain.model.bradesco.dll
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Application\audatex.br.audabridge2.application.adapter.entrada.bradesco\bin\Release\audatex.br.audabridge2.domain.model.dll
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Application\audatex.br.audabridge2.application.adapter.entrada.bradesco\bin\Release\audatex.br.audabridge2.domain.model.i360.dll
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Application\audatex.br.audabridge2.application.adapter.entrada.bradesco\bin\Release\Newtonsoft.Json.dll
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Application\audatex.br.audabridge2.application.adapter.entrada.bradesco\bin\Release\audatex.br.audabridge2.domain.model.bradesco.pdb
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Application\audatex.br.audabridge2.application.adapter.entrada.bradesco\bin\Release\audatex.br.audabridge2.domain.model.i360.pdb
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Application\audatex.br.audabridge2.application.adapter.entrada.bradesco\bin\Release\audatex.br.audabridge2.domain.model.pdb
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Application\audatex.br.audabridge2.application.adapter.entrada.bradesco\bin\Release\Newtonsoft.Json.xml
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Application\audatex.br.audabridge2.application.adapter.entrada.bradesco\obj\Release\audatex.br.audabridge2.application.adapter.entrada.bradesco.csprojResolveAssemblyReference.cache
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Application\audatex.br.audabridge2.application.adapter.entrada.bradesco\obj\Release\audatex.br.audabridge2.application.adapter.entrada.bradesco.dll
+C:\WorkspaceBR\AudaBridge 2.0\Main\BackEnd\Application\audatex.br.audabridge2.application.adapter.entrada.bradesco\obj\Release\audatex.br.audabridge2.application.adapter.entrada.bradesco.pdb
